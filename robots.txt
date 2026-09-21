@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fengbill5112-code.github.io/sitemap.xml
