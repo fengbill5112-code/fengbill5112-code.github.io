@@ -4,7 +4,9 @@
   const TIME = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2}(?:\.\d+)?)?(?:Z|[+-]\d{2}:\d{2})$/;
   const TEXT_FIELDS = ['title', 'region', 'carrier', 'route', 'cargo', 'summary', 'scheduleNote'];
   const DATE_FIELDS = ['handoverDate', 'firstLegDate', 'secondLegDate'];
-  const STATUS = {active: '当前在推', paused: '已暂停', expired: '已过期', pending: '待确认'};
+  const ALL_DATE_FIELDS = [...DATE_FIELDS, 'validUntil', 'checkedAt', 'cutoffAt'];
+  const INQUIRY_NOTE = '具体日期、舱位及接受条件请联系确认';
+  const STATUS = {active: '当前在推', inquiry: '询价确认', paused: '已暂停', expired: '已过期', pending: '待确认'};
   function validDate(value) {
     return typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) &&
       Number.isFinite(Date.parse(value + 'T00:00:00Z')) && new Date(value + 'T00:00:00Z').toISOString().slice(0, 10) === value;
@@ -17,17 +19,20 @@
   function effectiveStatus(item, now = Date.now()) {
     if (item.status === 'paused') return 'paused';
     if (item.status === 'expired') return 'expired';
+    if (item.status === 'inquiry') return 'inquiry';
     if (item.status !== 'active') return 'pending';
     return validTime(item.validUntil) && Date.parse(item.validUntil) > Number(now) ? 'active' : 'expired';
   }
   function publicProduct(value) {
     if (!value || typeof value !== 'object' || !ID.test(value.id) ||
-      !['active', 'paused', 'expired'].includes(value.status) ||
-      !TEXT_FIELDS.every(key => typeof value[key] === 'string') ||
+      !['active', 'inquiry', 'paused', 'expired'].includes(value.status) ||
+      !TEXT_FIELDS.every(key => typeof value[key] === 'string') || value.priceText !== '单票询价') return null;
+    const noDates = ALL_DATE_FIELDS.every(key => value[key] === '');
+    if (value.status === 'inquiry' ? !noDates : !(value.status === 'paused' && noDates) && (
       !DATE_FIELDS.every(key => value[key] === '' || validDate(value[key])) ||
       !DATE_FIELDS.some(key => validDate(value[key])) || !validTime(value.validUntil) || !validTime(value.checkedAt) ||
       !(value.cutoffAt === '' || validTime(value.cutoffAt)) ||
-      (value.cutoffAt && Date.parse(value.validUntil) > Date.parse(value.cutoffAt)) || value.priceText !== '单票询价') return null;
+      (value.cutoffAt && Date.parse(value.validUntil) > Date.parse(value.cutoffAt)))) return null;
     const product = {id: value.id, status: value.status, priceText: '单票询价'};
     for (const key of [...TEXT_FIELDS, ...DATE_FIELDS, 'validUntil', 'checkedAt', 'cutoffAt']) product[key] = value[key];
     return product;
@@ -38,7 +43,7 @@
   }
   function filterProducts(items, filters = {}, now = Date.now()) {
     const query = String(filters.search || '').trim().toLocaleLowerCase();
-    return items.filter(item => effectiveStatus(item, now) === 'active' &&
+    return items.filter(item => ['active', 'inquiry'].includes(effectiveStatus(item, now)) &&
       (!filters.region || item.region === filters.region) && (!filters.carrier || item.carrier === filters.carrier) &&
       (!query || TEXT_FIELDS.map(key => item[key] || '').join(' ').toLocaleLowerCase().includes(query)));
   }
@@ -63,9 +68,13 @@
     const lines = ['您好，我想咨询以下空运产品：', '产品编号：' + product.id, '产品：' + product.title,
       '航司：' + product.carrier, '路线：' + product.route, '适用货物：' + product.cargo];
     for (const [key, label] of [['handoverDate', '交货/收货日期'], ['firstLegDate', '头程日期'], ['secondLegDate', '二程日期']]) if (product[key]) lines.push(label + '：' + product[key]);
+    if (product.summary) lines.push('产品说明：' + product.summary);
+    if (product.scheduleNote) lines.push('计划说明：' + product.scheduleNote);
+    if (ALL_DATE_FIELDS.every(key => product[key] === '')) lines.push(INQUIRY_NOTE + '。');
     lines.push('页面状态：' + STATUS[effectiveStatus(product, now)], '价格：单票询价', '',
       '品名：', '件数：', '毛重（kg）：', '尺寸 / 体积（CBM）：', '计划交货日期：', '特殊属性 / 包装：', '',
-      effectiveStatus(product, now) === 'active' ? '请按以上货物信息确认价格、舱位及接受条件。' : '请重新确认此路线的安排，或提供替代方案。');
+      ['active', 'inquiry'].includes(effectiveStatus(product, now)) ? '请按以上货物信息确认日期、价格、舱位及接受条件。' : '请重新确认此路线的安排，或提供替代方案。',
+      '此模板用于询价，不构成预订。');
     return lines.join('\n');
   }
   const api = {validDate, validTime, effectiveStatus, publicProduct, readCatalog, filterProducts, toChinaInput, fromChinaInput, formatTime, inquiryTemplate};
@@ -79,7 +88,7 @@
     return node;
   }
   function contact(text = '联系微信询价 ↗') { const link = el('a', text, 'product-contact'); link.href = 'wechat.html'; return link; }
-  function detailsLink(product, text = '查看日期与产品详情 ↗') {
+  function detailsLink(product, text = '查看产品详情 ↗') {
     const link = el('a', text); link.href = 'products.html?product=' + encodeURIComponent(product.id); return link;
   }
   function addFact(target, label, value) {
@@ -87,6 +96,7 @@
     const row = el('div'); row.append(el('dt', label), el('dd', value)); target.append(row);
   }
   function renderDates(target, item, expanded) {
+    if (ALL_DATE_FIELDS.every(key => item[key] === '')) { addFact(target, '安排确认', INQUIRY_NOTE); return; }
     addFact(target, '交货 / 收货', item.handoverDate);
     addFact(target, '头程日期', item.firstLegDate);
     addFact(target, '二程日期', item.secondLegDate);
@@ -127,12 +137,12 @@
       detail.replaceChildren();
       if (!item) { detail.append(el('h2', '此产品暂不可用')); empty(detail, '产品尚未公开、已撤回，或链接无效。'); return; }
       document.title = item.title + '｜每日产品｜冯瑞智 空运手记';
-      const notice = el('p', state === 'active' ? '当前在推 · 具体价格、舱位与货物接受条件按单确认。' : state === 'paused' ? '此产品已暂停推荐。请联系确认替代安排。' : '此产品已过推荐有效期。请重新核对日期与安排。', 'product-notice ' + state);
+      const notice = el('p', state === 'active' ? '当前在推 · 具体价格、舱位与货物接受条件按单确认。' : state === 'inquiry' ? '询价确认 · 展示路线与适用货物；具体日期、舱位及接受条件请联系确认，不构成预订。' : state === 'paused' ? '此产品已暂停推荐。请联系确认替代安排。' : '此产品已过推荐有效期。请重新核对日期与安排。', 'product-notice ' + state);
       detail.append(notice, el('p', item.region + ' / ' + item.carrier, 'product-kicker'), el('h2', item.title), el('p', item.route, 'product-route'));
       if (item.summary) detail.append(el('p', item.summary, 'product-summary'));
       const facts = el('dl', null, 'product-facts product-detail-facts');
       addFact(facts, '适用货物与条件', item.cargo); renderDates(facts, item, true); addFact(facts, '计划说明', item.scheduleNote); addFact(facts, '价格', '单票询价'); addFact(facts, '产品编号', item.id); detail.append(facts);
-      const inquiry = el('section', null, 'product-inquiry'); inquiry.append(el('h3', state === 'active' ? '咨询此产品' : '咨询后续安排'), el('p', '复制以下模板，补充货物信息后通过微信联系。'));
+      const inquiry = el('section', null, 'product-inquiry'); inquiry.append(el('h3', ['active', 'inquiry'].includes(state) ? '咨询此产品' : '咨询后续安排'), el('p', '复制以下模板，补充货物信息后通过微信联系。'));
       const template = el('textarea'); template.id = 'inquiry-template'; template.readOnly = true; template.rows = 12; template.setAttribute('aria-label', '询价模板'); template.value = inquiryTemplate(item, now);
       const copy = el('button', '复制询价模板', 'solid'); copy.type = 'button';
       const feedback = el('p', '', 'product-copy-status'); feedback.setAttribute('role', 'status'); feedback.setAttribute('aria-live', 'polite');
@@ -156,7 +166,7 @@
         } else {
           listing.replaceChildren();
           const selected = filterProducts(items, {search: document.querySelector('#product-search').value, region: document.querySelector('#product-region').value, carrier: document.querySelector('#product-carrier').value}, now);
-          status.textContent = '当前在推 ' + selected.length + ' 条';
+          status.textContent = '可询产品 ' + selected.length + ' 条';
           if (!selected.length) empty(listing, filterProducts(items, {}, now).length ? '没有符合当前筛选的产品，可调整条件或联系询价。' : undefined);
           else selected.forEach(item => listing.append(card(item, now)));
         }
