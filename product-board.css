@@ -2,6 +2,7 @@
 .product-board-page .wrap{max-width:1200px}
 .board-intro{padding-bottom:24px}
 .board-intro .eyebrow{margin-top:24px}
+.board-intro p.board-issue-date{margin-top:12px;font-size:15px}.board-issue-date time{color:var(--accent);font-weight:650}
 .board-date-note{margin:0 0 32px;padding:12px 16px;background:#edf0ec;color:var(--muted);font-size:13px;line-height:1.8}
 .product-board{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:38px;align-items:start}
 .board-section{min-width:0;border-top:3px solid #60757c;scroll-margin-top:24px}
