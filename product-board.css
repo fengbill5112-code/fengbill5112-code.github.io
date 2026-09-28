@@ -15,6 +15,15 @@
 .board-alert-impact{margin:22px 0 0;padding-top:16px;border-top:1px solid var(--line)}
 .board-company-notice{background:#edf0ec;border-top-color:#60757c}
 .board-company-notice .board-alert-label{color:#526d77}
+.board-pinned{background:#fff6e4;border:1px solid #dcc395;border-top:5px solid var(--accent);padding:28px}
+.board-pinned .board-alert-label{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:16px}
+.board-pin-label{display:inline-block;padding:5px 10px;background:var(--accent);color:#fff;font-size:12px;letter-spacing:.5px}
+.board-pinned h2{font-size:30px;line-height:1.5;font-weight:750}
+.board-key-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:0 0 24px;padding:20px 0;border-top:1px solid #dcc395;border-bottom:1px solid #dcc395}
+.board-key-points>div{min-width:0}
+.board-key-points dt{margin-bottom:7px;color:#6b5942;font-size:12px;line-height:1.6}
+.board-key-points dd{margin:0;color:#963719;font-size:19px;line-height:1.5;font-weight:700;overflow-wrap:anywhere}
+@media(max-width:650px){.board-alert.board-pinned{padding:18px}.board-alert.board-pinned h2{font-size:23px}.board-key-points{grid-template-columns:1fr;gap:15px;padding:18px 0}.board-key-points dt{margin-bottom:3px}.board-key-points dd{font-size:18px}}
 .board-policy-body{font-size:14px;line-height:1.9;overflow-wrap:anywhere}
 .board-policy-body h3{margin:20px 0 8px;font-size:17px;line-height:1.5}
 .board-policy-body p{margin:0 0 12px}
