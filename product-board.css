@@ -3,6 +3,17 @@
 .board-intro{padding-bottom:24px}
 .board-intro .eyebrow{margin-top:24px}
 .board-intro p.board-issue-date{margin-top:12px;font-size:15px}.board-issue-date time{color:var(--accent);font-weight:650}
+.board-alert{margin:0 0 32px;padding:24px;background:#f4efe8;border-top:3px solid var(--accent);scroll-margin-top:24px}
+.board-alert-label{margin:0 0 8px;color:var(--accent);font-size:12px;font-weight:650;letter-spacing:1px}
+.board-alert h2{margin:0;font-size:25px;line-height:1.5;letter-spacing:0}
+.board-alert-meta{margin:8px 0 22px;color:var(--muted);font-size:12px;line-height:1.8}
+.board-alert-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.board-alert-columns h3{margin:0 0 8px;font-size:17px;line-height:1.5}
+.board-alert-columns p,.board-alert-impact{font-size:14px;line-height:1.9;overflow-wrap:anywhere}
+.board-alert-columns p{margin:0 0 12px}
+.board-alert-columns p:last-child{margin-bottom:0}
+.board-alert-impact{margin:22px 0 0;padding-top:16px;border-top:1px solid var(--line)}
+@media(max-width:650px){.board-alert{padding:18px;margin-bottom:26px}.board-alert h2{font-size:21px}.board-alert-columns{grid-template-columns:1fr;gap:22px}.board-alert-columns p,.board-alert-impact{font-size:13px}}
 .board-date-note{margin:0 0 32px;padding:12px 16px;background:#edf0ec;color:var(--muted);font-size:13px;line-height:1.8}
 .product-board{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:38px;align-items:start}
 .board-section{min-width:0;border-top:3px solid #60757c;scroll-margin-top:24px}
