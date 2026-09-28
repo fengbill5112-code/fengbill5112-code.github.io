@@ -1,0 +1,2479 @@
+{
+  "pageUpdated": "2026-09-27T18:02:25+08:00",
+  "lastSuccessfulCheck": null,
+  "runStatus": "partial",
+  "items": [
+    {
+      "id": "uk-nats-20260908",
+      "region": "欧洲",
+      "type": "空管故障",
+      "state": "恢复中",
+      "title": "英国空管系统故障后的航班恢复",
+      "airports": "LHR / BHX / 英国机场",
+      "occurred": "2026-09-08（英国当地时间）",
+      "evidenceThrough": "2026-09-09 12:55（英国当地时间）",
+      "confidence": "NATS官方状态已核；个别航班及货站恢复待核",
+      "fact": "NATS在9月8日19:30声明系统故障已解决、运行正常；9月9日12:55再次确认运行稳定，仍在协助航司及机场恢复。机场/航司恢复不等于所有积货已消化。",
+      "impact": "业务推断：对应腹舱及经英国中转货物可能受飞机轮转、后程改配影响，不能扩大为英国空域仍关闭。",
+      "action": "检查具体航班、后程确认及货站接货安排。",
+      "sources": [
+        [
+          "NATS官方更新",
+          "https://www.nats.aero/news/technical-issue-causing-some-disruption-to-flight-departures/"
+        ],
+        [
+          "英国民航局 · 9月9日",
+          "https://www.caa.co.uk/newsroom/news/caa-statement-on-passenger-compensation-following-nats-disruption-on-8-september/"
+        ],
+        [
+          "伯明翰机场",
+          "https://www.birminghamairport.co.uk/important-updates-air-traffic-issue-from-the-8th-september-2026/"
+        ]
+      ]
+    },
+    {
+      "id": "mia-20260906",
+      "region": "北美",
+      "type": "机场事故",
+      "state": "细节待核",
+      "title": "MIA事故后续：Amazon暂停与21 Air合作",
+      "airports": "MIA / 拉美中转",
+      "occurred": "2026-09-06（迈阿密当地时间）",
+      "evidenceThrough": "2026-09-13 23:55 ET（ABC报道）；机场恢复证据仍为9月8日",
+      "confidence": "ABC直接引述Amazon及21 Air声明；其他业务和机场最新跑道状态待核",
+      "fact": "ABC 9月13日23:55 ET报道，Amazon宣布暂停与21 Air的运营合作，21 Air亦就该决定回应。此为商业合作变化；既有9月8日消息显示FedEx及DHL在MIA货运运行已恢复，但不能代替当前机场及21 Air其他客户的状态核实。",
+      "impact": "需关注原由21 Air承运的Amazon货物改配。不能扩大为21 Air全部业务被监管停飞、DHL停止合作或MIA机场关闭。",
+      "action": "涉及21 Air或Amazon航空链路的货物，核对实际承运人及后程改配；机场和货站状态分别确认。",
+      "sources": [
+        [
+          "ABC引述双方声明（9月13日23:55 ET）",
+          "https://abcnews.com/amp/US/amazon-stops-operations-21-air-after-deadly-miami/story?id=136413576"
+        ],
+        [
+          "FAA事故通报",
+          "https://www.faa.gov/newsroom/statements/accident_incidents"
+        ],
+        [
+          "Supply Chain Dive · 9月8日",
+          "https://www.supplychaindive.com/news/miami-airport-sees-limited-air-cargo-disruption-after-amazon-crash/829825/"
+        ]
+      ]
+    },
+    {
+      "id": "cgk-20260907",
+      "region": "亚洲",
+      "type": "火山灰",
+      "state": "恢复中",
+      "title": "雅加达CGK已于9月8日重开，货运积压仍需单票确认",
+      "airports": "CGK",
+      "occurred": "2026-09-05—08（既有通知影响期）",
+      "evidenceThrough": "2026-09-08 11:00（UTC+8，亚航公告）",
+      "confidence": "航司官方及通讯社交叉核实机场重开；货站积货待核",
+      "fact": "亚航9月8日11:00（UTC+8）公告确认CGK已重开，并恢复受影响服务，但当日CGK—TKG一对航班除外。安塔拉同日引述交通部长称CGK于9月8日00:01（WIB，UTC+7）恢复运行。",
+      "impact": "机场重开已获确认，不等于所有货机班次或货站处理已恢复正常。业务上应转查具体货物改配、国内后程和积货。",
+      "action": "停止沿用机场仍关闭的表述；核对承运人接货和后程安排。",
+      "sources": [
+        [
+          "AirAsia官方复航公告",
+          "https://newsroom-airasia.squarespace.com/news/airasia-resumes-flights-impacted-by-the-mount-anak-krakatau-volcanic-eruption"
+        ],
+        [
+          "安塔拉引述交通部长",
+          "https://jatim.antaranews.com/amp/berita/1096828/indonesia-reopens-five-airports-after-krakatau-ash-disruption"
+        ]
+      ]
+    },
+    {
+      "id": "cx-middleeast-20260904",
+      "region": "中东",
+      "type": "复航延期",
+      "state": "细节待核",
+      "title": "国泰推迟恢复中东客机及货机服务",
+      "airports": "HKG / 中东（具体航点待核）",
+      "occurred": "2026-09-04公告",
+      "evidenceThrough": "2026-09-04",
+      "confidence": "官方标题已核，完整日期未取得",
+      "fact": "国泰官网发布推迟恢复中东客机与货机服务公告。可读取页面未给出完整复航日期。",
+      "impact": "业务推断：早先复航计划不能作为当前可走产品依据，也不能推广为其他航司或枢纽停运。",
+      "action": "确认具体承运航段、航点及新的运行日期。",
+      "sources": [
+        [
+          "国泰官方通知",
+          "https://www.cathaycargo.com/en-us/news/middle-east.html"
+        ]
+      ]
+    },
+    {
+      "id": "cx-maintenance-20260914",
+      "region": "亚洲",
+      "type": "系统维护",
+      "state": "历史待核",
+      "title": "国泰9月14日系统维护计划窗口已过，实际恢复未验证",
+      "airports": "国泰线上服务",
+      "occurred": "2026-09-14 01:00—05:30（香港时间）",
+      "evidenceThrough": "2026-09-10查阅",
+      "confidence": "官方已核",
+      "fact": "既有官方通知计划9月14日01:00—05:30 HKT维护Track and Trace、Click & Ship及Manage Booking。窗口现已结束，但本轮仅能读取通知标题且未登录测试服务，不能据此认定系统全部恢复。",
+      "impact": "影响线上操作，不代表航班停飞。",
+      "action": "提前完成该时段需要的订舱和改单，保留航司联系渠道。",
+      "sources": [
+        [
+          "国泰维护通知",
+          "https://www.cathaycargo.com/en-us/alert/system_maintenance_140926.html"
+        ]
+      ]
+    },
+    {
+      "id": "nca-fuel-20260916",
+      "region": "亚洲",
+      "type": "燃油附加费",
+      "state": "预告",
+      "title": "NCA公告9月16日起日本出发燃油附加费新标准",
+      "airports": "日本出发 / 北美、拉美、欧洲、中东、非洲及亚洲",
+      "occurred": "公告2026-09-10；拟适用2026-09-16起签发MAWB（日本）",
+      "evidenceThrough": "2026-09-10（官方未列时刻）",
+      "confidence": "官方公告已核；明确附带JCAB批准条件",
+      "fact": "NCA公布日本出发国际货物燃油附加费：TC1及TC2为JPY156/kg，TC3长程JPY103/kg、短程JPY85/kg。公告注明须获JCAB批准，并以9月16日起签发主单为适用条件；油价参考期为8月16—31日。",
+      "impact": "这是日本出发的燃油附加费预告，不能直接套用中国出发或日本中转的联运报价，也不是总运价。",
+      "action": "涉及日本出发货，核对主单签发日、区域分类、批准状态及报价是否已包含该费用。",
+      "sources": [
+        [
+          "NCA 9月10日官方公告",
+          "https://www.nca.aero/e/news/2026/news_20260910.html"
+        ]
+      ]
+    },
+    {
+      "id": "australia-road-strike-20260910",
+      "region": "大洋洲",
+      "type": "地面运输罢工",
+      "state": "新增",
+      "title": "澳洲公路货运停工消息，空运提派环节需确认",
+      "airports": "澳大利亚提货、派送及卡车衔接（具体货站待核）",
+      "occurred": "2026-09-10当地时间；报道为24小时行动，站点时间待核",
+      "evidenceThrough": "2026-09-10媒体报道；ITF声明标9月9日",
+      "confidence": "工会声明及媒体已查；雇主服务影响未确认",
+      "fact": "WWTG 9月10日报道工会宣布多家货运企业24小时停工，涉及FedEx等。ITF公开声明支持澳洲公路运输工人的行动。未取得各仓站参与率、受影响货物清单或承运人统一服务通知。",
+      "impact": "潜在影响是机场提货、派送和公路衔接，不代表澳洲机场或FedEx货机全部停飞。",
+      "action": "急货核实当地代理及提派承运人当班安排、备用车辆和最晚交接时间。",
+      "sources": [
+        [
+          "ITF工会声明",
+          "https://www.itfglobal.org/en/news/international-support-striking-australian-road-transport-workers"
+        ],
+        [
+          "WWTG 9月10日报道",
+          "https://wwtg.au/national-freight-stoppages-eight-companies-september-2026/"
+        ]
+      ]
+    },
+    {
+      "id": "lh-lug-acquisition-20260908",
+      "region": "欧洲",
+      "type": "货站业务变动",
+      "state": "预告",
+      "title": "汉莎货运签约收购LUG，仍待监管批准",
+      "airports": "德国货站 / FRA、MUC、HAM（LUG现有服务点）",
+      "occurred": "2026-09-07签约；9月8日15:30公告（发布页时区未注明）",
+      "evidenceThrough": "2026-09-08公告",
+      "confidence": "汉莎货运新闻稿已核",
+      "fact": "汉莎货运宣布签约收购LUG aircargo handling GmbH全部股权，交割仍须反垄断及监管批准。公告表示LUG将继续独立经营，并保留现有客户关系和结构。",
+      "impact": "属于地面处理基础设施变化，不是新增航班或立即改变提货地址的通知。",
+      "action": "关注后续交割及货站正式操作通知；当前不据此更改提货或交货安排。",
+      "sources": [
+        [
+          "汉莎货运新闻稿",
+          "https://lufthansa-cargo-ag-com.mynewsdesk.com/pressreleases/lufthansa-cargo-signs-agreement-on-the-acquisition-of-lug-aircargo-handling-gmbh-and-strengthens-infrastructure-for-future-growth-3465935"
+        ],
+        [
+          "LUG官方服务站点",
+          "https://lug-aircargo.com/en/company/tariffs-downloads.html"
+        ]
+      ]
+    },
+    {
+      "id": "solitair-acc-20260908",
+      "region": "非洲",
+      "type": "航线产品线索",
+      "state": "细节待核",
+      "title": "SolitAir加纳ACC产品公告：实际班期与新开口径有待核实",
+      "airports": "DWC / ACC；经停及中转结构待核",
+      "occurred": "2026-09-08公告；9月9日报道指出口径冲突",
+      "evidenceThrough": "2026-09-09",
+      "confidence": "行业媒体线索；当前执飞及官方明细未核",
+      "fact": "ITJ报道SolitAir宣布加纳ACC货运服务；Airways指出9月1日材料已把ACC列为服务点，与9月8日新开表述不一致，且未公布具体班期和路径。故不采纳统一网络数量或认定当前定期直飞。",
+      "impact": "可作为中东接西非的询价线索，但未闭合中国前程、联运单证、货物接受及实际可售性。",
+      "action": "向销售确认实际承运、机型、直飞或经停、班期及联运条件后再用于客户方案。",
+      "sources": [
+        [
+          "ITJ 9月8日",
+          "https://transportjournal.com/2026/09/08/solitair-expands-cargo-services-to-ghana/"
+        ],
+        [
+          "Airways 9月9日口径核对",
+          "https://www.airwaysmag.com/new-post/solitair-accra-ghana-cargo-route"
+        ]
+      ]
+    },
+    {
+      "id": "maersk-air-update-20260909",
+      "region": "北美",
+      "type": "需求与市场",
+      "state": "新增",
+      "title": "马士基9月市场更新：部分亚洲科技货源存在运力压力",
+      "airports": "亚洲出发→北美；具体口岸待逐票确认",
+      "occurred": "2026-09-09发布；市场观察具体起止未注明",
+      "evidenceThrough": "2026-09-09定性观察；所引统计为2026年7月",
+      "confidence": "物流商公开市场观察，不是实盘或逐航线运力统计",
+      "fact": "马士基空运段落指出，AI基础设施、半导体和电子产品需求对部分亚洲出发口岸造成压力，而其他多数国际走廊仍有运力；所引IATA数据为7月，不能作为本周数据。",
+      "impact": "仅支持按口岸和货型核查的优先级，不能推导所有美线紧舱或当前成交价。",
+      "action": "科技类急货逐票核查出发口岸、直飞及替代中转的可用日期；保留时效与普通货分开比较。",
+      "sources": [
+        [
+          "马士基9月9日北美市场更新 · Air Freight Update",
+          "https://www.maersk.com/news/articles/2026/09/09/north-america-market-update-september"
+        ]
+      ]
+    },
+    {
+      "id": "poste-strike-20260911",
+      "region": "欧洲",
+      "type": "航空罢工",
+      "state": "历史待核",
+      "title": "Poste Air Cargo罢工计划窗口已过，实际执行及恢复待核",
+      "airports": "Poste Air Cargo / 意大利",
+      "occurred": "2026-09-11 00:00—04:00 CEST（北京时间06:00—10:00）",
+      "evidenceThrough": "2026-09-11交通部登记；最初宣布8月13日",
+      "confidence": "官方公告已核；实际执行与货物接受待核",
+      "fact": "交通部9月11日登记列出当日00:00—04:00 CEST技术飞行人员4小时罢工计划。该计划窗口现已过去，但本轮没有取得实际取消、执行或恢复的航司记录；不能仅凭时间到期认定已恢复。",
+      "impact": "可能影响该航司货机及邮货衔接；不能推广为全意大利机场停飞。",
+      "action": "涉及Poste后程的货物立即核实实际出发、补班和转运安排。",
+      "sources": [
+        [
+          "意大利交通部罢工登记（页面更新9月11日）",
+          "https://scioperi.mit.gov.it/mit2/public/scioperi"
+        ]
+      ]
+    },
+    {
+      "id": "italy-airport-strikes-20260913",
+      "region": "欧洲",
+      "type": "机场安检与地勤罢工",
+      "state": "历史待核",
+      "title": "9月13日意大利罢工窗口已过，后续处理与加班限制待核",
+      "airports": "FCO / CIA / PSA / FLR / VCE",
+      "occurred": "2026-09-13：罗马安检00:00—24:00；相关地勤11:00—15:00 CEST",
+      "evidenceThrough": "意大利交通部本轮复查；VCE机场9月9日公告，本轮9月13日读取",
+      "confidence": "官方登记及VCE机场公告已核；实际参与和货站影响待核",
+      "fact": "交通部登记保留9月13日罗马安检及罗马、比萨、佛罗伦萨相关地勤行动。另VCE机场9月9日公告Sicuritalia安检人员计划在9月13日10:00—14:00 CEST罢工（北京时间16:00—20:00），可能延长旅客安检。本轮已进入VCE计划窗口，但未核到现场执行或货站停收。 9月14日本轮核查时，9月13日计划窗口均已过去；未取得各航司、GHA实际影响及恢复通知。先前登记还载有托斯卡纳9月13日至10月12日拒绝加班安排，该安排当前执行另待确认。",
+      "impact": "业务推断：VCE对应客机轮转及腹舱时效值得复核；旅客安检行动不等于货运安检或货站全面停工。",
+      "action": "涉及这些机场的腹舱和中转，核对航班及实际GHA交货截点；不把罢工计划直接写成机场关闭。",
+      "sources": [
+        [
+          "意大利交通部罢工登记（页面更新9月11日）",
+          "https://scioperi.mit.gov.it/mit2/public/scioperi"
+        ],
+        [
+          "威尼斯机场官方安检公告（9月9日）",
+          "https://www.veneziaairport.it/en_gb/strike-by-security-control-personnel-on-sunday-13-september"
+        ]
+      ]
+    },
+    {
+      "id": "zh-szx-syd-20261214",
+      "region": "大洋洲",
+      "type": "宽体腹舱计划",
+      "state": "预告",
+      "title": "深航计划12月14日开通深圳—悉尼",
+      "airports": "SZX—SYD",
+      "occurred": "计划2026-12-14起；机场公告2026-09-10",
+      "evidenceThrough": "2026-09-10（公告未列时刻）",
+      "confidence": "官方公告已核；实际执行与货物接受待核",
+      "fact": "悉尼机场公告深航拟于12月14日开通每周4班深圳—悉尼客运服务，机型A330-300。独立旅游业媒体亦报道相同日期与频次。",
+      "impact": "这是未来宽体客运及潜在腹舱渠道，不是本周新增可售运力；未取得货运销售和接受条件。",
+      "action": "作为华南澳线后续询价方向，开航前核实航班、货运代理、货型及可用载量。",
+      "sources": [
+        [
+          "悉尼机场官方公告",
+          "https://www.sydneyairport.com/corporate/media/corporate-newsroom/sydney-airport-welcomes-shenzhen-airlines"
+        ],
+        [
+          "Travel Daily 9月10日报道",
+          "https://traveldaily.com.au/news/shenzhen-to-syd/446746"
+        ]
+      ]
+    },
+    {
+      "id": "ms-cai-sin-syd-2027",
+      "region": "非洲",
+      "type": "客运航线计划",
+      "state": "预告",
+      "title": "埃及航空计划2027年初开罗—新加坡—悉尼服务",
+      "airports": "CAI—SIN—SYD",
+      "occurred": "计划2027年初；樟宜公告2026-09-10",
+      "evidenceThrough": "2026-09-10",
+      "confidence": "官方公告已核；实际执行与货物接受待核",
+      "fact": "樟宜机场9月10日官方页面公布2027年初开罗、新加坡及悉尼服务计划，悉尼机场9月9日亦发布将迎来埃及航空的公告。具体开航日、班期及机型未从可读公告核实。",
+      "impact": "未来潜在腹舱连接；属于经新加坡路径，不能称开罗—悉尼不经停直飞。中国接前程及第五航权货运销售待核。",
+      "action": "列入未来通道观察，取得机型和货运销售条件前不用于确定舱位承诺。",
+      "sources": [
+        [
+          "樟宜机场官方页面",
+          "https://nowboarding.changiairport.com/discover-changi/egyptair-new-flights-cairo-singapore-sydney.html"
+        ],
+        [
+          "悉尼机场官方页面",
+          "https://www.sydneyairport.com.au/corporate/media/corporate-newsroom/sydney-airport-egyptair"
+        ]
+      ]
+    },
+    {
+      "id": "ek-india-freighters-20260910",
+      "region": "中东",
+      "type": "货机运力公告",
+      "state": "新增",
+      "title": "阿联酋货运公布印度三个口岸货机服务扩展",
+      "airports": "BLR / MAA / HYD ↔ 迪拜（具体迪拜机场及路径待查）",
+      "occurred": "公告2026-09-10；新增服务实际首航日期未注明",
+      "evidenceThrough": "2026-09-10 07:32 Europe/Amsterdam",
+      "confidence": "官方公告已核；实际执行与货物接受待核",
+      "fact": "Emirates SkyCargo官方公告称已向班加罗尔、金奈及海得拉巴引入每周货机服务，印度市场每周货机航班总数达7班，并与客机腹舱互补。此为航司公告口径，未核对连续周实际执飞。",
+      "impact": "支持印度经迪拜货运渠道扩展的观察；不是中国至印度或第三国联运产品已可订的证据。",
+      "action": "核实具体班期、机型、停靠迪拜机场、后程及货物接受；将货机与腹舱分别询价。",
+      "sources": [
+        [
+          "Emirates SkyCargo 9月10日官方新闻",
+          "https://www.skycargo.com/media-centre/emirates-skycargo-connects-indias-growth-story-to-global-markets/"
+        ]
+      ]
+    },
+    {
+      "id": "faan-los-access-20260909",
+      "region": "非洲",
+      "type": "货站流程线索",
+      "state": "细节待核",
+      "title": "拉各斯货站车辆叫号与人员准入改革线索",
+      "airports": "LOS / 尼日利亚机场货站",
+      "occurred": "2026-09-09拉各斯沟通会（报道表述）；具体实施日未公布",
+      "evidenceThrough": "2026-09-10转载；同文9月9日已有刊载，非9月11日新政策",
+      "confidence": "媒体引述FAAN官员；同文转载非独立佐证，现场执行待核",
+      "fact": "Lagos Metropolitan引述FAAN官员，拟推进货车叫号、停车区域和人员准入核验，并提及重开LOS第二道入口。报道没有明确统一生效日期、适用货站清单或操作手册。",
+      "impact": "潜在影响是货站进出、车辆预约和代理人员登记；不能据此认定机场拥堵已经解除或马上限制接货。",
+      "action": "使用LOS货站时向当地代理确认现行预约、人员证件和入口要求，取得正式通知后再变更操作。",
+      "sources": [
+        [
+          "Lagos Metropolitan 9月10日报道",
+          "https://lagosmetropolitan.com/2026/09/10/faan-moves-to-ease-cargo-operations-introduces-access-control-system/"
+        ],
+        [
+          "Newsverge同文9月9日刊载（日期核对）",
+          "https://newsverge.com/2026/09/09/faan-moves-to-ease-cargo-operations-introduces-access-control-system/"
+        ]
+      ]
+    },
+    {
+      "id": "ofac-iran-aviation-20260908",
+      "region": "中东",
+      "type": "航空制裁与合规",
+      "state": "恶化",
+      "title": "阿联酋确认暂停伊朗航司往返航班，直至另行通知",
+      "airports": "德黑兰出发（具体机场未注明）/ BGW / MCT；NJF备选未确认",
+      "occurred": "9月22日报道；取消安排自9月23日当地午夜起，报道未统一标注时区",
+      "evidenceThrough": "Reuters转载2026-09-24 18:49（页面未明确时区）",
+      "confidence": "Reuters正文引述阿联酋GCAA声明；原始公告、航司逐班名单及货机具体范围待核",
+      "fact": "9月24日Reuters后续引述阿联酋民航总局表示，已暂停伊朗航空公司往返阿联酋的航班，直至另行通知。这是早前BGW/MCT取消消息后的进一步变化；不能扩大为阿联酋机场关闭或所有航司中东航线停运。",
+      "impact": "业务推断：经阿联酋衔接伊朗航司的货物需重新确认后程；其他承运人及中国直飞伊朗的服务须单独核查，不能由本声明推断。",
+      "action": "核对实际承运人、后程接受及改配方案；货机、腹舱和联运适用范围分别向承运人确认。",
+      "sources": [
+        [
+          "Reuters引述GCAA声明",
+          "https://www.timesofisrael.com/liveblog_entry/uae-confirms-it-suspends-iranian-airlines-flights-until-further-notice/"
+        ],
+        [
+          "OFAC 9月8日原始行动及许可链接",
+          "https://ofac.treasury.gov/recent-actions/20260908"
+        ],
+        [
+          "美国财政部官方发布邮件",
+          "https://content.govdelivery.com/accounts/USTREAS/bulletins/428ebbc?reqfrom=share"
+        ],
+        [
+          "Anadolu9月21日讲话报道",
+          "https://www.aa.com.tr/en/americas/all-iranian-airlines-to-shut-down-worldwide-by-sept-23-us-treasury-chief-says/4063394"
+        ],
+        [
+          "Reuters9月22日报道",
+          "https://www.marketscreener.com/news/iraq-suspends-iranian-flights-to-baghdad-after-us-sanctions-threat-sources-say-ce785ad8d08ff424"
+        ],
+        [
+          "Iran International9月22日",
+          "https://www.iranintl.com/en/202609228176"
+        ]
+      ]
+    },
+    {
+      "id": "atl-weather-20260911",
+      "region": "北美",
+      "type": "天气与流量控制",
+      "state": "已恢复",
+      "title": "ATL流量延误已解除：FAA最新一般延误不超过15分钟",
+      "airports": "ATL；美国东南部相关航段",
+      "occurred": "2026-09-11美国当地时间起；最新状态2026-09-12 00:47 UTC",
+      "evidenceThrough": "2026-09-12 07:43 UTC（北京时间15:43）",
+      "confidence": "FAA官方实时状态已核；不代表每一航班受影响",
+      "fact": "FAA在07:43 UTC更新的ATL页面不再列目的地特定延误；一般离港地面等待及到港空中延误均为15分钟或以下。此前00:47 UTC的雷暴到港流量管理平均延误1小时47分已不再是最新状态。",
+      "impact": "机场总体运行指标已改善，不代表所有货物积压和错失后程均已恢复。",
+      "action": "按最新具体航班和货站交接核查，不再沿用早前平均107分钟延误。",
+      "sources": [
+        [
+          "FAA ATL状态（动态，核实快照00:47 UTC）",
+          "https://www.fly.faa.gov/fly/flyfaa/AirportLookup?go=1&q=atl"
+        ],
+        [
+          "FAA运行计划ADVZY150（正文9月11日23:33 UTC，URL日期不作观察日）",
+          "https://www.fly.faa.gov/adv/adv_spt?pubDate=20260910"
+        ]
+      ]
+    },
+    {
+      "id": "flydubai-freighters-20261001",
+      "region": "中东",
+      "type": "货机运力计划",
+      "state": "预告",
+      "title": "flydubai计划10月1日起湿租3架737-800货机，以DWC为枢纽",
+      "airports": "DWC；具体首批目的机场及班期待核",
+      "occurred": "2026-09-11公告；计划2026-10-01起",
+      "evidenceThrough": "2026-09-11官方发布；媒体更新14:13（迪拜当地时间）",
+      "confidence": "迪拜政府媒体办公室公告已核；执飞及具体航线未核",
+      "fact": "迪拜政府媒体办公室公布flydubai计划自10月1日起通过与SolitAir的湿租协议引入3架737-800货机，从DWC运营。公告称初期针对区域市场，但没有逐航线班期表。",
+      "impact": "这是未来窄体全货机主舱能力，不是宽体货机或现有全部网络均开货机；中国前程及联运可售性仍须核实。",
+      "action": "有DWC接区域后程需求时，核实实际承运、首批航点、货舱尺寸、特殊货接受及联运安排，开航前再查执行。",
+      "sources": [
+        [
+          "迪拜政府媒体办公室9月11日公告",
+          "https://www.mediaoffice.ae/en/news/2026/september/11-09/flydubai-launches-dedicated-freighter-operations-to-support-regional-trade-expansion"
+        ]
+      ]
+    },
+    {
+      "id": "uio-runway-20260912",
+      "region": "拉美",
+      "type": "跑道维护与计划关闭",
+      "state": "历史待核",
+      "title": "基多UIO维护计划窗口已过，实际恢复待核",
+      "airports": "UIO",
+      "occurred": "2026-09-12 02:00—14:00 ECT（UTC−5）；北京时间9月12日15:00—9月13日03:00",
+      "evidenceThrough": "2026-09-11 16:10 Primicias更新；原始维护计划早于本周",
+      "confidence": "媒体正文引述Quiport；官方检索摘要吻合但官方正文访问失败，实际执行待核",
+      "fact": "9月12日02:00—14:00 ECT为Quiport预先公布的维护停飞窗口。当前窗口已结束，检索仍主要返回停飞预告，未取得正式恢复公告或即时运行确认；不能仅凭计划到时认定恢复，也不能继续认定关闭。",
+      "impact": "业务推断：UIO货机和腹舱进出港、鲜花出口与后程衔接可能需要改班；不能把航站楼开放理解为航班运行正常。",
+      "action": "需要UIO出运时向承运人确认实际复航、改配及货站接货情况。",
+      "sources": [
+        [
+          "Primicias 9月11日正文",
+          "https://www.primicias.ec/economia/vuelos-reprogramados-suspension-operaciones-aeropuerto-quito-12septiembre-mantenimiento-pista-132408/"
+        ],
+        [
+          "EPMSA官方页面（仅摘要可见，正文未读取）",
+          "https://www.aeropuertoquito.gob.ec/tiene-un-vuelo-previsto-este-12-de-septiembre-desde-el-aeropuerto-de-quito-tenga-en-cuenta-esta-informacion/"
+        ]
+      ]
+    },
+    {
+      "id": "qf-europe-volcano-20260908",
+      "region": "大洋洲",
+      "type": "腹舱改道与运力影响",
+      "state": "细节待核",
+      "title": "补录：澳航欧洲线火山影响改道，腹舱容量可能减少",
+      "airports": "欧洲—SIN—PER—SYD / 澳洲往返欧洲",
+      "occurred": "2026-09-08公告；恢复日期未列",
+      "evidenceThrough": "2026-09-08公告，本轮9月12日读取",
+      "confidence": "澳航货运官方公告已核；9月12日具体航班状态待核",
+      "fact": "Qantas Freight公告称受喀拉喀托火山影响，部分澳洲—欧洲客运服务增加新加坡经停，包括罗马—新加坡—珀斯—悉尼、伦敦—新加坡—珀斯及悉尼—珀斯—新加坡—罗马，可能减少货运容量并延长时效。",
+      "impact": "这是澳航部分客机腹舱的路径与容量影响，不是新增货机，也不能由CGK重开推断澳航全部恢复原路径。",
+      "action": "涉及澳航欧洲产品时查看Manage Shipments的实际路径、载量限制及后程日期；公告为9月8日补录，非今天新改道。",
+      "sources": [
+        [
+          "Qantas Freight官方运行公告",
+          "https://freight.qantas.com/en-au/news"
+        ]
+      ]
+    },
+    {
+      "id": "china-tas-lgg-truck-air-20260822",
+      "region": "亚洲",
+      "type": "卡空联运线索",
+      "state": "细节待核",
+      "title": "补录：中国公路集货经TAS飞LGG的电商项目线索",
+      "airports": "中国集货地—公路—TAS—航空—LGG",
+      "occurred": "媒体称2026-08-22启动；9月9—10日报道，本轮补录",
+      "evidenceThrough": "2026-09-09 11:26 UzDaily更新（页面时区未注明）；9月10日行业报道",
+      "confidence": "两家媒体同源引述机场方，非独立运营核实；官方原始公告未找到",
+      "fact": "UzDaily及CentralAsia+Aero报道乌兹别克机场与My Freighter的电商卡空联运项目：中国前程走公路至TAS，后程飞LGG。报道中的每周4—6班为后续扩展计划，不是已核本周班次；本轮未确认具体中国口岸和承运条件。",
+      "impact": "可作为中欧电商备选询价方向，不能当作中国直飞欧洲；需单独评估跨境公路、过境报关、TAS处理和航空后程。",
+      "action": "取得运营方正式资料后核对集货城市、陆路边境、文件责任、班期、时效和全程价格；暂不作为已可订产品承诺。",
+      "sources": [
+        [
+          "UzDaily 9月9日报道",
+          "https://www.uzdaily.uz/en/uzbekistan-airports-my-freighter-launch-e-commerce-route/"
+        ],
+        [
+          "CentralAsia+Aero 9月10日报道",
+          "https://centralasiaplus.aero/2026/09/10/china-eu-multimodal-cargo-corridor-opens-via-tashkent/"
+        ]
+      ]
+    },
+    {
+      "id": "worldacd-w36-20260914",
+      "region": "亚洲",
+      "type": "公开运价与需求指数",
+      "state": "新增",
+      "title": "WorldACD W36：全球量能微降，亚太赴欧美现货趋势抬升",
+      "airports": "全球统计；中国大陆与HKG分别观察",
+      "occurred": "2026-09-14发布；观察期2026-08-31—09-06",
+      "evidenceThrough": "2026-09-06；截至9月15日滞后9天（M4滞后背景）",
+      "confidence": "原始统计发布方已核；非当前实盘，个别正文口径有歧义",
+      "fact": "报告W36全球货量和运力均环比下降1%；亚太赴美、赴欧现货均价分别环比升2%、3%，其中中国赴欧升6%。HKG赴欧货量环比升6%但同比仍降26%。原文另一段对周度与两周比较用词有歧义，本卡不采纳该段数据。",
+      "impact": "只能说明8月31日至9月6日的趋势分化，不能据此判断9月15日具体机场可售舱位或+1000公斤报价；指数为机构样本，非单票采购价。",
+      "action": "把趋势作为向航司询价的背景，按口岸、货型、出运日和产品核实实际价格；不要按指数直接涨降客户报价。",
+      "sources": [
+        [
+          "WorldACD W36原始周报",
+          "https://www.worldacd.com/trend-reports/weekly/worldacd-weekly-air-cargo-trends-2026-week-36/"
+        ]
+      ]
+    },
+    {
+      "id": "ana-ist-20260910",
+      "region": "欧洲",
+      "type": "收货限制",
+      "state": "新增",
+      "title": "ANA暂停往返及经IST的货物与邮件",
+      "airports": "IST / ANA航班",
+      "occurred": "2026-09-10起，直至另行通知",
+      "evidenceThrough": "2026-09-10公告，本轮补录",
+      "confidence": "官方正文已核",
+      "fact": "ANA因货运处理调整，暂停ANA航班往返及经IST的全部货物与邮件运输，并将另行公布恢复。",
+      "impact": "仅限ANA产品，不能扩大为IST机场或其他航司停运。",
+      "action": "涉及ANA IST方案先确认销售接受及替代承运。",
+      "sources": [
+        [
+          "原始公告或明确归属的公司声明",
+          "https://www.anacargo.jp/en/news/transport_restrictions_for_all_cargo_and_mail_tofromvia_istanbul_airportist.html"
+        ]
+      ]
+    },
+    {
+      "id": "ana-lax-reservation-20260914",
+      "region": "北美",
+      "type": "货站预约",
+      "state": "新增",
+      "title": "ANA公布LAX并入NCA货站后的提送货预约安排",
+      "airports": "LAX / NCA货站",
+      "occurred": "2026-09-01起适用；9月14日发布",
+      "evidenceThrough": "2026-09-14",
+      "confidence": "官方正文已核",
+      "fact": "ANA公告在NCA洛杉矶货站提取进口货和交付出口货，可以使用NCA货站预约系统；公布适用日期为9月1日。",
+      "impact": "这是特定货站流程，不等于全部LAX仓库统一要求；公告未称所有业务必须预约。",
+      "action": "向当地代理核对预约账号、时段及实际提送货位置。",
+      "sources": [
+        [
+          "原始公告或明确归属的公司声明",
+          "https://www.anacargo.jp/en/news/260914_E.html"
+        ]
+      ]
+    },
+    {
+      "id": "ana-pvg-hs-20260911",
+      "region": "亚洲",
+      "type": "货物资料",
+      "state": "新增",
+      "title": "ANA重申经PVG转中国其他机场的HS资料要求",
+      "airports": "PVG→中国其他境内机场 / ANA",
+      "occurred": "9月11日重申，即日起至另行通知",
+      "evidenceThrough": "2026-09-11",
+      "confidence": "官方正文已核",
+      "fact": "ANA重申经PVG转中国其他境内机场的货物需准备HS归类申请并附于AWB，e-AWB同样适用；公告明确该要求自2017年已有提醒。",
+      "impact": "是承运人操作要求重申，不是全新中国海关法规或中国出口普遍要求。",
+      "action": "适用货物核对归类申请和运单附件，按公告流程准备。",
+      "sources": [
+        [
+          "原始公告或明确归属的公司声明",
+          "https://www.anacargo.jp/en/news/260911_E.html"
+        ]
+      ]
+    },
+    {
+      "id": "bru-august-20260915",
+      "region": "欧洲",
+      "type": "机场货量统计",
+      "state": "新增",
+      "title": "BRU8月总货量同比增22%，航空运输量增8.5%",
+      "airports": "BRU",
+      "occurred": "2026-09-15发布；观察期8月1—31日",
+      "evidenceThrough": "2026-08-31，距9月16日16天",
+      "confidence": "官方正文已核",
+      "fact": "机场公告8月总货量70,764吨、同比增22%，其中实际航空运输量增8.5%；全货机货量增24.8%，腹舱货量增28.3%，快递集成商货量降12%。总量含卡车货量。",
+      "impact": "统计滞后背景，不能用总量增长推断本周航班增加或舱位紧张。",
+      "action": "按货机、腹舱、集成商及卡车分别观察，不直接调整实盘报价。",
+      "sources": [
+        [
+          "原始公告或明确归属的公司声明",
+          "https://pressroom.brusselsairport.be/brussels-airport-handles-more-than-25-million-passengers-and-71000-tonnes-of-cargo-in-august"
+        ]
+      ]
+    },
+    {
+      "id": "airbaltic-reorganisation-20260914",
+      "region": "欧洲",
+      "type": "航司重组",
+      "state": "新增",
+      "title": "airBaltic宣布财务重组，称航班继续正常运营",
+      "airports": "RIX / airBaltic网络",
+      "occurred": "2026-09-14宣布",
+      "evidenceThrough": "2026-09-14公司声明转载",
+      "confidence": "公司声明转载已核；实际运行待单票确认",
+      "fact": "SFNet转载airBaltic公司声明：公司及部分子公司自愿启动美国Chapter 11财务重组，表示航班和客户服务继续正常。未独立逐航班验证。",
+      "impact": "重组不是停航通知；涉及其承运或代理链路应分别核实接受、结算及履约。",
+      "action": "向合同对手确认当前服务和付款条件，不据重组新闻推断货物无法运输。",
+      "sources": [
+        [
+          "原始公告或明确归属的公司声明",
+          "https://www.sfnet.com/home/industry-data-publications/the-secured-lender/tsl-express-daily-articles-news/tsl-express-daily-articles-news/2026/09/14/airbaltic-initiates-chapter-11-financial-reorganisation--flights-and-customer-services-continue-as-normal"
+        ]
+      ]
+    },
+    {
+      "id": "mex-parade-20260916",
+      "region": "拉美",
+      "type": "计划暂停起降",
+      "state": "历史待核",
+      "title": "MEX阅兵暂停起降计划窗口已过，实际恢复仍待核",
+      "airports": "MEX（不等于NLU）",
+      "occurred": "2026-09-16 10:00—14:00 UTC−6；北京时间9月17日00:00—04:00",
+      "evidenceThrough": "2026-09-14 Aviacionline；9月15日N+补充报道",
+      "confidence": "两家媒体正文已读，引述机场通知；未直接读取原始NOTAM",
+      "fact": "Aviacionline及N+报道MEX为独立日军用航空展示计划暂停全部起降四小时。航空媒体引述AFAC/SENEAM通知，当前属于尚未到来的计划窗口。机场官网检索另含2025及2011年旧通知，未混用。",
+      "impact": "可能影响MEX客机腹舱到离港和衔接；不能推广为NLU停航或货站停收。",
+      "action": "计划窗口为9月16日10:00—14:00当地UTC−6，即北京时间9月17日00:00—04:00。窗口已过不证明恢复；向承运人确认单班状态，不扩大至NLU。",
+      "sources": [
+        [
+          "Aviacionline 9月14日",
+          "https://www.aviacionline.com/english/commercial-aviation/latin-america-and-caribbean/mexico/mexico-city-s-aicm-to-suspend-all-flights-for-four-hours-this-wednesday_a6aa8a584bae76f799fa17e6c"
+        ],
+        [
+          "N+ 9月15日",
+          "https://www.nmas.com.mx/ciudad-de-mexico/movilidad/aicm-suspendera-despegues-y-aterrizajes-el-16-de-septiembre-por-desfile-aereo-militar/"
+        ]
+      ]
+    },
+    {
+      "id": "qf-noa-20260915",
+      "region": "大洋洲",
+      "type": "到货通知流程",
+      "state": "新增",
+      "title": "澳航货运停止人工到货通知，改用线上追踪与通知设置",
+      "airports": "Qantas Freight相关货物；非特定机场停航",
+      "occurred": "2026-09-15发布；未另列生效时刻",
+      "evidenceThrough": "2026-09-15官方公告",
+      "confidence": "官方正文已核",
+      "fact": "Qantas Freight称不再人工发送Notice of Arrival（NOA），可使用Track & Trace查看包括可提货在内的节点，一次最多查10个AWB。直接向Qantas订舱者可在Manage Shipments设置通知，须在货物起运前完成。",
+      "impact": "继续等待人工通知可能延误提货安排；此为操作流程变化，不是航班或舱位变化。",
+      "action": "确认代理的通知接收方式，直接订舱客户在起运前完成线上通知设置。",
+      "sources": [
+        [
+          "Qantas Freight 9月15日NOA公告",
+          "https://freight.qantas.com/en-au/news"
+        ]
+      ]
+    },
+    {
+      "id": "cx-bom-nmi-20260921",
+      "region": "亚洲",
+      "type": "机场迁移",
+      "state": "新增",
+      "title": "国泰货机迁至NMI获后续报道确认",
+      "airports": "BOM / NMI",
+      "occurred": "2026-09-21生效；官网新闻日期2026-09-15",
+      "confidence": "官方9月21日生效计划加独立媒体后续报道；逐班及货站安排待核",
+      "fact": "国泰官方此前通知货机自9月21日由BOM迁至NMI；FreightWaves 9月25日报道确认国泰在当周一已迁移货机业务。不能据此认定全部客机腹舱亦迁移。",
+      "impact": "中国及香港出口经国泰货机到孟买的单票，需要核对目的机场与地面交付安排。",
+      "action": "向国泰确认机场代码、货站、报关及提派衔接；不要推断所有航司或腹舱一起迁移。",
+      "sources": [
+        [
+          "国泰官方首页",
+          "https://www.cathaycargo.com/en-us/home.html"
+        ],
+        [
+          "迁移公告",
+          "https://www.cathaycargo.com/en-us/news/Relocation-of-Freighter-Operations-from-BOM-to-NMI.html"
+        ],
+        [
+          "FreightWaves后续确认",
+          "https://www.freightwaves.com/news/lufthansa-cargo-pauses-all-cargo-flights-to-mumbai-over-congestion"
+        ]
+      ],
+      "evidenceThrough": "2026-09-25 FreightWaves；原官方通知9月15日"
+    },
+    {
+      "id": "atlas-gig-20260916",
+      "region": "拉美",
+      "type": "运力计划",
+      "state": "预告",
+      "title": "Atlas Air计划增加GIG第三个每周货机班次",
+      "airports": "MIA / GIG / LIM",
+      "occurred": "2026-09-16报道；计划2026年9月起",
+      "confidence": "媒体引述机场；首航日待核",
+      "fact": "Estadão/UOL引述RIOGaleão：新增B747-400货机轮转MIA—GIG—LIM—MIA，计划周日抵达GIG，叠加现有周二、周四班次。具体首航日与实际执飞未核。",
+      "impact": "可能增加美国至里约及拉美后程选择；不是中国直飞新增证据。",
+      "action": "询问具体航班日期、承运销售渠道与可售舱位。",
+      "sources": [
+        [
+          "Estadão/UOL 9月16日报道",
+          "https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/16/galeao-amplia-malha-cargueira-com-atlas-air-apos-fim-da-taxa-das-blusinhas.htm"
+        ]
+      ],
+      "evidenceThrough": "2026-09-17（本轮核验；原始发布日期见事件时间）"
+    },
+    {
+      "id": "abx-gal-20260915",
+      "region": "拉美",
+      "type": "运力协议",
+      "state": "预告",
+      "title": "补录：ABX Air为GAL提供B767-300货机长期ACMI",
+      "airports": "MIA / CCS / UIO；Medellín机场未明确",
+      "occurred": "2026-09-15官方发布；新航线开航日未公布",
+      "confidence": "官方已核；航线计划未实飞确认",
+      "fact": "ATSG宣布ABX Air与Global Aviation Link签订长期协议，提供一架B767-300货机及机组、维修和保险。GAL提出拓展Caracas、Medellín、Quito等市场，未给出新增班期。",
+      "impact": "可关注美国接驳拉美及温控货运机会，不等于已有可售新航线。",
+      "action": "向GAL核实具体机场、起运点、班期、冷链与转运安排。",
+      "sources": [
+        [
+          "ATSG官方9月15日公告",
+          "https://www.atsginc.com/news-and-media/newsroom/year/2026/2026-09-15-abx-air-agreement-with-gal"
+        ]
+      ],
+      "evidenceThrough": "2026-09-17（本轮核验；原始发布日期见事件时间）"
+    },
+    {
+      "id": "ana-oct-plan-20260916",
+      "region": "亚洲",
+      "type": "货机计划",
+      "state": "预告",
+      "title": "ANA公布2026年10月国际货机运行计划通知",
+      "airports": "日本出发；具体航点按时刻表核实",
+      "occurred": "2026-09-16发布；适用10月1—31日日本出发",
+      "confidence": "官方通知已核",
+      "fact": "ANA发布10月国际货机计划通知，适用日本出发10月1—31日。计划仍受主管机关批准约束，机型可能临时调整；本轮未逐航线核验增减班。",
+      "impact": "十月经日本中转方案需按具体日期重查，公告不证明可售舱位。",
+      "action": "向销售确认具体航班及衔接；另行核对承运限制。",
+      "sources": [
+        [
+          "ANA官方计划通知",
+          "https://www.anacargo.jp/en/news/2026_oct_operation_plan_for_international_freighter_flights.html"
+        ]
+      ],
+      "evidenceThrough": "2026-09-17（本轮核验；原始发布日期见事件时间）"
+    },
+    {
+      "id": "ey-swissport-20260916",
+      "region": "中东",
+      "type": "地面服务",
+      "state": "预告",
+      "title": "Etihad与Swissport签署扩大合作谅解备忘录",
+      "airports": "涉及五大地区；新增机场清单未公布",
+      "occurred": "2026-09-16 11:00发布，网页未注明时区；落地日期待核",
+      "confidence": "航司官方已核",
+      "fact": "Etihad公告双方签署MoU，计划将Swissport服务覆盖由30个机场扩至40个，涵盖地面和货运服务，涉及非洲、欧洲、北美、中东及亚洲。未列出新增10个机场及切换日期。",
+      "impact": "属于地面服务合作，不能视为新增10条货机航线或每站货站均已切换。",
+      "action": "具体出货时核实当地GHA及交接日期。",
+      "sources": [
+        [
+          "Etihad官方公告",
+          "https://www.etihad.com/en-az/news/etihad-airways-and-swissport-expand-global-ground-handling-and-cargo-partnership"
+        ]
+      ],
+      "evidenceThrough": "2026-09-17（本轮核验；原始发布日期见事件时间）"
+    },
+    {
+      "id": "ws-india-gsa-20260916",
+      "region": "亚洲",
+      "type": "销售代理",
+      "state": "新增",
+      "title": "WestJet Cargo任命AVIAREPS为印度货运GSA",
+      "airports": "印度全国销售覆盖；非机场航线清单",
+      "occurred": "2026-09-16媒体报道；具体生效日未注明",
+      "confidence": "行业媒体已核；原始任命书未取得",
+      "fact": "Air Cargo Week报道AVIAREPS负责WestJet Cargo印度全国货运销售、客户联系及市场开发。",
+      "impact": "提供印度当地询价联系人；不能推断WestJet开通印度直飞货机或现有可售空间。",
+      "action": "向当地GSA确认实际承运航段及转运条件。",
+      "sources": [
+        [
+          "Air Cargo Week",
+          "https://aircargoweek.com/westjet-appoints-aviareps-as-cargo-gsa-in-india/"
+        ],
+        [
+          "International Transport Journal",
+          "https://transportjournal.com/2026/09/15/aviareps-represents-westjet-cargo-in-india/"
+        ]
+      ],
+      "evidenceThrough": "2026-09-17（本轮核验；原始发布日期见事件时间）"
+    },
+    {
+      "id": "bermudair-e190f-20260916",
+      "region": "北美",
+      "type": "货机引进",
+      "state": "预告",
+      "title": "BermudAir宣布引入一架E190F发展区域货运",
+      "airports": "BDA及北美/加勒比网络；具体货机航点待核",
+      "occurred": "2026-09-16官方发布；班期未公布",
+      "confidence": "制造商官方已核",
+      "fact": "Embraer与Regional One宣布BermudAir将租赁运营一架E190F，用于快件、电商及时间敏感货。公告未给出可核验首航日与具体货机班期。",
+      "impact": "可关注北美接驳百慕大及加勒比的区域分拨机会，不能把既有客运网络视为全部货机航点。",
+      "action": "询问货机开航时间、实际航点及货物接受要求。",
+      "sources": [
+        [
+          "Embraer官方公告",
+          "https://www.embraer.com/media-center/en?detail=32157&mediatype=NEWS"
+        ]
+      ],
+      "evidenceThrough": "2026-09-17（本轮核验；原始发布日期见事件时间）"
+    },
+    {
+      "id": "lh-emergency-20260917",
+      "region": "欧洲",
+      "type": "产品调整",
+      "state": "新增",
+      "title": "汉莎Emergency由独立产品改为附加服务",
+      "airports": "全球适用范围需按货件确认",
+      "occurred": "2026-09-17新闻；9月16日生效",
+      "evidenceThrough": "2026-09-18本轮核验；原始日期见事件时间",
+      "confidence": "官方已核",
+      "fact": "汉莎官方确认9月16日起停用原Emergency独立产品，改为可附加于所订Product及Speed组合的Emergency优先服务。",
+      "impact": "急货应核对新服务组合、费用及接受条件。",
+      "action": "急货应核对新服务组合、费用及接受条件。",
+      "sources": [
+        [
+          "原始公告或报道",
+          "https://www.lufthansa-cargo.com/en/product/emergency"
+        ]
+      ]
+    },
+    {
+      "id": "iag-mh-qr-trial-20260917",
+      "region": "亚洲",
+      "type": "联运试运",
+      "state": "新增",
+      "title": "IAG、MASkargo与Qatar Cargo完成首票三方联运试运",
+      "airports": "KUL / DOH / DUB / ORD",
+      "occurred": "2026-09-17公告；具体运输日期未披露",
+      "evidenceThrough": "2026-09-18本轮核验；原始日期见事件时间",
+      "confidence": "官方已核",
+      "fact": "三方完成11吨铜箔KUL经DOH和DUB至ORD的试运。Global Cargo Joint Business全面启动仍计划于今年稍后，不能视为全网产品已全面上线。",
+      "impact": "可以询问联运方案，但需确认当前销售开放范围、承运航段、运单及转运条件。",
+      "action": "可以询问联运方案，但需确认当前销售开放范围、承运航段、运单及转运条件。",
+      "sources": [
+        [
+          "原始公告或报道",
+          "https://www.iagcargo.com/es/press/iag-cargo-maskargo-and-qatar-airways-cargo-complete-first-customer-shipment-across-global-cargo-joint-business-network/"
+        ]
+      ]
+    },
+    {
+      "id": "et-cargoai-20260917",
+      "region": "非洲",
+      "type": "线上订舱",
+      "state": "新增",
+      "title": "埃塞俄比亚货运宣布接入CargoAi",
+      "airports": "ET全球网络；实际可订航点依平台",
+      "occurred": "2026-09-17官方公告；具体账号可用性未实测",
+      "evidenceThrough": "2026-09-18本轮核验；原始日期见事件时间",
+      "confidence": "官方已核",
+      "fact": "合作涉及CargoAi平台及TMS渠道的实时运价查看、电子订舱及数字联运能力。公告不代表所有账号、航线和货型均可立即订舱。",
+      "impact": "对中国经ADD至非洲的货可增加询价比对渠道；实际价格、舱位与承运确认需单票核验。",
+      "action": "对中国经ADD至非洲的货可增加询价比对渠道；实际价格、舱位与承运确认需单票核验。",
+      "sources": [
+        [
+          "原始公告或报道",
+          "https://corporate.ethiopianairlines.com/Press-release-open-page/ethiopian-cargo-selects-cargoai-to-power-its-digital-booking-capabilities"
+        ]
+      ]
+    },
+    {
+      "id": "egyptair-efw-20260917",
+      "region": "非洲",
+      "type": "货机交付",
+      "state": "新增",
+      "title": "EFW交付EgyptAir本协议第五架A330-200P2F",
+      "airports": "EgyptAir Cargo；具体部署机场未披露",
+      "occurred": "2026-09-17官网新闻；具体交付日未披露",
+      "evidenceThrough": "2026-09-18本轮核验；原始日期见事件时间",
+      "confidence": "改装方官方已核",
+      "fact": "EFW宣布已交付当前协议下第五架、也是最后一架A330-200P2F。这是现有五机项目收尾，并非一次新增五架。新交付飞机航线部署未披露。",
+      "impact": "可关注经埃及的后续货机安排，不能凭交付推断中国航线增班。",
+      "action": "可关注经埃及的后续货机安排，不能凭交付推断中国航线增班。",
+      "sources": [
+        [
+          "原始公告或报道",
+          "https://www.elbeflugzeugwerke.com/de/news/news-detail/elbe-flugzeugwerke-erreichen-weiteren-meilenstein-im-a330p2f-programm-mit-egyptair-cargo/"
+        ]
+      ]
+    },
+    {
+      "id": "solitair-uz-20260917",
+      "region": "亚洲",
+      "type": "网络扩展",
+      "state": "新增",
+      "title": "SolitAir新增TAS与NVI服务，班期待核",
+      "airports": "DWC / TAS / NVI",
+      "occurred": "2026-09-17 13:11 GMT报道；首航日未披露",
+      "evidenceThrough": "2026-09-18本轮核验；原始日期见事件时间",
+      "confidence": "两家行业媒体；官方班表未取得",
+      "fact": "STAT Times及ITJ报道SolitAir启动塔什干及纳沃伊货运服务，重点鲜活易腐货；未披露具体首航日、频次或每条航线机型。",
+      "impact": "可关注迪拜连接乌兹别克斯坦方案，需区分包机与固定班期。",
+      "action": "可关注迪拜连接乌兹别克斯坦方案，需区分包机与固定班期。",
+      "sources": [
+        [
+          "原始公告或报道",
+          "https://www.stattimes.com/amp/air-cargo/solitair-adds-tashkent-and-navoiy-to-central-asia-network-1360680"
+        ]
+      ]
+    },
+    {
+      "id": "swissport-latam-za-20260917",
+      "region": "非洲",
+      "type": "地面服务",
+      "state": "新增",
+      "title": "Swissport开始支持LATAM南非货运操作",
+      "airports": "CPT / JNB；São Paulo机场未明确",
+      "occurred": "2026-09-17 08:36 GMT报道；具体接手日未披露",
+      "evidenceThrough": "2026-09-18本轮核验；原始日期见事件时间",
+      "confidence": "行业媒体正文已核；原始公告未取得",
+      "fact": "Logistics Update Africa报道Swissport开始在开普敦及约翰内斯堡支持LATAM Cargo连接圣保罗的业务。报道未给出货机/腹舱区分或新增班期。",
+      "impact": "核对南非当地货站及交接资料；不把代理变化解释为新增货机航线。",
+      "action": "核对南非当地货站及交接资料；不把代理变化解释为新增货机航线。",
+      "sources": [
+        [
+          "原始公告或报道",
+          "https://www.logupdateafrica.com/amp/air-cargo/swissport-expands-latam-cargo-operations-across-south-africa-1360672"
+        ]
+      ]
+    },
+    {
+      "id": "modern-chile-peru-20260917",
+      "region": "拉美",
+      "type": "专项包机",
+      "state": "新增",
+      "title": "补录：Modern完成智利专项运输，计划9月21日赴秘鲁",
+      "airports": "VCP / SCL；秘鲁机场未明确",
+      "occurred": "9月16日原报道、17日跟进；智利9月14日，秘鲁计划9月21日",
+      "evidenceThrough": "2026-09-18本轮核验；原始日期见事件时间",
+      "confidence": "行业媒体；包机而非常规班期",
+      "fact": "AEROIN报道Modern Logistics从VCP向Santiago运输约8吨巡演设备，并计划9月21日开展秘鲁任务。属于按巡演需要安排的专项包机，秘鲁具体机场未核实。",
+      "impact": "项目货可关注专项运输能力，不作为普货固定航线或公开舱位依据。",
+      "action": "项目货可关注专项运输能力，不作为普货固定航线或公开舱位依据。",
+      "sources": [
+        [
+          "原始公告或报道",
+          "https://aeroin.net/alem-da-inedita-ida-ao-chile-brasileira-modern-logistics-tambem-fara-seu-1o-voo-para-mais-um-pais/?amp=1"
+        ]
+      ]
+    },
+    {
+      "id": "qf-ground-strike-20260923",
+      "region": "大洋洲",
+      "type": "罢工计划",
+      "state": "恢复中",
+      "title": "澳航确认停工结束，SYD/MEL/BNE仍有积压延误",
+      "airports": "BNE / SYD / ADL / PER；MEL暂无计划",
+      "occurred": "计划：BNE 9月24日04:00—25日03:59 AEST；SYD 24日07:30—25日07:29 AEST；ADL 24日05:00—25日04:59 ACST；PER 24日07:30—25日07:29 AWST",
+      "evidenceThrough": "2026-09-25澳航货运官方更新（未标时刻及时区）",
+      "confidence": "航司官方正文已核；积压清理完成时间未公布",
+      "fact": "澳航货运9月25日确认，部分QGS及AAE员工的保护性工业行动已结束。应急安排支持了网络运行，但SYD、MEL、BNE仍有后续延误和积压，需预留额外处理时间；货站保持开放，尽可能优先处理时效敏感和关键货物。",
+      "impact": "业务推断：停工结束不等于所有货物恢复正常，中国赴澳到港提货与澳洲国内后程仍需按票确认。",
+      "action": "核对SYD/MEL/BNE货物可提状态、截货和后程；等待积压清理确认，不直接恢复原时效承诺。",
+      "sources": [
+        [
+          "Qantas Freight官方9月25日更新",
+          "https://freight.qantas.com/en-au/news"
+        ],
+        [
+          "Reuters引述TWU",
+          "https://www.marketscreener.com/news/qantas-workers-begin-24-hour-strike-at-four-australian-airports-union-says-ce785adeda89f322"
+        ],
+        [
+          "Dieterle Victory 9月23日通知",
+          "https://www.dieterle-victory.com/planned-industrial-action-at-australian-airports/"
+        ],
+        [
+          "FTA新闻目录（同日更新）",
+          "https://www.ftalliance.com.au/news"
+        ]
+      ]
+    },
+    {
+      "id": "cx-august-20260917",
+      "region": "亚洲",
+      "type": "月度货运数据",
+      "state": "新增",
+      "title": "国泰8月货量同比增8.6%，AFTK增1.4%；属滞后月度数据",
+      "airports": "国泰全球网络；非单一HKG出发航线",
+      "occurred": "2026-09-17公布；观察期2026-08-01至08-31",
+      "evidenceThrough": "2026-09-18；观察期结束距本轮18天",
+      "confidence": "官方原始数据已核",
+      "fact": "国泰8月运货151,904吨，同比增8.6%；AFTK增1.4%，RFTK增3.1%，货运载运率57.4%，同比增0.9个百分点。公司提到亚洲内半导体、欧洲与中国大陆医药货及旺季前补库存需求。",
+      "impact": "PUBLIC-PROXY / LAGGING-BACKGROUND：月度运营背景，不证明本周或今日运价、可售舱位；货量与吨公里口径不同，不能直接相减推导缺口。",
+      "action": "中国出口订舱仍按具体起运机场、航段、货型及日期向航司确认报价与舱位。",
+      "sources": [
+        [
+          "国泰9月17日官方统计",
+          "https://news.cathaypacific.com/the-cathay-group-releases-traffic-figures-for-august-2026"
+        ]
+      ]
+    },
+    {
+      "id": "serve-knd-20260917",
+      "region": "非洲",
+      "type": "货机事故",
+      "state": "细节待核",
+      "title": "Serve Air货机在Kindu发生事故；起降阶段报道冲突，机场状态待核",
+      "airports": "KND / FIH（航向存在报道分歧）",
+      "occurred": "2026-09-17事件；AeroInside更新17日18:04 UTC，Actu7报道18日",
+      "evidenceThrough": "2026-09-18",
+      "confidence": "多源确认事故；官方原始通告及当前跑道状态未取得",
+      "fact": "AeroInside转载Aviation Herald称Serve Air B737-300货机9S-AAI在Kindu起飞时右主起落架塌陷并停在跑道上，并引述BPEA派调查组；Actu7称事故发生在降落阶段、飞机偏出跑道。两者均指9月17日Kindu事故，但过程与航向不一致。",
+      "impact": "涉及刚果（金）境内后程和Serve Air运输的货需核对单班与机场运行；不能认定Kindu目前仍封场或Serve Air全网停飞。",
+      "action": "向当地代理核实跑道可用性、货物位置、后程改配；事故原因与恢复时间待官方确认。",
+      "sources": [
+        [
+          "AeroInside / Aviation Herald",
+          "https://www.aeroinside.com/22194/serve-b733-at-kindu-on-sep-17th-2026-main-gear-collapse-on-takeoff"
+        ],
+        [
+          "Actu7 9月18日",
+          "https://actu7.cd/2026/09/18/maniema-un-avion-cargo-de-serve-air-sort-de-piste-a-laeroport-de-kindu-aucun-mort-signale/"
+        ]
+      ]
+    },
+    {
+      "id": "hkg-august-20260917",
+      "region": "亚洲",
+      "type": "月度货运数据",
+      "state": "新增",
+      "title": "HKG8月货量同比降1.2%，出口降8.8%、转运增18.2%",
+      "airports": "HKG全机场；非国泰单一航司",
+      "occurred": "9月17—18日报道；观察期2026-08-01至08-31",
+      "evidenceThrough": "2026-09-18；观察期结束滞后18天",
+      "confidence": "Airport World与TTR Weekly；机场原始公告本轮未取得",
+      "fact": "Airport World引述香港机管局：8月货量422,000吨，同比降1.2%；出口降8.8%，转运增18.2%，进口增3.6%。1—8月货量334万吨，同比增2.6%。",
+      "impact": "PUBLIC-PROXY / LAGGING-BACKGROUND：机场全量与国泰全网络为不同统计范围，不能直接比较或推导今天HKG运价与舱位。",
+      "action": "业务判断分开HKG出口与转运，并按当前航线、日期和货型询价确认。",
+      "sources": [
+        [
+          "Airport World 9月17日",
+          "https://airport-world.com/passenger-numbers-continue-to-grow-at-hong-kong-international-airport/"
+        ],
+        [
+          "TTR Weekly 9月18日",
+          "https://www.ttrweekly.com/site/2026/09/hkia-makes-passenger-traffic-gains-in-august/"
+        ]
+      ]
+    },
+    {
+      "id": "nca-min-fsc-20261001",
+      "region": "亚洲",
+      "type": "收费条件",
+      "state": "预告",
+      "title": "NCA计划将最低收费货件纳入燃油附加费",
+      "airports": "NCA全球起运点",
+      "occurred": "9月18日公告；10月1日起签发MAWB；须监管批准",
+      "evidenceThrough": "2026-09-19核验；原公告日期见事件时间",
+      "confidence": "官方已核",
+      "fact": "NCA计划将燃油附加费适用范围扩至所有货件，包括minimum charge shipments。适用全球NCA起运点，原燃油费表及增减或取消条件不变。",
+      "impact": "最低收费小票重新核算总成本，并确认批准及当地实施；不是燃油单价上涨通知。",
+      "action": "最低收费小票重新核算总成本，并确认批准及当地实施；不是燃油单价上涨通知。",
+      "sources": [
+        [
+          "公告或报道原文",
+          "https://www.nca.aero/e/news/2026/news_20260918.html"
+        ]
+      ]
+    },
+    {
+      "id": "cargojet-lgg-20260923",
+      "region": "北美",
+      "type": "货机增班",
+      "state": "预告",
+      "title": "Cargojet计划9月23日起增加周三列日货机",
+      "airports": "YHM / YHZ / LGG",
+      "occurred": "9月17日官方公告、18日媒体报道；9月23日计划开始",
+      "evidenceThrough": "2026-09-19核验；原公告日期见事件时间",
+      "confidence": "官方已核",
+      "fact": "Cargojet计划增加每周三B767货机轮转YHM—YHZ—LGG—YHM，补充既有周末服务。",
+      "impact": "可关注欧洲至加拿大及加拿大境内后程衔接；首航实际执行与可售舱位仍需确认。",
+      "action": "可关注欧洲至加拿大及加拿大境内后程衔接；首航实际执行与可售舱位仍需确认。",
+      "sources": [
+        [
+          "公告或报道原文",
+          "https://cargojet.com/cargojet-expands-canada-europe-network-with-new-mid-week-liege-service/"
+        ]
+      ]
+    },
+    {
+      "id": "xmn-mfm-customs-20260918",
+      "region": "亚洲",
+      "type": "通关试点",
+      "state": "新增",
+      "title": "厦门—澳门航空货物试行一次录入两地申报",
+      "airports": "XMN / MFM",
+      "occurred": "9月18日英文官方报道；试点具体运输日未披露",
+      "evidenceThrough": "2026-09-19核验；原公告日期见事件时间",
+      "confidence": "政府英文原文已核",
+      "fact": "厦门自贸区英文官网报道，厦门机场海关与澳门完成航空货物数据共享试点。一次录入数据自动转换提交两地系统；报道称澳门必填字段由24项降至3项、申报时间缩短逾30分钟。",
+      "impact": "需确认企业和货件是否可参与；试点不等于全线全面推广或货物接受限制放宽。",
+      "action": "需确认企业和货件是否可参与；试点不等于全线全面推广或货物接受限制放宽。",
+      "sources": [
+        [
+          "公告或报道原文",
+          "https://en.ftz.xm.gov.cn/2026-09/18/c_1214294.htm"
+        ]
+      ]
+    },
+    {
+      "id": "faa-777f-waiver-20260918",
+      "region": "北美",
+      "type": "货机制造监管",
+      "state": "新增",
+      "title": "FAA准予最多35架新造777F适用燃效豁免",
+      "airports": "全球机队供应；非具体机场增班",
+      "occurred": "Reuters9月17日发布、18日更新；适航证窗口2028-01-01至2031-01-01",
+      "evidenceThrough": "2026-09-19核验；原公告日期见事件时间",
+      "confidence": "Reuters及行业媒体；原始豁免批文未直接取得",
+      "fact": "Reuters与The Loadstar报道FAA批准燃效规则豁免，允许最多35架新造777F在上述窗口取得首次适航证；其他国家监管接受不自动成立。",
+      "impact": "中期货机供应变化，不代表近期新增35架运营运力或某条航线增班。",
+      "action": "中期货机供应变化，不代表近期新增35架运营运力或某条航线增班。",
+      "sources": [
+        [
+          "公告或报道原文",
+          "https://theloadstar.com/faa-gives-777f-three-year-lifeline-as-freighter-capacity-crunch-bites/"
+        ]
+      ]
+    },
+    {
+      "id": "fedex-hk-nonstandard-20260921",
+      "region": "亚洲",
+      "type": "快递附加费",
+      "state": "预告",
+      "title": "补录：FedEx香港付款方国际非标准包裹需求附加费9月21日生效",
+      "airports": "香港付款方FedEx国际包裹；非机场全行业收费",
+      "occurred": "2026-09-21生效；官网主页索引标注9月4日发布，费则页未显示发布日期",
+      "evidenceThrough": "2026-09-20官方英文费则核验",
+      "confidence": "官方费则已核；具体金额及单票适用未核",
+      "fact": "FedEx香港英文附加费页面注明For Payers in Hong Kong，自2026年9月21日起，符合条件的国际非标准包裹可能收取Non-Standard Shipment Demand Surcharge。不是所有包裹自动收费，也不能将香港付款方口径推广至其他市场。",
+      "impact": "明日及以后相关快递小票可能出现额外成本；不等于一般航空普货运价上涨。",
+      "action": "核对付款地、服务、尺寸重量和附加费标准，并取得单票报价；本轮不引用未核实每磅金额。",
+      "sources": [
+        [
+          "FedEx香港英文附加费页面",
+          "https://www.fedex.com/en-hk/shipping/surcharges/other-surcharges.html"
+        ]
+      ]
+    },
+    {
+      "id": "lux-drone-20260918",
+      "region": "欧洲",
+      "type": "无人机运行中断",
+      "state": "已恢复",
+      "title": "LUX无人机事件后9月19日凌晨恢复，货物后程仍需确认",
+      "airports": "LUX；Cargolux枢纽",
+      "occurred": "9月18日晚暂停；9月19日约01:20当地CEST（UTC+2）恢复，即北京时间07:20",
+      "evidenceThrough": "2026-09-20核验9月19日政府通报",
+      "confidence": "政府原文及Euronews已核；逐票恢复未核",
+      "fact": "卢森堡政府9月19日通报：18日晚因目视发现未识别、未授权无人机暂停机场运行，19班航班改降。两次检查排除即时风险后，约01:20恢复。19班包含的客货分类未披露。",
+      "impact": "中国及香港到LUX或经LUX接欧洲后程的货可能受航班轮转及改配影响；机场恢复不等于所有货物积压已消除。",
+      "action": "向承运人核实实际到港、是否改降及后程RFS/转运安排，特别关注温控、鲜活和急货。",
+      "sources": [
+        [
+          "卢森堡政府9月19日通报",
+          "https://maint.gouvernement.lu/de/actualites.gouvernement2024%2Bde%2Bactualites%2Btoutes_actualites%2Bcommuniques%2B2026%2B09-septembre%2B19-cellule-drones0.html"
+        ],
+        [
+          "Euronews9月19日",
+          "https://www.euronews.com/my-europe/2026/09/19/operations-resume-at-luxembourg-airport-after-unauthorised-drones-halt-flights"
+        ]
+      ]
+    },
+    {
+      "id": "dac-backlog-20260920",
+      "region": "亚洲",
+      "type": "货站拥堵",
+      "state": "恢复中",
+      "title": "DAC进口货站恢复仍不完整；新报道指积压400—500吨",
+      "airports": "DAC；进口货站及出口安检分别看待",
+      "occurred": "2026-09-20报道（07:44更新，网页未标时区）；2025-10-18火灾后续，非新火灾",
+      "evidenceThrough": "2026-09-21核验",
+      "confidence": "TBS采访机场与海关人员；单一媒体，未取得独立最新运行通告",
+      "fact": "TBS9月20日报道引述机场主管：日积压约400—500吨，低于火灾后逾2000吨；海关称进口仓库约以原三分之一能力运行，同时约80%货件一天内出库。周末提货、单证及地服配合均影响清货。出口EDS仅两台可用，但官员称可应付当前货量。",
+      "impact": "中国赴DAC的单票货物可能受目的港清货及仓储影响；不是机场关闭，也不能将进口积压等同出口停运。",
+      "action": "装机前核对收货人单证、当地代理提货时段、仓储保护及预计放行时间；急货与温控货重点确认。",
+      "sources": [
+        [
+          "The Business Standard 9月20日跟进",
+          "https://www.tbsnews.net/economy/aviation/nearly-year-after-fire-dhaka-airport-still-struggles-clear-cargo-backlog-1547691"
+        ]
+      ]
+    },
+    {
+      "id": "worldacd-w37-20260921",
+      "region": "亚洲",
+      "type": "周度市场指标",
+      "state": "新增",
+      "title": "WorldACD W37：亚太计费重量环比增4%，现货指标增3%",
+      "airports": "亚太出发样本；非中国单一航线",
+      "occurred": "媒体2026-09-21发布；观察期2026-09-07至09-13",
+      "evidenceThrough": "2026-09-21核验；观察期结束滞后8天",
+      "confidence": "Asian Aviation全文引述WorldACD；原始周报本轮读取失败",
+      "fact": "Asian Aviation引述WorldACD第37周：亚太出发计费重量环比+4%，现货费率指标+3%，部分为越南、马来西亚假期后反弹；全球量能大致稳定，混合现货与合同平均费率环比+2%。",
+      "impact": "PUBLIC-PROXY / LAGGING-BACKGROUND：区域统计背景；不是9月21日起当周实盘、非中国单一机场，更非+1000kg可执行价。",
+      "action": "按实际起运机场、目的地、日期、货型询价；不凭区域指数直接调整客户报价。",
+      "sources": [
+        [
+          "Asian Aviation 9月21日报道",
+          "https://asianaviation.com/posts/worldacd-asia-pacific-air-cargo-spot-rates-and-tonnages-strengthen-further"
+        ]
+      ]
+    },
+    {
+      "id": "us-tracon-20260921",
+      "region": "北美",
+      "type": "空管通信故障",
+      "state": "恢复中",
+      "title": "美国东北部通信故障已修复，延误恢复仍需单班核实",
+      "airports": "EWR / JFK / LGA / PHL / BOS",
+      "occurred": "9月21日约09:45 EDT开始；当日晚间报道修复",
+      "evidenceThrough": "2026-09-22核验9月21日公告/报道",
+      "confidence": "Reuters正文引述交通部长；FAA声明页读取失败",
+      "fact": "Reuters9月21日晚间报道，通信问题曾导致纽约三大机场、费城、波士顿等暂停到港，技术问题持续约8小时后修复，东北部运行恢复；已有延误清理仍需时间。",
+      "impact": "涉及中国赴美东北部腹舱及后程的货，应核对航班取消、改配及中转；未获得货机取消清单，不能视为全美货运停运。",
+      "action": "涉及中国赴美东北部腹舱及后程的货，应核对航班取消、改配及中转；未获得货机取消清单，不能视为全美货运停运。",
+      "sources": [
+        [
+          "公告或报道原文",
+          "https://uk.marketscreener.com/news/us-halts-flights-at-busy-east-coast-airports-says-fiber-line-cut-at-construction-site-ce785adbde8ef620"
+        ]
+      ]
+    },
+    {
+      "id": "uk-prestwick-20260921",
+      "region": "欧洲",
+      "type": "空管网络故障",
+      "state": "恢复中",
+      "title": "NATS Prestwick新故障已修复，空管恢复完整能力",
+      "airports": "苏格兰/北英格兰/北爱尔兰；MAN / EDI / BFS / BHD",
+      "occurred": "9月21日清晨英国当地发生；同日官方公告已修复",
+      "evidenceThrough": "2026-09-22核验9月21日公告/报道",
+      "confidence": "NATS官方与AP；逐航班恢复未核",
+      "fact": "NATS确认Prestwick中心网络问题触发流量限制，现已修复并恢复完整能力，仍协助客户处理残余延误；明确与月初故障无关。",
+      "impact": "中国赴上述机场及经英国转运的腹舱货需确认衔接；中心名称不能当成PIK货机全部取消证据。",
+      "action": "中国赴上述机场及经英国转运的腹舱货需确认衔接；中心名称不能当成PIK货机全部取消证据。",
+      "sources": [
+        [
+          "公告或报道原文",
+          "https://www.nats.aero/news/technical-issue-at-prestwick-centre/"
+        ]
+      ]
+    },
+    {
+      "id": "dhl-bah-jnb-20260921",
+      "region": "中东",
+      "type": "货机航线",
+      "state": "新增",
+      "title": "DHL宣布巴林—约翰内斯堡每周直达货运连接",
+      "airports": "BAH / JNB",
+      "occurred": "9月21日报道；具体首航日及每周执行日未披露",
+      "evidenceThrough": "2026-09-22核验9月21日公告/报道",
+      "confidence": "声明转载已读，实际持证运营航司未披露",
+      "fact": "9月21日声明转载称DHL首班巴林至南非直达航班已抵JNB，建立每周B767/F货机连接。文中未明确持证运营航司、具体首航日期或普通货代可售安排。",
+      "impact": "可向DHL询问亚洲经巴林至南非的快递或重货产品；不等同普通货代可直接订主舱。",
+      "action": "可向DHL询问亚洲经巴林至南非的快递或重货产品；不等同普通货代可直接订主舱。",
+      "sources": [
+        [
+          "公告或报道原文",
+          "https://africabusinessinsight.com/dhl-invests-in-greater-middle-east-africa-connectivity-with-new-aviation-lane/"
+        ]
+      ]
+    },
+    {
+      "id": "jal-dujuan-20260922",
+      "region": "亚洲",
+      "type": "台风运行提示",
+      "state": "恢复待核",
+      "title": "JAL9月23日页面撤下Dujuan特别提示，单票恢复待核",
+      "airports": "JAL网络；公告未列受影响IATA",
+      "occurred": "2026-09-22 16:00 JST更新（北京时间15:00）",
+      "evidenceThrough": "2026-09-23 10:00 JST（北京时间09:00）官方页面",
+      "confidence": "官方提示已读；页面列表与通告粒度不一致",
+      "fact": "9月23日10:00 JST页面已无昨日Dujuan特别提示，四个地区列表均为No applicable airport。网页撤下提示不是货机/RFS或既有积压全部恢复证明。",
+      "impact": "使用JAL日本航段及日本中转的货需逐班核对，不应将提示扩大成东京或日本机场关闭。",
+      "action": "按单票实际航班核对执飞与后程，货机及RFS仍另查运营人。",
+      "sources": [
+        [
+          "JAL Cargo国际运行信息",
+          "https://www.jal.co.jp/jp/en/jalcargo/inter/flight-info/"
+        ]
+      ]
+    },
+    {
+      "id": "cx-cns-season-20260922",
+      "region": "大洋洲",
+      "type": "腹舱航线取消",
+      "state": "预告",
+      "title": "国泰不恢复2026/27凯恩斯—香港季节性客运服务",
+      "airports": "CNS / HKG",
+      "occurred": "2026/27夏季；历年12月至次年2月季节服务不再恢复",
+      "evidenceThrough": "2026-09-22 Executive Traveller；2026-09-23 Aero South Pacific（均未标具体发布时间时区）",
+      "confidence": "媒体正文引述国泰区域销售负责人及机场负责人；机场目的地静态页仍列季节航线，存在更新滞后，具体货运替代安排待核",
+      "fact": "Executive Traveller 9月22日报道，国泰因商业原因不再恢复凯恩斯与香港季节性客运航线，正文引述国泰区域销售负责人及凯恩斯机场负责人回应。9月23日Aero South Pacific亦报道该决定。既有服务涉及鲜活海产及鲜货出口；本次是未来季节客运服务不恢复，并非今日机场关闭或全货机停运。",
+      "impact": "业务推断：原本拟利用该季节直飞腹舱的CNS—HKG鲜活及香港中转货物需重新核对路由；中国经HKG赴CNS货物也不能沿用往年直飞计划。未核实替代航班可售舱位。",
+      "action": "向CX/GSA确认冬季货运路由、接货机场、空空中转或地面衔接、温控及鲜活接受条件；替代路由需单票确认。",
+      "sources": [
+        [
+          "Executive Traveller（引述航司及机场）",
+          "https://www.executivetraveller.com/news/cathay-pacific-axes-cairns-hong-kong-flights"
+        ],
+        [
+          "Aero South Pacific",
+          "https://aerosouthpacific.com/blogs/news/cathay-cairns-airport"
+        ]
+      ]
+    },
+    {
+      "id": "hacis-vietnam-pilot-20260923",
+      "region": "亚洲",
+      "type": "RFS通道",
+      "state": "新增",
+      "title": "Hacis与U&I完成越南经中国至HKG的首票陆路试运",
+      "airports": "HKG；越南—凭祥—梧州为陆路段",
+      "occurred": "试运已完成；具体运输日期未披露",
+      "evidenceThrough": "2026-09-23 U&I公告；未标具体发布时间及时区",
+      "confidence": "参与方英文公告正文已核；固定时效、费用、货型接受和后续航空承运人待核",
+      "fact": "U&I 9月23日宣布与Hacis、Xuan Cuong完成100公斤烘焙咖啡豆的越南—中国—香港试运：经友谊关/凭祥、梧州，接Hacis保税卡车至HKG超级一号货站。公告仅证实陆路到港段，并称仍需验证全程时效、成本、单证与各货型航班衔接。",
+      "impact": "业务推断：越南出口可增加经中国陆路接香港航空网络的选项；不是新增直飞货机，也不能认定已形成稳定时效或当前可售航空舱位。",
+      "action": "询问试运转常态条件、边境及梧州交接、报关责任、总时效、航空承运人和货型接受；不能把100公斤试运外推为大批量能力。",
+      "sources": [
+        [
+          "U&I英文公告",
+          "https://unilogistics.vn/en/tin-tuc/u-i-logistics-and-hacis-complete-the-first-pilot-shipment-on-the-superlink-china-direct-route-extended-to-vietnam-12520"
+        ],
+        [
+          "Asia Cargo News",
+          "https://www.asiacargonews.com/en/news/detail?id=12585"
+        ]
+      ]
+    },
+    {
+      "id": "sats-sin-acv-20260924",
+      "region": "亚洲",
+      "type": "货站运输",
+      "state": "新增",
+      "title": "SATS在SIN验证自动货物运输服务，首阶段试点载重800公斤",
+      "airports": "SIN",
+      "occurred": "首阶段试点完成，仍在实际运行条件下验证；具体启动日未披露",
+      "evidenceThrough": "2026-09-24 Air Cargo Week（未标发布时间时区）",
+      "confidence": "媒体完整正文已读，转述SATS公告；正式全面部署时间未确认",
+      "fact": "SATS在樟宜自由贸易区内验证货站与货代仓库间自动运输服务。首阶段试点车型载重最高800公斤；1500公斤车型及全天候运行属于后续扩展可能，并非现有全面服务承诺。",
+      "impact": "业务推断：可改善SIN货站短驳灵活性，但不能据此缩短已承诺转运时间，也不增加航空舱位。",
+      "action": "向SATS确认参与仓库、预约方式、适用货型、服务时段及费用，未确认前沿用现有交接安排。",
+      "sources": [
+        [
+          "Air Cargo Week正文",
+          "https://aircargoweek.com/sats-introduces-autonomous-cargo-vehicle-service-accelerating-cargo-delivery-at-changi-airfreight-centre/"
+        ],
+        [
+          "Aviation Week",
+          "https://aviationweek.com/air-transport/airports-networks/sats-tests-autonomous-cargo-vehicles-changi"
+        ]
+      ]
+    },
+    {
+      "id": "bru-hyd-mou-20260924",
+      "region": "欧洲",
+      "type": "货运合作",
+      "state": "预告",
+      "title": "BRU与HYD签署货运合作备忘录，尚无直飞连接",
+      "airports": "BRU / HYD",
+      "occurred": "2026-09-24公布；未公布航线开航日",
+      "evidenceThrough": "2026-09-24机场官方公告（未标时刻与时区）",
+      "confidence": "布鲁塞尔机场原文已核；承运人、班期、机型及新增运力未公布",
+      "fact": "布鲁塞尔机场宣布与海德拉巴机场签署MoU，围绕货运发展、互联及医药生命科学物流合作。官方明确当前两机场没有直飞航空连接，双方将寻找加强连接的机会。",
+      "impact": "业务推断：可跟踪印度医药出口与欧洲冷链通道机会，现阶段不构成新增货机或腹舱运力。",
+      "action": "待承运人、班期、货型接受及温控衔接方案公布后再评估商业产品；不能据MoU承诺直飞订舱。",
+      "sources": [
+        [
+          "Brussels Airport官方公告",
+          "https://pressroom.brusselsairport.be/brussels-airport-and-hyderabad-international-airport-join-forces-to-strengthen-air-cargo-connectivity-between-belgium-and-india"
+        ]
+      ]
+    },
+    {
+      "id": "njf-iran-20260925",
+      "region": "中东",
+      "type": "航线暂停",
+      "state": "恶化",
+      "title": "伊拉克限制扩大至EBL和ISU；NJF暂停获Reuters佐证",
+      "airports": "NJF / EBL / ISU；此前BGW已受限",
+      "occurred": "2026-09-25起，直至另行通知；ISU报道为02:00，时区未明确",
+      "evidenceThrough": "Shafaq 2026-09-25 11:12:53 UTC；Reuters 9月25日",
+      "confidence": "Shafaq直接引述EBL机场负责人；Reuters引述两名消息人士及伊拉克官方媒体佐证，具体货机范围待核",
+      "fact": "Shafaq 9月25日引述Erbil机场负责人Ahmed Hoshyar确认，库区EBL和ISU暂停往返伊朗航班直至另行通知。Reuters同日报道EBL/ISU暂停，并引述伊拉克官方媒体确认NJF暂停；加上此前BGW，伊朗航班当时使用的四个伊拉克机场均受限制。不是四座机场整体关闭。",
+      "impact": "业务推断：经EBL、ISU、NJF衔接伊朗的方案不能再沿用先前可用假设；中国赴这些机场且不涉及伊朗航段的货物不能一并判停。",
+      "action": "核对实际承运人和全部后程，确认货机/腹舱接受与改配；保留此前NJF 02:00起暂停记录，但时区及逐班执行仍须确认。",
+      "sources": [
+        [
+          "Shafaq引述机场通函",
+          "https://shafaq.com/en/society/Najaf-Airport-halts-flights-to-and-from-Iran"
+        ],
+        [
+          "Shafaq引述机场负责人",
+          "https://www.shafaq.com/en/Kurdistan/Erbil-Al-Sulaymaniyah-airports-suspend-flights-to-Iran"
+        ],
+        [
+          "Reuters经Business Recorder转载",
+          "https://www.brecorder.com/news/40441231/three-iraqi-airports-suspend-iranian-flights-starting-friday-sources-and-state-media-say"
+        ]
+      ]
+    },
+    {
+      "id": "lh-bom-pause-20260920",
+      "region": "亚洲",
+      "type": "货机暂停及迁移",
+      "state": "新增",
+      "title": "汉莎暂停BOM货机至月底，计划10月1日转NMI",
+      "airports": "BOM / NMI",
+      "occurred": "货机暂停2026-09-20至月底；计划2026-10-01于NMI恢复",
+      "evidenceThrough": "2026-09-25 FreightWaves（未核发布时间时区）",
+      "confidence": "完整报道直接引述汉莎货运发言人；10月1日属计划，尚未执飞",
+      "fact": "FreightWaves 9月25日引述汉莎货运发言人称，因大型施工导致运营问题，BOM货机自9月20日暂停至月底；计划10月1日在NMI恢复。发言人确认此暂停未影响汉莎集团客机承运的腹舱货物。报道同时指出机场将拥堵归因于货量增加，与航司解释侧重不同。",
+      "impact": "业务推断：涉及汉莎BOM全货机产品及后程的货物可能需改配；不等于BOM机场关闭或所有腹舱停运。",
+      "action": "确认实际机场代码、货站地址、截货与提货安排；10月1日恢复须等待实际运行确认，勿沿用旧BOM货机交货安排。",
+      "sources": [
+        [
+          "FreightWaves引述汉莎发言人",
+          "https://www.freightwaves.com/news/lufthansa-cargo-pauses-all-cargo-flights-to-mumbai-over-congestion"
+        ]
+      ]
+    },
+    {
+      "id": "worldacd-w38-20260926",
+      "region": "北美",
+      "type": "运价与需求",
+      "state": "新增",
+      "title": "WorldACD W38媒体转述：北美节后反弹，全球货量增2%、运价基本持平",
+      "airports": "全球区域汇总，无单一机场",
+      "occurred": "观察期2026-09-14—20（W38）",
+      "evidenceThrough": "TradeArabia 2026-09-26，未标时刻及时区",
+      "confidence": "媒体全文已读；WorldACD原始W38周报未取得，单源转述；截至9月27日滞后7天",
+      "fact": "TradeArabia引述WorldACD称，截至9月20日一周全球计费重量环比增2%，北美始发增14%，MESA及非洲均降4%；全球现货与合约混合运价基本持平。区域表现有分化，不能代表当日中国出口成交市场。",
+      "impact": "PUBLIC-PROXY/M4媒体转述、LAGGING-BACKGROUND：北美反弹包含劳动节后恢复，不宜据此推断中国赴美舱位收紧或普遍涨价。",
+      "action": "使用时保留W38观察期及区域口径；报价和舱位须单票向航司/GSA核实。",
+      "sources": [
+        [
+          "TradeArabia引述WorldACD",
+          "https://www.tradearabia.com/News/486833/Global-air-cargo-rebounds-as-Middle-East-capacity-stays-under-pressure"
+        ]
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "startedAt": "2026-09-10T22:23:58+08:00",
+      "finishedAt": "2026-09-10T22:27:57+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 5,
+      "updated": 2,
+      "recheckedUnchanged": 3,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "TWU正文访问失败（ITF及WWTG补充）",
+        "SolitAir官方站访问失败",
+        "LATAM列表未定位摘要所称新航线",
+        "MIA最新跑道状态未取得",
+        "国泰中东复航明细未取得"
+      ],
+      "runId": "legacy-1"
+    },
+    {
+      "startedAt": "2026-09-11T09:31:58+08:00",
+      "finishedAt": "2026-09-11T09:35:20+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 5,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "SolitAir官方站访问失败",
+        "国泰中东及维护公告正文未完整读取",
+        "MIA当前跑道状态未取得",
+        "澳洲停工后的承运人恢复状态未取得",
+        "拉美新消息核验结果有限；未发现可纳入的新事件"
+      ],
+      "runId": "legacy-2"
+    },
+    {
+      "startedAt": "2026-09-11T14:00:49+08:00",
+      "finishedAt": "2026-09-11T14:03:05+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 1,
+      "materialAlerts": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "国泰中东公告正文仍不完整",
+        "MIA最新跑道及澳洲提派恢复未取得",
+        "Poste实际罢工执行与恢复未取得",
+        "拉美新事件证据不足；EZE工程属旧公告，未冒充新消息"
+      ],
+      "runId": "legacy-3"
+    },
+    {
+      "startedAt": "2026-09-11T18:01:49+08:00",
+      "finishedAt": "2026-09-11T18:03:48+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "materialAlerts": 1,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "国泰中东复航明细仍未取得",
+        "MIA当前跑道状态未取得",
+        "澳洲停工及Poste实际恢复未取得",
+        "拉美与非洲近24小时高可信新事件有限；不据此认定无事件"
+      ],
+      "runId": "legacy-4"
+    },
+    {
+      "startedAt": "2026-09-12T09:31:09+08:00",
+      "finishedAt": "2026-09-12T09:33:11+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 2,
+      "updated": 0,
+      "materialAlerts": 2,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "nasstatus.faa.gov动态页无可读正文，使用FAA ATL状态及运行计划替代",
+        "国泰中东明细及MIA事故跑道恢复未获确认",
+        "澳洲停工恢复及Poste实际执行未获确认",
+        "拉美、非洲、大洋洲近24小时可核新事项有限，不能视为无事件"
+      ],
+      "runId": "legacy-5"
+    },
+    {
+      "startedAt": "2026-09-12T15:43:02+08:00",
+      "finishedAt": "2026-09-12T15:46:25+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 2,
+      "updated": 1,
+      "materialAlerts": 3,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "UIO官方正文访问失败，实际关闭执行与恢复待核",
+        "国泰中东复航明细及MIA跑道恢复未取得",
+        "澳洲提派恢复及Qantas具体航班最新状态未取得",
+        "非洲及亚洲近24小时新增高可信事件有限"
+      ],
+      "runId": "legacy-6"
+    },
+    {
+      "startedAt": "2026-09-13T16:46:09+08:00",
+      "finishedAt": "2026-09-13T16:48:05+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 0,
+      "updated": 2,
+      "materialAlerts": 1,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "UIO官方正文访问失败且无恢复确认",
+        "国泰维护正文未完整读取，沿用此前已核01:00—05:30时段并保留证据日期",
+        "现有部分运行恢复未核",
+        "近24小时高可信新增有限；Dimerco媒体新文追溯为9月3日旧报告，不作新行情"
+      ],
+      "runId": "legacy-7"
+    },
+    {
+      "startedAt": "2026-09-13T18:02:03+08:00",
+      "finishedAt": "2026-09-13T18:03:51+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "materialAlerts": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "国泰维护及中东公告正文不完整",
+        "MIA跑道、UIO及澳洲提派恢复未核",
+        "TAS项目官方原始公告未找到",
+        "多地区近24小时可验证新消息有限"
+      ],
+      "runId": "legacy-8"
+    },
+    {
+      "startedAt": "2026-09-14T10:28:52+08:00",
+      "finishedAt": "2026-09-14T10:31:30+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 0,
+      "updated": 2,
+      "materialAlerts": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "国泰系统未登录实测且公告正文不完整",
+        "意大利各GHA恢复及托斯卡纳加班限制执行未核",
+        "MIA跑道及UIO恢复无新确认",
+        "WFS原始新闻未取得，未凭摘要新增现役航线",
+        "巴尔干封锁计划与延期报道冲突，未作为已发生封锁发布"
+      ],
+      "runId": "legacy-9"
+    },
+    {
+      "startedAt": "2026-09-14T14:00:52+08:00",
+      "finishedAt": "2026-09-14T14:02:27+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 0,
+      "updated": 0,
+      "materialAlerts": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "国泰维护服务未登录实测，公告正文仍不完整",
+        "UIO、MIA及澳洲提派缺少最新恢复确认",
+        "部分地区检索返回旧新闻，未视为当天新闻",
+        "JNB燃油报道为9月10日回述9月9日讲话，未取得最新官方运行通告"
+      ],
+      "runId": "legacy-10"
+    },
+    {
+      "startedAt": "2026-09-15T13:55:20+08:00",
+      "finishedAt": "2026-09-15T13:57:48+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 1,
+      "materialAlerts": 2,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "埃及SIS公告正文访问失败",
+        "国泰系统恢复未实测，正文不完整",
+        "MIA最新跑道、UIO及澳洲提派恢复未确认",
+        "部分地区新消息有限，不等于无事件"
+      ],
+      "runId": "legacy-11"
+    },
+    {
+      "startedAt": "2026-09-15T14:00:20+08:00",
+      "finishedAt": "2026-09-15T14:01:13+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 0,
+      "updated": 0,
+      "materialAlerts": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "近24小时多个地区检索结果以时刻表和旧资料为主",
+        "国泰服务恢复未实测及若干旧事件恢复缺少独立确认"
+      ],
+      "deduplicatedAgainst": "2026-09-15T13:57:48+08:00",
+      "runId": "legacy-12"
+    },
+    {
+      "startedAt": "2026-09-16T09:55:45+08:00",
+      "finishedAt": "2026-09-16T09:58:27+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 5,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "多地区近24小时新消息有限",
+        "airBaltic为公司声明转载，航班未逐一验证",
+        "ANA整合、NAC增机仅为检索线索未入卡",
+        "既有部分事件恢复未闭合，本轮未实测国泰系统"
+      ],
+      "runId": "legacy-13"
+    },
+    {
+      "startedAt": "2026-09-16T14:00:50+08:00",
+      "finishedAt": "2026-09-16T14:02:59+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 2,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "MEX原始NOTAM未直接读取，未认定已执行",
+        "部分地区近24小时新证据有限",
+        "国泰系统及其他旧事件恢复尚缺确认"
+      ],
+      "runId": "legacy-14"
+    },
+    {
+      "startedAt": "2026-09-17T14:00:34+08:00",
+      "finishedAt": "2026-09-17T14:03:28+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 7,
+      "updated": 1,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "国泰迁移公告明细及中东复航正文不完整",
+        "MEX与UIO实际恢复未获确认",
+        "GIG增班未取得机场原始公告及首航确认",
+        "部分地区近24小时新结果有限，不能据此判断无事件"
+      ],
+      "runId": "legacy-15"
+    },
+    {
+      "startedAt": "2026-09-18T08:56:51+08:00",
+      "finishedAt": "2026-09-18T08:59:42+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 7,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "AFKL官网正文无法读取；9月18日战争风险附加费线索仅测试域报告，未确认为新收费",
+        "国泰公告明细及MEX/UIO恢复缺少新确认",
+        "部分地区近24小时新证据有限；不等于没有事件",
+        "SolitAir新点班期及LATAM南非机型未取得"
+      ],
+      "runId": "legacy-16"
+    },
+    {
+      "startedAt": "2026-09-18T09:30:54+08:00",
+      "finishedAt": "2026-09-18T09:32:17+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "Qantas停工原始时刻及FWC裁决未取得",
+        "国泰部分公告明细及MEX/UIO实际恢复仍待核",
+        "部分检索返回旧文；未将旧统计或摘要当作新事实"
+      ],
+      "runId": "legacy-17"
+    },
+    {
+      "startedAt": "2026-09-18T15:13:21+08:00",
+      "finishedAt": "2026-09-18T15:15:04+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "ABC澳航停工正文本轮访问失败；未取得FWC新裁决",
+        "国泰部分运行公告明细及MEX/UIO恢复仍缺确认",
+        "马士基9月17日更新含FSC最低15%口径，但未证明该条为新变更，未作为新涨价通知",
+        "部分地区新证据有限，不能据此认定没有事件"
+      ],
+      "runId": "legacy-18"
+    },
+    {
+      "startedAt": "2026-09-18T18:02:21+08:00",
+      "finishedAt": "2026-09-18T18:04:17+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 2,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "Kindu事故起飞/降落报道冲突，原始BPEA公告及当前跑道状态未取得",
+        "HKG机场原始月报未取得，使用两家媒体引述",
+        "Qantas停工新裁决及部分既有运行恢复仍未确认",
+        "部分地区检索未获新的合格消息，不等于没有事件"
+      ],
+      "runId": "legacy-19"
+    },
+    {
+      "startedAt": "2026-09-19T15:58:19+08:00",
+      "finishedAt": "2026-09-19T16:00:08+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 4,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "早间轮中断未写入，本轮已补齐仍相关事项",
+        "FAA原始豁免批文未直接取得",
+        "Kindu跑道与Qantas停工新裁决仍未核实",
+        "部分地区新消息有限；不据此认定无事件"
+      ],
+      "runId": "legacy-20"
+    },
+    {
+      "startedAt": "2026-09-20T08:56:50+08:00",
+      "finishedAt": "2026-09-20T08:58:32+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "FedEx具体附加费金额未核，仅通知已核适用条件与生效日",
+        "Kindu实际跑道恢复及Qantas停工新裁决仍未取得",
+        "多地区检索返回旧闻与重复转载，未据此认定无事件"
+      ],
+      "runId": "legacy-21"
+    },
+    {
+      "startedAt": "2026-09-20T09:31:28+08:00",
+      "finishedAt": "2026-09-20T09:33:09+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "LUX机场提示页搜索与打开正文不一致，采用政府原文核实恢复",
+        "LUX单票货物后程及其他旧事件恢复尚缺确认",
+        "七区检索部分结果为旧文及重复报道，不等于无事件"
+      ],
+      "runId": "legacy-22"
+    },
+    {
+      "startedAt": "2026-09-21T08:53:48+08:00",
+      "finishedAt": "2026-09-21T08:55:46+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "DAC为单一媒体采访，未取得独立最新运行通告",
+        "WorldACD第二周新数据全文受登录限制且原始周报未找到，未发布片段行情",
+        "国泰迁移今日实际执行及Qantas停工新裁决未确认",
+        "部分地区结果为旧闻或重复转载"
+      ],
+      "runId": "legacy-23"
+    },
+    {
+      "startedAt": "2026-09-21T09:30:48+08:00",
+      "finishedAt": "2026-09-21T09:32:37+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "WorldACD原始W37页面读取失败，采用可读行业媒体并明确归因",
+        "TAAG撤回罢工追溯至9月1日旧闻，未当新消息发布",
+        "国泰迁移实际执行及Qantas新裁决未获确认",
+        "部分地区近24小时检索以旧闻为主"
+      ],
+      "runId": "legacy-24"
+    },
+    {
+      "startedAt": "2026-09-21T14:02:22+08:00",
+      "finishedAt": "2026-09-21T14:03:50+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 0,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "国泰BOM转NMI今日实际执行及货站细节未取得",
+        "Qantas停工新裁决与部分旧事件恢复未获确认",
+        "菲律宾DG罚则线索追溯为4日前报道，原始生效条文尚未核实，未作新法规通知",
+        "部分地区检索以旧文和重复报道为主，不据此认定无事件"
+      ],
+      "runId": "legacy-25"
+    },
+    {
+      "startedAt": "2026-09-22T10:28:23+08:00",
+      "finishedAt": "2026-09-22T10:32:16+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 3,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "FAA声明页读取失败，使用Reuters引述修复消息",
+        "DHL持证运营人及具体班期未披露",
+        "Qantas停工新裁决、国泰迁移实际执行及Kindu跑道状态缺确认",
+        "部分地区新检索结果有限，非无事件证明"
+      ],
+      "runId": "legacy-26"
+    },
+    {
+      "startedAt": "2026-09-22T14:01:36+08:00",
+      "finishedAt": "2026-09-22T14:03:09+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 0,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "美英空管修复报道与早间基线一致，单票货物恢复未核",
+        "Qantas未找到新的取消或裁决确认，维持计划状态",
+        "国泰迁移实际执行及Kindu跑道状态缺独立确认",
+        "部分地区新检索以旧闻与重复转载为主，不等于没有事件"
+      ],
+      "runId": "legacy-27"
+    },
+    {
+      "startedAt": "2026-09-22T18:01:32+08:00",
+      "finishedAt": "2026-09-22T18:03:45+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 1,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "JAL通告无受影响机场明细，与地区列表粒度不一致",
+        "伊朗9月23日实施与实际航班停飞未确认",
+        "Qantas停工新裁决及国泰迁移实际运行仍缺确认",
+        "部分地区新消息有限，不等于无事件"
+      ],
+      "runId": "legacy-28"
+    },
+    {
+      "startedAt": "2026-09-23T09:31:38+08:00",
+      "finishedAt": "2026-09-23T09:33:37+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 0,
+      "updated": 2,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "伊朗民航原始通告及各承运人逐班实施未取得，取消时间时区未统一标注",
+        "JAL提示移除不代表货物积压清完",
+        "Qantas维州当日实际停工及范围尚无新确认",
+        "部分地区检索返回旧文与重复新闻"
+      ],
+      "runId": "legacy-29"
+    },
+    {
+      "startedAt": "2026-09-23T14:01:16+08:00",
+      "finishedAt": "2026-09-23T14:02:57+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 0,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "Qantas维州实际停工范围未得到官方或可靠现场新确认，未把计划自动改为已发生",
+        "成都非洲新报道追溯为8月28日开航旧事件，未当9月22日新开发布",
+        "伊朗BGW/MCT及JAL页面未发现早间之外可核重要变化",
+        "部分地区新消息有限，不等于无事件"
+      ],
+      "runId": "legacy-30"
+    },
+    {
+      "startedAt": "2026-09-23T18:00:13+08:00",
+      "finishedAt": "2026-09-23T18:04:37+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "Euronews欧洲航油报道及Air Cargo Week新闻页正文读取失败，未据摘要发布",
+        "Qantas实际停工范围、国泰BOM迁移实际运行及Cargojet首班执行未确认",
+        "国泰CNS取消已获媒体直接引述，但机场静态目的地页仍列季节服务，货运替代安排待核",
+        "部分地区返回旧文或重复报道，不能据此判断无事件"
+      ],
+      "runId": "legacy-31"
+    },
+    {
+      "startedAt": "2026-09-24T10:34:08+08:00",
+      "finishedAt": "2026-09-24T10:37:03+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 1,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "FTA澳航更新保护正文未取得，时段依据货代转述；实际停工程度待核",
+        "部分地区新检索结果为旧文或重复稿，未视作无事件",
+        "旧事件恢复与逐班执行仍非全部核实"
+      ],
+      "runId": "legacy-32"
+    },
+    {
+      "startedAt": "2026-09-24T23:06:46+08:00",
+      "finishedAt": "2026-09-24T23:09:27+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 1,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "Fidelity及Air Cargo Week网页工具读取失败；澳航改用Reuters转载正文，SATS经直接读取取得全文",
+        "Qantas恢复及逐票货物延误程度尚未确认；其他旧事件未全部复核",
+        "七区检索部分返回旧文和重复稿，不等于无事件"
+      ],
+      "runId": "legacy-33"
+    },
+    {
+      "startedAt": "2026-09-25T09:31:27+08:00",
+      "finishedAt": "2026-09-25T09:33:20+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 1,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "Gulf Times正文读取失败，采用可读Reuters转载；GCAA原文及逐班范围未取得",
+        "Qantas计划结束时点已过但实际恢复未获新确认，未自动改为恢复",
+        "七区检索部分返回旧稿；其他旧事件未全部复核"
+      ],
+      "runId": "legacy-34"
+    },
+    {
+      "startedAt": "2026-09-25T14:00:45+08:00",
+      "finishedAt": "2026-09-25T14:02:50+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 1,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "NJF消息仅取得Shafaq引述，机场通函与独立佐证未取得",
+        "Qantas积压清理完成时间未知；其他旧事件未全部复核",
+        "七区新事件检索包含旧文及重复稿，不等于无新闻"
+      ],
+      "runId": "legacy-35"
+    },
+    {
+      "startedAt": "2026-09-25T18:00:41+08:00",
+      "finishedAt": "2026-09-25T18:02:08+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 0,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "NJF仍仅取得原Shafaq通函报道，未获独立新确认",
+        "Qantas官方仍为停工结束但SYD/MEL/BNE积压未清；无新增恢复确认",
+        "WorldACD公开目录最新仍为W37，未把旧观察期作为当日行情",
+        "部分地区检索返回旧文或重复稿，其他旧事件未全部复核"
+      ],
+      "runId": "legacy-36"
+    },
+    {
+      "startedAt": "2026-09-26T09:52:25+08:00",
+      "finishedAt": "2026-09-26T09:54:42+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 0,
+      "updated": 1,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "Reuters转载直接打开失败，搜索返回完整短稿；EBL负责人表述另由Shafaq正文核对",
+        "顺丰上海新加坡及国泰NMI迁移后续报道尚缺本轮更强原始执行证据，未新增确定班期",
+        "Qantas仍为9月25日积压更新，未有清理完成证据；其他旧事件未全部复核"
+      ],
+      "runId": "legacy-37"
+    },
+    {
+      "startedAt": "2026-09-26T14:00:50+08:00",
+      "finishedAt": "2026-09-26T14:02:55+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 1,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "FreightWaves网页工具超时，直接读取取得完整正文；DAFF维护公告正文未取得，不据摘要判断系统状态",
+        "其他旧事件未全部复核；Qantas积压未有清理完成新确认",
+        "七区部分检索结果为旧文及重复稿"
+      ],
+      "runId": "legacy-38"
+    },
+    {
+      "startedAt": "2026-09-26T18:00:27+08:00",
+      "finishedAt": "2026-09-26T18:01:49+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 0,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "Qantas积压公告仍为9月25日，未有清理完成新确认",
+        "汉莎官方公开信息页未找到BOM新通知，保留此前发言人报道及计划恢复日期",
+        "伊拉克伊朗航班限制未见本轮可核恢复；其他旧事件未全部复核",
+        "部分地区检索为旧文、转载及无具体货运变化的宣传，不据此认定无事件"
+      ],
+      "runId": "legacy-39"
+    },
+    {
+      "startedAt": "2026-09-27T16:52:58+08:00",
+      "finishedAt": "2026-09-27T16:54:48+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "TradeArabia网页工具失败，直接读取取得全文；WorldACD原始W38周报尚未取得",
+        "UAE逐班延误报道未取得足够货运影响和原始状态佐证，未扩展为枢纽停运",
+        "Qantas积压及其他旧事件未全部取得恢复确认"
+      ],
+      "runId": "legacy-40"
+    },
+    {
+      "startedAt": "2026-09-27T18:01:19+08:00",
+      "finishedAt": "2026-09-27T18:02:25+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 0,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "WorldACD W38报道与上一轮一致，原始周报仍未取得",
+        "Qantas积压及伊拉克航班限制未取得新恢复确认；其他旧事件未全部复核",
+        "UAE零散航班延误未获原始逐班货运影响佐证，未判断枢纽停运",
+        "七区检索部分返回旧文、重复转载和非航空货运消息"
+      ],
+      "runId": "legacy-41"
+    }
+  ],
+  "schemaVersion": 1,
+  "runId": "legacy-2026-09-27T180225-0800",
+  "lastAttemptAt": "2026-09-27T18:01:19+08:00",
+  "lastCompletedAt": "2026-09-27T18:02:25+08:00"
+}
