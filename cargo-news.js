@@ -1,5 +1,19 @@
 (function(){
   'use strict';
+  // Local files cannot fetch the JSON feed; open the public page without local URL details.
+  if(typeof window!=='undefined'&&window.location.protocol==='file:'){
+    const publicUrl='https://fengbill5112-code.github.io/cargo-news.html';
+    const panel=document.getElementById('news-status');
+    if(panel){
+      panel.textContent='这是本机页面，正在打开网站上的最新快讯。';
+      const link=document.createElement('a');
+      link.href=publicUrl;
+      link.textContent='点击打开全球空运快讯';
+      panel.append(link);
+    }
+    try{window.location.replace(publicUrl);}catch{/* Keep the public link available if navigation is blocked. */}
+    return;
+  }
   const regions=['亚洲','欧洲','北美','拉美','中东','非洲','大洋洲'];
   function safeLink(value){try{const url=new URL(value);return ['http:','https:'].includes(url.protocol)&&!url.username&&!url.password?url.href:null;}catch{return null;}}
   function latestScheduled(now){const offset=8*3600000,local=new Date(now+offset),day=Date.UTC(local.getUTCFullYear(),local.getUTCMonth(),local.getUTCDate());let result=day-86400000+18*3600000-offset;for(const hours of [9.5,14,18]){const t=day+hours*3600000-offset;if(t<=now)result=t;}return result;}
