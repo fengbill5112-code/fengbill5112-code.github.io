@@ -1,5 +1,5 @@
 {
-  "pageUpdated": "2026-09-28T09:20:38+08:00",
+  "pageUpdated": "2026-09-28T09:32:27+08:00",
   "lastSuccessfulCheck": null,
   "runStatus": "partial",
   "items": [
@@ -1482,6 +1482,31 @@
           "https://www.tradearabia.com/News/486833/Global-air-cargo-rebounds-as-Middle-East-capacity-stays-under-pressure"
         ]
       ]
+    },
+    {
+      "id": "dl-bos-fuel-embargo-20260925",
+      "region": "北美",
+      "type": "货物限制",
+      "state": "新增",
+      "title": "Delta Cargo因BOS燃油供应中断临时限制货物",
+      "airports": "BOS / Delta航班",
+      "occurred": "2026-09-25T17:35:00-05:00",
+      "evidenceThrough": "2026-09-28T09:30:26+08:00",
+      "confidence": "Delta Cargo公开告警已读取；未取得BOS机场或其他航司统一货运限制通知",
+      "fact": "Delta Cargo告警称，因BOS运行受持续燃油供应中断影响，即刻至2026年9月28日23:59 EST，对所有往返BOS的Delta航班实施临时货运限制：Delta Mainline仅DSH、DMD、DHV例外，Delta Connection全部产品禁运。",
+      "impact": "业务推断：影响仅限Delta承运的BOS相关货物，可能需要改配其他承运人或延期；不能扩大为BOS机场关闭、全部航司禁运或全美东北部货运中断。",
+      "action": "涉及Delta BOS进出港的单票，核对产品代码、实际承运航班、是否可改走其他航司及9月28日23:59 EST后的恢复通知。",
+      "titleEn": "Delta Cargo places temporary BOS cargo restrictions due to fuel supply disruption",
+      "factEn": "Delta Cargo said an ongoing fuel supply disruption affecting BOS operations led to temporary restrictions through 23:59 EST on September 28, 2026, for all Delta flights to and from BOS. Delta Mainline embargoes all products except DSH, DMD and DHV; Delta Connection embargoes all products.",
+      "impactEn": "Business inference: this affects Delta-carried BOS shipments and may require rerouting or delay. It does not prove BOS airport closure, an all-airline embargo, or a wider Northeast air cargo shutdown.",
+      "actionEn": "For Delta BOS shipments, verify product code, operating flight, alternative carrier options, and any post-September 28 23:59 EST resumption notice.",
+      "sources": [
+        [
+          "Delta Cargo Alerts and News",
+          "https://www.deltacargo.com/Cargo/catalog/alerts-and-news?from=specialized-fresh"
+        ]
+      ],
+      "updatedAt": "2026-09-28T09:32:27+08:00"
     }
   ],
   "runs": [
@@ -2519,10 +2544,58 @@
         "复核到9月26日IndexBox/TradeArabia类媒体转述W38；未取得WorldACD原始W38全文，维持单源媒体转述边界。",
         "过去七日未解决事件仍有 17 条未完成联网复核"
       ]
+    },
+    {
+      "runId": "run-20260928T093026-84c7dfe87f",
+      "startedAt": "2026-09-28T09:30:26+08:00",
+      "finishedAt": "2026-09-28T09:32:27+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "Delta Cargo页面可打开但正文抽取不稳定；本轮采用页面公开告警文本，仍建议后续复查是否发布9月28日23:59 EST后的恢复通知。",
+        "本轮只做公开网页检索，不能证明七大区无其他未被搜索引擎收录或未公开的货运事件。",
+        "部分历史复核依赖媒体转载或动态页面摘要；未把不可读或非货运直接证据用于新增事件。",
+        "本轮未发现窗口内新的亚洲机场中断、货机停飞或货站重大恢复证据；部分结果为9月22—25日既有事件后续或历史复核。",
+        "发现欧洲罢工/空管历史结果，但未取得窗口内新的货运实质变化或明确恢复通知。",
+        "Delta BOS为本轮可确认的货运限制线索；FAA/机场延误结果多为旅客航班或动态摘要，未作为货运事件采用。",
+        "未发现窗口内可读、可核实且具航空货运实质意义的新线索。",
+        "中东检索主要返回9月21—25日既有伊朗航班限制、DHL航线及国泰中东延期信息；未取得窗口内新的恢复或恶化证据。",
+        "未发现窗口内可读、可核实且具航空货运实质意义的新线索；部分结果为港口、海运或较早航空罢工。",
+        "Qantas Freight仍只见9月25日停工结束但积压延误的既有公告；未取得SYD/MEL/BNE积压清零或国泰CNS季节航线的新变化。",
+        "未发现承运人、开航日、班期或直飞连接的新确认；仍按预告/MoU处理。",
+        "国泰后续页面确认9月21日生效及每周三班货机，但未发现窗口内新的机场/货站操作变更或恢复类证据。",
+        "仅见既有取消2026/27季节服务报道及转载，未发现替代腹舱或货运接受安排。",
+        "未找到9月20报道后的官方恢复或积压清零确认；不能改为已恢复。",
+        "检索到9月22/25转载首航与每周B767F信息，但未取得持证运营航司、固定班期表或普通货代可售更新。",
+        "Hacis官方补充证实试运完成与服务扩展，但仍无常态班期、价格、货型接受或航空承运人确认；不构成恢复或实飞航空运力。",
+        "未找到官方实际执行、取消、货站影响或托斯卡纳拒绝加班安排结束证据。",
+        "JAL页面9月27 22:00 JST显示各地区No applicable airport，但仍提示货机/RFS需另查；无单票或货运积压恢复确认。",
+        "仍主要是9月25 FreightWaves引述汉莎发言人；10月1转NMI恢复尚未到来，未有实际复航证据。",
+        "检索到多家媒体继续报道NJF/EBL/ISU暂停往返伊朗航班，未发现解除或恢复确认。",
+        "检索到UAE/Iraq等继续执行限制的报道，未发现OFAC许可恢复或GCAA解除暂停证据。",
+        "Qantas Freight最新可见仍为9月25停工结束但SYD/MEL/BNE延误积压；未见积压清理完成。",
+        "可见9月24媒体/索引信息，未发现全面部署、服务时段、仓库清单或费用更新。",
+        "NATS仍显示问题已修复并有残余延误背景；未找到货运积压或逐航班恢复新确认。",
+        "9月22报道显示运行恢复，但未取得货运后续清理或具体货机影响清单；不新增状态。",
+        "WorldACD公开归档仍列W37；未发现W37数据更正或新口径。",
+        "WorldACD公开归档本轮仅见W37；W38仍为媒体转述，未取得原始周报。",
+        "过去七日未解决事件仍有 17 条未完成联网复核"
+      ]
     }
   ],
   "schemaVersion": 1,
-  "runId": "run-20260928T091836-f1d62cd4da",
-  "lastAttemptAt": "2026-09-28T09:18:36+08:00",
-  "lastCompletedAt": "2026-09-28T09:20:38+08:00"
+  "runId": "run-20260928T093026-84c7dfe87f",
+  "lastAttemptAt": "2026-09-28T09:30:26+08:00",
+  "lastCompletedAt": "2026-09-28T09:32:27+08:00"
 }
