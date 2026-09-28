@@ -13,6 +13,18 @@
 .board-alert-columns p{margin:0 0 12px}
 .board-alert-columns p:last-child{margin-bottom:0}
 .board-alert-impact{margin:22px 0 0;padding-top:16px;border-top:1px solid var(--line)}
+.board-company-notice{background:#edf0ec;border-top-color:#60757c}
+.board-company-notice .board-alert-label{color:#526d77}
+.board-policy-body{font-size:14px;line-height:1.9;overflow-wrap:anywhere}
+.board-policy-body h3{margin:20px 0 8px;font-size:17px;line-height:1.5}
+.board-policy-body p{margin:0 0 12px}
+.board-policy-list{margin:0 0 18px;padding-left:24px}
+.board-policy-list li+li{margin-top:10px}
+.board-source-document{margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
+.board-source-document summary{cursor:pointer;font-size:14px;font-weight:650}
+.board-source-document img{display:block;width:100%;max-width:637px;height:auto;margin-top:18px;background:#fff}
+.board-source-document p{margin:10px 0 0;color:var(--muted);font-size:12px;line-height:1.8}
+@media(max-width:650px){.board-policy-body{font-size:13px}}
 @media(max-width:650px){.board-alert{padding:18px;margin-bottom:26px}.board-alert h2{font-size:21px}.board-alert-columns{grid-template-columns:1fr;gap:22px}.board-alert-columns p,.board-alert-impact{font-size:13px}}
 .board-date-note{margin:0 0 32px;padding:12px 16px;background:#edf0ec;color:var(--muted);font-size:13px;line-height:1.8}
 .product-board{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:38px;align-items:start}
