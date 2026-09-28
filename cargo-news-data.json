@@ -1,7 +1,7 @@
 {
-  "pageUpdated": "2026-09-28T09:32:27+08:00",
+  "pageUpdated": "2026-09-28T14:03:17+08:00",
   "lastSuccessfulCheck": null,
-  "runStatus": "partial",
+  "runStatus": "failed",
   "items": [
     {
       "id": "uk-nats-20260908",
@@ -2592,10 +2592,31 @@
         "WorldACD公开归档本轮仅见W37；W38仍为媒体转述，未取得原始周报。",
         "过去七日未解决事件仍有 17 条未完成联网复核"
       ]
+    },
+    {
+      "runId": "run-20260928T140015-ad8c641085",
+      "startedAt": "2026-09-28T14:00:15+08:00",
+      "finishedAt": "2026-09-28T14:03:17+08:00",
+      "status": "failed",
+      "regionsSearched": [],
+      "added": 0,
+      "updated": 0,
+      "unsearchedRegions": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "sourceGaps": [
+        "本轮研究或候选校验失败，已保留旧事件；详情仅留在私有运行目录"
+      ]
     }
   ],
   "schemaVersion": 1,
-  "runId": "run-20260928T093026-84c7dfe87f",
-  "lastAttemptAt": "2026-09-28T09:30:26+08:00",
-  "lastCompletedAt": "2026-09-28T09:32:27+08:00"
+  "runId": "run-20260928T140015-ad8c641085",
+  "lastAttemptAt": "2026-09-28T14:00:15+08:00",
+  "lastCompletedAt": "2026-09-28T14:03:17+08:00"
 }
