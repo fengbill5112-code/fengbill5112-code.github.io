@@ -1,5 +1,5 @@
 {
-  "pageUpdated": "2026-09-30T18:00:10+08:00",
+  "pageUpdated": "2026-10-01T09:30:18+08:00",
   "lastSuccessfulCheck": null,
   "runStatus": "failed",
   "items": [
@@ -2921,10 +2921,31 @@
       "sourceGaps": [
         "本轮研究或候选校验失败，已保留旧事件；详情仅留在私有运行目录"
       ]
+    },
+    {
+      "runId": "run-20261001T093015-60061bee23",
+      "startedAt": "2026-10-01T09:30:15+08:00",
+      "finishedAt": "2026-10-01T09:30:18+08:00",
+      "status": "failed",
+      "regionsSearched": [],
+      "added": 0,
+      "updated": 0,
+      "unsearchedRegions": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "sourceGaps": [
+        "本轮研究或候选校验失败，已保留旧事件；详情仅留在私有运行目录"
+      ]
     }
   ],
   "schemaVersion": 1,
-  "runId": "run-20260930T180006-ec0908fd02",
-  "lastAttemptAt": "2026-09-30T18:00:06+08:00",
-  "lastCompletedAt": "2026-09-30T18:00:10+08:00"
+  "runId": "run-20261001T093015-60061bee23",
+  "lastAttemptAt": "2026-10-01T09:30:15+08:00",
+  "lastCompletedAt": "2026-10-01T09:30:18+08:00"
 }
