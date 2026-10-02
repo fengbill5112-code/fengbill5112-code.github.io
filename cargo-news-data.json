@@ -1,7 +1,7 @@
 {
-  "pageUpdated": "2026-10-02T09:30:26+08:00",
+  "pageUpdated": "2026-10-02T14:04:47+08:00",
   "lastSuccessfulCheck": null,
-  "runStatus": "failed",
+  "runStatus": "partial",
   "items": [
     {
       "id": "uk-nats-20260908",
@@ -1582,6 +1582,56 @@
         ]
       ],
       "updatedAt": "2026-10-01T16:17:22+08:00"
+    },
+    {
+      "id": "italy-air-cargo-strikes-20261016",
+      "region": "欧洲",
+      "type": "航空与货运罢工预告",
+      "state": "预告",
+      "title": "意大利10月16日登记多项航空/货运行动，含Poste Air Cargo技术机组24小时罢工",
+      "airports": "Poste Air Cargo / PSA / FLR / VCE；Calabria/Sicily road freight links",
+      "occurred": "2026-10-16/2026-10-20",
+      "evidenceThrough": "2026-10-02T14:00:08+08:00",
+      "confidence": "意大利交通部罢工登记页10月2日可读；实际执行、最低保障航班及货站影响待核",
+      "fact": "意大利交通部罢工登记页10月2日列出：10月16日Poste Air Cargo技术飞行人员24小时罢工；同日PSA/FLR相关Toscana Aeroporti、GH Toscana和Consulta人员24小时行动；VCE Sicuritalia Marco Polo机场人员24小时行动。页面还列出10月16日至20日Calabria和Sicily区域货运公路停运行动。",
+      "impact": "业务推断：可能影响Poste Air Cargo邮货/货机链路、PSA/FLR/VCE腹舱和地面衔接，以及意大利南部部分机场提派卡车；但这是预告登记，不等于机场关闭或航班已取消。",
+      "action": "10月16日前复查MIT/ENAC、机场和承运人公告；涉及Poste、PSA、FLR、VCE及意大利南部提派的货物，提前确认保障航班、GHA截货、卡车备用方案和补班安排。",
+      "titleEn": "Italy registers several October 16 aviation and freight actions, including a 24-hour Poste Air Cargo technical crew strike",
+      "factEn": "Italy's transport strike register, read on October 2, lists a 24-hour strike by Poste Air Cargo technical flight personnel on October 16; a 24-hour action by Toscana Aeroporti, GH Toscana and Consulta personnel at PSA/FLR on the same day; and a 24-hour Sicuritalia Marco Polo airport action at VCE. The page also lists regional road-freight stoppages in Calabria and Sicily from October 16 to 20.",
+      "impactEn": "Business inference: the actions may affect Poste Air Cargo mail/cargo links, belly and ground-handling connections at PSA/FLR/VCE, and some airport trucking in southern Italy. This is a strike registration, not proof of airport closure or cancelled flights.",
+      "actionEn": "Before October 16, recheck MIT/ENAC, airport and carrier notices. For Poste, PSA, FLR, VCE and southern Italy pickup/delivery cargo, confirm protected flights, GHA cut-offs, backup trucking and recovery arrangements.",
+      "sources": [
+        [
+          "Italian Ministry of Infrastructure and Transport strike register",
+          "https://scioperi.mit.gov.it/mit2/public/scioperi"
+        ]
+      ],
+      "updatedAt": "2026-10-02T14:04:47+08:00"
+    },
+    {
+      "id": "nx-jal-lax-asia-20261003",
+      "region": "北美",
+      "type": "货机运力预告",
+      "state": "预告",
+      "title": "NX与JAL计划10月3日起开行LAX—NRT—TPE—SIN—NRT—LAX每周747F环线",
+      "airports": "LAX / NRT / TPE / SIN",
+      "occurred": "2026-10-03",
+      "evidenceThrough": "2026-10-02T14:00:08+08:00",
+      "confidence": "NX Group 10月1日英文新闻稿已读；首航实际执行和公开订舱条件待核",
+      "fact": "NX Group 10月1日公告称，将与JAL启动覆盖亚洲区内和北美—亚洲航线的运输合作，使用一架由JAL通过合作方取得的747F。环线从LAX出发，经NRT、TPE、SIN、NRT返回LAX，首航计划为2026年10月3日，2026年先按每周一班运行。公告称该服务面向AI、半导体、服务器机架、数据中心设备等大件和高价值货需求。",
+      "impact": "业务推断：这是北美西岸与日本、台湾、新加坡间的新增大型货机容量线索，可关注科技货和大件货；但属于计划首航，尚不能替代实际订舱确认，也不等于拉美后程已可售。",
+      "action": "向NX/JAL确认首航执飞、销售渠道、可用重量/板位、特殊货限制、LAX交货点和亚洲各站装卸规则；对拉美后程需单独核实。",
+      "titleEn": "NX and JAL plan weekly LAX-NRT-TPE-SIN-NRT-LAX 747F circuit from October 3",
+      "factEn": "NX Group announced on October 1 that it and JAL will launch a transport partnership covering intra-Asia and North America-Asia routes using a 747F secured by JAL through partners. The circuit originates in LAX and routes via NRT, TPE, SIN and NRT back to LAX, with the first flight planned for October 3, 2026 and one weekly flight in 2026. The release says the service targets AI, semiconductor, server rack, data center equipment and other oversized or high-value cargo demand.",
+      "impactEn": "Business inference: this is a new large-freighter capacity lead between the U.S. West Coast, Japan, Taiwan and Singapore, relevant for technology and oversized cargo. It remains a planned launch and does not replace booking confirmation or prove sellable Latin America onward capacity.",
+      "actionEn": "Confirm first-flight operation, sales channel, available weight and positions, special-cargo limits, LAX tender point and handling rules at each Asian stop with NX/JAL; verify any Latin America onward leg separately.",
+      "sources": [
+        [
+          "NX Group press release",
+          "https://www.nipponexpress.com/press/1480/"
+        ]
+      ],
+      "updatedAt": "2026-10-02T14:04:47+08:00"
     }
   ],
   "runs": [
@@ -3100,10 +3150,58 @@
       "sourceGaps": [
         "本轮研究或候选校验失败，已保留旧事件；详情仅留在私有运行目录"
       ]
+    },
+    {
+      "runId": "run-20261002T140008-8a767fa37b",
+      "startedAt": "2026-10-02T14:00:08+08:00",
+      "finishedAt": "2026-10-02T14:04:47+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 2,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "无法宣称全球穷尽覆盖；本轮为公开英文检索加少量官方非中文页面核实。",
+        "部分来源为货代或媒体汇总，未能逐项取得机场、航司、空管、NOTAM或货站原始公告。",
+        "Delta Cargo页面本轮可打开但正文以动态页面/搜索抓取呈现，未发现单独恢复公告。",
+        "拉美、非洲、大洋洲本轮未找到过去24小时内可读且足以形成航空货运中断/恢复事件的新增来源。",
+        "未逐一检索所有亚洲机场、航司和货站；TG恢复以Expeditors和CAAT为准，未取得泰航英文原始恢复通知。",
+        "10月16日意大利行动为官方登记预告，实际执行、最低保障航班和货站影响未核；未发现过去24小时内可确认的欧洲机场货运突发关闭。",
+        "Delta BOS未取得明确恢复通知；FAA NAS动态页面仅显示一般运行事件，未逐机场核实所有货站。",
+        "本轮未找到过去24小时内可读且直接支持拉美航空货运中断/恢复的独立新事件；部分结果为旧航线周年、海运/卡车市场或非拉美主事件。",
+        "Expeditors为货代汇总，需航司、机场、空管或NOTAM逐项复核；NJF恢复报道未覆盖EBL/ISU及货运服务全范围。",
+        "检索主要返回8月IATA滞后市场统计和非突发容量计划，未作为当前中断/恢复事件入库；未逐一覆盖非洲所有机场和货站。",
+        "未发现Qantas Freight罢工积压已清理完毕的官方新证据；大洋洲检索结果多为旧公告、边境系统未来维护或泛市场观察。",
+        "检索到9月27日Air Peace燃油/天气/VFR限制报道复述，未发现ABV/MIU或Air Peace货运/运行恢复的新增官方确认；不返回更新。",
+        "找到国泰新闻中心9月23日确认NMI迁移及每周三班货机，已作为本轮实质细节更新返回；未逐班验证实际执行。",
+        "Delta页面显示限制有效期至10月1日23:59 EST，但未发现明确恢复公告；已以恢复待核更新返回。",
+        "9月13日历史行动未找到GHA/机场货运恢复通知；本轮另发现10月16日新登记航空/货运行动，已作为新预告事件返回。",
+        "仅找到9月25日FreightWaves称计划10月1日在NMI恢复，未找到10月1日实际首班或货站接货恢复确认；不更新为已恢复。",
+        "Expeditors 9月30日页面仍是最新可读区域汇总，支持持续限制但不是10月1/2新的广泛关闭；未返回重复更新。",
+        "找到9月28日NJF—伊朗商业航班恢复报道，已作为部分恢复更新返回；EBL/ISU和货运服务范围未闭合。",
+        "OFAC制裁及UAE/地区限制仍有后续报道，但未找到UAE伊朗航司航班恢复证据；Al Jazeera称制裁未使伊朗航空完全停飞，不能据此恢复既有UAE限制事件。",
+        "找到Qantas Freight新闻页和行业转载，但未找到SYD/MEL/BNE积压清理完成的官方新确认；保持既有恢复中状态，不返回更新。",
+        "Expeditors 10月1日和CAAT 10月1日支持解除停收但仍有积压，已作为恢复中更新返回；泰航英文原始恢复通知未取得。",
+        "WorldACD公开归档仍显示最新为9月28日W38，未找到W39或10月1/2新周报；不返回重复市场指标。",
+        "过去七日未解决事件仍有 11 条未完成联网复核",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：tg-bkk-cargo-suspension-20260930",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：dl-bos-fuel-embargo-20260925",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：mia-20260906",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：cx-bom-nmi-20260921",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：njf-iran-20260925"
+      ]
     }
   ],
   "schemaVersion": 1,
-  "runId": "run-20261002T093015-2793f084ca",
-  "lastAttemptAt": "2026-10-02T09:30:15+08:00",
-  "lastCompletedAt": "2026-10-02T09:30:26+08:00"
+  "runId": "run-20261002T140008-8a767fa37b",
+  "lastAttemptAt": "2026-10-02T14:00:08+08:00",
+  "lastCompletedAt": "2026-10-02T14:04:47+08:00"
 }
