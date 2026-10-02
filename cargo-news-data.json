@@ -1,5 +1,5 @@
 {
-  "pageUpdated": "2026-10-02T14:04:47+08:00",
+  "pageUpdated": "2026-10-02T18:03:29+08:00",
   "lastSuccessfulCheck": null,
   "runStatus": "partial",
   "items": [
@@ -1632,6 +1632,81 @@
         ]
       ],
       "updatedAt": "2026-10-02T14:04:47+08:00"
+    },
+    {
+      "id": "aa-cargo-upgrade-restrictions-20261001",
+      "region": "北美",
+      "type": "承运限制",
+      "state": "新增",
+      "title": "American Airlines Cargo系统升级期间对部分产品实施临时限制",
+      "airports": "American Airlines Cargo网络；具体航班按订舱核实",
+      "occurred": "2026-10-01/2026-10-12",
+      "evidenceThrough": "2026-10-02T18:00:00+08:00",
+      "confidence": "AA Cargo公开页面可读；未逐航班验证实际接受",
+      "fact": "American Airlines Cargo公告称，为配合aacargo.com升级，对9月30日至10月12日航班设置临时操作限制。10月1日至3日订舱、适用于10月1日至12日航班的窗口中，Critical PPS和EZBook完全限制；AVI、HR及受监管DG为部分限制。10月4日起订舱窗口显示限制解除。",
+      "impact": "业务推断：影响AA承运的特定产品和订舱窗口，可能需要改期、改产品或改承运人；不代表美国机场关闭或AA全部普货禁运。",
+      "action": "涉及AA的AVI、HR、DG、Critical PPS、EZBook货物，按航班日期和订舱日期核对限制窗口，提前向销售确认可接受产品和替代方案。",
+      "titleEn": "American Airlines Cargo applies temporary product restrictions during aacargo.com upgrade",
+      "factEn": "American Airlines Cargo says it is applying temporary operational restrictions for flights between September 30 and October 12 during its aacargo.com upgrade. For bookings from October 1 to 3 covering flights from October 1 to 12, Critical PPS and EZBook are fully restricted, while AVI, HR and regulated DG are partially restricted. The page states restrictions will be lifted for the booking window from October 4 onward.",
+      "impactEn": "Business inference: the impact is limited to AA-carried products and defined booking/flight windows, and may require date, product or carrier changes. It does not indicate U.S. airport closure or a blanket AA general-cargo embargo.",
+      "actionEn": "For AA AVI, HR, DG, Critical PPS and EZBook shipments, check both booking date and flight date against the restriction windows and confirm acceptable products and alternatives with AA sales.",
+      "sources": [
+        [
+          "American Airlines Cargo upgrade restrictions",
+          "https://info.aacargo.com/icargo_restrictions?elq=00000000000000000000000000000000&elqTrackId=4FE75AD8ADC85E9F33800096E8A92C5E&elqaid=34&elqat=2"
+        ]
+      ],
+      "updatedAt": "2026-10-02T18:03:29+08:00"
+    },
+    {
+      "id": "iag-paperless-docs-20261001",
+      "region": "欧洲",
+      "type": "单证流程",
+      "state": "预告",
+      "title": "IAG Cargo将分阶段推行无纸化货运单证流程",
+      "airports": "IAG Cargo网络；Asia Pacific / India / Middle East / North America / Latin America / UK / Africa / Europe等按阶段实施",
+      "occurred": "2026-10-06/2026-10-27",
+      "evidenceThrough": "2026-10-02T18:00:00+08:00",
+      "confidence": "IAG Cargo 10月1日更新的Operational Alerts页面可读；具体航线资格需另查",
+      "fact": "IAG Cargo 10月1日更新称，自10月6日起分阶段调整纸质货运单证流程：10月6日先适用于Asia Pacific、India、Middle East、North America和Latin America；10月20日适用于United Kingdom和Africa；10月27日适用于Europe、Caribbean和Rest of the World。已电子提交且符合条件的eAWB、eCSD、FHL、eDGD等不应再提供纸质副本；部分正本文件仍需随货。",
+      "impact": "业务推断：这会影响交货文件准备和现场收运流程，但不是航班、舱位或机场运行变化；不符合电子路径资格的货件仍可能需要纸质转换或随货原件。",
+      "action": "使用IAG Cargo前按起运地生效日期核对航线和单证资格，提前完成eAWB/eCSD/FHL/eDGD提交，并确认HR、AVI、植检/卫生证书、ATA单证册等正本随货要求。",
+      "titleEn": "IAG Cargo to phase in paperless shipment documentation process",
+      "factEn": "IAG Cargo updated its operational alerts on October 1, saying it will introduce paper shipment documentation changes in phases from October 6. Asia Pacific, India, Middle East, North America and Latin America start on October 6; the United Kingdom and Africa on October 20; and Europe, Caribbean and Rest of the World on October 27. For eligible paperless routes, customers should not provide physical copies of documents already submitted electronically, including eAWB, eCSD, FHL and eDGD, while some original documents still need to travel with the shipment.",
+      "impactEn": "Business inference: this affects tender documentation and station acceptance workflow, not flight operations, capacity or airport status. Shipments that are not eligible for electronic routes may still require paper conversion or original documents with cargo.",
+      "actionEn": "Before using IAG Cargo, check the origin implementation date and route eligibility, submit eAWB/eCSD/FHL/eDGD in advance, and confirm original-document requirements for HR, AVI, phytosanitary/health certificates and carnets.",
+      "sources": [
+        [
+          "IAG Cargo Operational Alerts",
+          "https://www.iagcargo.com/en/operational-alerts/"
+        ]
+      ],
+      "updatedAt": "2026-10-02T18:03:29+08:00"
+    },
+    {
+      "id": "jal-atlas-lax-nrt-20261002",
+      "region": "北美",
+      "type": "货机运力",
+      "state": "新增",
+      "title": "JAL 10月2日起与Atlas Air开通NRT—LAX 747F代码共享货机",
+      "airports": "NRT / LAX；另含JAL冬季货机网络",
+      "occurred": "2026-10-02",
+      "evidenceThrough": "2026-10-02T18:00:00+08:00",
+      "confidence": "JAL英文新闻稿可读；具体月度班表和可售舱位需在JAL Cargo系统核实",
+      "fact": "JAL Group 10月1日公布2026财年冬季国际货运网络，称自10月2日起将与Atlas Air在成田—洛杉矶航线使用747F开通新的代码共享运营。公告同时说明计划和时刻仍以相关主管机关申请与批准为准，详细月度航班表需查JAL Cargo网站。",
+      "impact": "业务推断：这是日本—美国西岸大货机能力的新增线索，可关注高科技、大件和高价值货；但公告不等于每票都有可售板位，也不证明拉美后程已开放。",
+      "action": "向JAL Cargo/销售确认实际执飞日、Atlas承运安排、板位/重量、LAX交货点、危险品及超限货限制，再用于客户承诺。",
+      "titleEn": "JAL launches NRT-LAX 747F codeshare with Atlas Air from October 2",
+      "factEn": "JAL Group announced its FY2026 winter international cargo network on October 1, stating that from October 2 it will launch new Narita-Los Angeles codeshare operations using 747 freighters in partnership with Atlas Air. The release says plans and schedules are subject to applications and approvals by relevant authorities, and detailed monthly schedules should be checked on the JAL Cargo website.",
+      "impactEn": "Business inference: this is a new large-freighter capacity lead between Japan and the U.S. West Coast, relevant for technology, oversized and high-value cargo. It does not prove sellable space for every shipment or available Latin America onward capacity.",
+      "actionEn": "Confirm actual operating dates, Atlas operating details, available positions and weight, LAX tender point, and DG/oversize restrictions with JAL Cargo or sales before committing to customers.",
+      "sources": [
+        [
+          "JAL Group press release",
+          "https://press.jal.co.jp/en/release/202610/009745.html"
+        ]
+      ],
+      "updatedAt": "2026-10-02T18:03:29+08:00"
     }
   ],
   "runs": [
@@ -3198,10 +3273,56 @@
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：cx-bom-nmi-20260921",
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：njf-iran-20260925"
       ]
+    },
+    {
+      "runId": "run-20261002T180020-3827579fba",
+      "startedAt": "2026-10-02T18:00:20+08:00",
+      "finishedAt": "2026-10-02T18:03:29+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 3,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "Delta Cargo Alerts and News页面搜索结果显示BOS限制可能有后续日期变化，但完整URL打开正文为空，未满足本轮公开来源读取要求。",
+        "部分机场/航司动态页面可能需要脚本渲染或实时系统查询，本轮仅使用原生web搜索和可读公开正文，未能逐班核实航班执行、货站排队和实际订舱接受。",
+        "地区发现搜索不能穷尽全球所有本地机场、GHA和NOTAM变化；未发现不等于不存在事件。",
+        "检索发现BKK恢复线索并读取来源；英文公开来源覆盖有限，未能排除亚洲其他未被索引的机场/航司短通知限制。",
+        "检索到欧洲罢工日历和IAG流程更新；罢工类来源多为旅客口径，未逐一取得各机场GHA货站实际影响。",
+        "检索到AA Cargo系统升级限制和JAL/Atlas LAX线索；Delta BOS告警页面打开后正文为空，无法作为公开事件更新来源。",
+        "本轮英文实时检索未发现过去24小时可读且直接支持拉美航空货运中断/恢复的独立新事件；不能据此宣称拉美无其他事件。",
+        "检索主要返回9月30日前后区域汇总和既有伊朗制裁后续；未取得所有国家民航局/机场原始公告逐项确认。",
+        "本轮英文实时检索未发现过去24小时可读且直接支持非洲航空货运中断/恢复的独立新事件；尼日利亚Air Peace复核未取得官方机场/空管原始通知。",
+        "检索到澳洲ICS维护预告和旅客口径罢工/天气内容，但未取得过去24小时新的航空货运实质变化；Qantas积压清理完成未获官方新证据。",
+        "检索到TheCable等9月27日转述Air Peace声明，未发现10月1—2日机场、空管或航司官方恢复/持续限制新确认；不更新状态。",
+        "检索到国泰9月23日官方迁移新闻，与既有事件一致；未发现10月1—2日逐班、货站或进一步恢复变化。",
+        "搜索结果提示Delta Cargo BOS限制日期可能有后续延长，但Delta Cargo告警页以完整URL打开后正文为空；按来源规则不更新事件，列入sourceGaps。",
+        "MIT登记页10月2日仍列10月16日Poste Air Cargo技术飞行人员24小时罢工及相关机场/货运行动；仍为预告，未到执行窗口。",
+        "未找到9月13日相关机场/GHA货运影响或正式恢复总结；个别社交内容不足以更新历史事件。",
+        "FreightWaves和The Loadstar仍为预计10月1日NMI恢复/切换口径；未找到已实际执飞或货站完全恢复的可读官方确认。",
+        "Expeditors 9月30日区域更新仍显示多国空域/航司限制与短通知调整风险；未发现10月1—2日更高等级的新区域关闭或全面恢复证据。",
+        "Anadolu确认Iraqi Airways于9月28日恢复NJF—伊朗机场航班；EBL/ISU及其他国家/航司恢复未确认，已作为部分恢复更新。",
+        "NX和JAL 10月1日公告均确认首航计划为10月3日从LAX出发；本轮时间仍未到首航执行，未取得实际执飞证据，维持预告。",
+        "OFAC页面仍显示9月8日伊朗航空相关制裁行动；NJF有部分恢复报道，但未发现阿联酋/阿曼等对伊朗航司限制解除的公开可读证据。",
+        "检索未发现Qantas Freight 10月1—2日关于SYD/MEL/BNE积压完全清理的新官方更新；不把时间推移视为已恢复。",
+        "Expeditors和泰航10月1日信息支持从暂停收货更新为恢复中；仍无完全清场和所有承运限制解除证据。",
+        "WorldACD公开周报归档仍以9月28日W38为最新可见条目，未发现W39公开周报；不更新市场指标。",
+        "过去七日未解决事件仍有 13 条未完成联网复核",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：tg-bkk-cargo-suspension-20260930",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：njf-iran-20260925"
+      ]
     }
   ],
   "schemaVersion": 1,
-  "runId": "run-20261002T140008-8a767fa37b",
-  "lastAttemptAt": "2026-10-02T14:00:08+08:00",
-  "lastCompletedAt": "2026-10-02T14:04:47+08:00"
+  "runId": "run-20261002T180020-3827579fba",
+  "lastAttemptAt": "2026-10-02T18:00:20+08:00",
+  "lastCompletedAt": "2026-10-02T18:03:29+08:00"
 }
