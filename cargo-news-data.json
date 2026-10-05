@@ -1,5 +1,5 @@
 {
-  "pageUpdated": "2026-10-05T14:03:17+08:00",
+  "pageUpdated": "2026-10-05T18:02:59+08:00",
   "lastSuccessfulCheck": null,
   "runStatus": "partial",
   "items": [
@@ -1707,6 +1707,31 @@
         ]
       ],
       "updatedAt": "2026-10-02T18:03:29+08:00"
+    },
+    {
+      "id": "worldacd-w39-20261005",
+      "region": "亚洲",
+      "type": "周度市场指标",
+      "state": "新增",
+      "title": "WorldACD转述：金周前全球货量环比降4%，亚太降幅最大且价格继续上升",
+      "airports": "全球区域汇总；亚太、MESA、欧洲、非洲、北美、CSA样本",
+      "occurred": "2026-10-05",
+      "evidenceThrough": "2026-10-05T18:00:00+08:00",
+      "confidence": "CAAS 10月5日全文转述WorldACD；原始WorldACD周报未取得，不能作为实盘价格",
+      "fact": "CAAS 10月5日引述WorldACD称，最新报告期全球计费重量环比下降4%，除非洲外各始发区域下降，亚太下降7%为最大；全球均价环比升2%，亚太升4%，非洲、欧洲和MESA各升3%，北美价格持平。报道称中国10月1—7日黄金周将继续影响出口量。",
+      "impact": "PUBLIC-PROXY / LAGGING-BACKGROUND：这是区域样本市场指标和节假日前后背景，不是当前中国某机场可售舱位或+1000kg成交价。亚太到欧美的货量和价格方向分化，需按口岸与货型单独询价。",
+      "action": "报价时保留WorldACD样本和观察期口径；中国、香港、台湾、东南亚出欧美货物按起运机场、承运人、日期、产品和货型重新确认舱位与价格。",
+      "titleEn": "WorldACD report cited by CAAS: global tonnage down 4% before Golden Week, Asia Pacific weakest while prices keep rising",
+      "factEn": "CAAS cited WorldACD on October 5 as saying global chargeable weight fell 4% week on week in the latest reporting period, with all origin regions except Africa declining and Asia Pacific down the most at 7%. Global average prices rose 2%, with Asia Pacific up 4%, Africa, Europe and MESA up 3% each, and North America unchanged. The report said China’s October 1-7 Golden Week would continue to affect export volumes.",
+      "impactEn": "PUBLIC-PROXY / LAGGING-BACKGROUND: this is a regional sample-based market indicator and holiday-period context, not proof of sellable space or executable +1000 kg rates from any specific China airport. Asia-to-Europe and Asia-to-U.S. volume and price signals are mixed and need origin- and cargo-specific quoting.",
+      "actionEn": "When using the trend, retain the WorldACD sample and observation-period caveat. Reconfirm capacity and rates for China, Hong Kong, Taiwan and Southeast Asia exports to Europe or the U.S. by origin airport, carrier, date, product and cargo type.",
+      "sources": [
+        [
+          "CAAS / WorldACD市场报道",
+          "https://caasint.com/global-air-cargo-tonnage-falls-as-rates-rise-ahead-of-china-golden-week/"
+        ]
+      ],
+      "updatedAt": "2026-10-05T18:02:59+08:00"
     }
   ],
   "runs": [
@@ -3689,10 +3714,59 @@
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：njf-iran-20260925",
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：worldacd-w38-20260926"
       ]
+    },
+    {
+      "runId": "run-20261005T180015-3c877b28bd",
+      "startedAt": "2026-10-05T18:00:15+08:00",
+      "finishedAt": "2026-10-05T18:02:59+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "Delta Cargo BOS页面搜索结果可见10月1日延长限制至10月3日23:59 EST，但打开URL后正文为空，本轮不作为事件更新来源。",
+        "Gulf News关于UAE暂停伊朗航司页面搜索摘要可见，但打开时报Internal Error，本轮不作为更新来源。",
+        "JAL/NX LAX-亚洲环线未取得10月3日首航实际执飞证据；只保留复核缺口，不更新既有预告。",
+        "大洋洲ICS维护线索未取得ABF原始公开正文，且发布时间不在过去24小时窗口内，本轮不形成候选事件。",
+        "本轮为公开搜索抽样，地区搜索有结果不代表全球无其他事件。",
+        "搜索发现TG/BKK恢复、WorldACD金周前市场指标等线索；未能取得泰航/AOT原始英文货站恢复通告。",
+        "发现欧洲天气延误类聚合报道和Eurocontrol事件页，但未取得过去24小时内可直接支持航空货运事件的可靠原始机场/航司正文；意大利罢工通过复核覆盖。",
+        "搜索发现JFK AirTrain夜间中断，但货运意义不足；AA/JAL/Delta通过专项复核覆盖。",
+        "未发现过去24小时内可读且具备明确航空货运影响的新增拉美事件；结果多为海运/市场泛述或旧资料。",
+        "发现中东航班延误聚合报道和旧区域更新；可确认的实质更新主要来自NJF专项复核。Gulf News UAE/GCAA页面打开报错，未作为更新来源。",
+        "未发现过去24小时内可读且可直接形成新增航空货运事件的非洲来源；结果主要为滞后IATA月度背景或非官方汇总。",
+        "发现澳大利亚ICS维护预告转载，但发布时间较早且需要ABF原始通知；未形成过去24小时新增航空货运事件。",
+        "已读取AA Cargo限制页；10月4日起窗口显示No restrictions，本轮已返回已恢复更新。",
+        "找到Channels等9月27日同源/同日解释，未发现10月4—5日新的ABV燃油或MIU运行恢复确认；不更新状态。",
+        "搜索结果显示Delta Cargo 10月1日曾把BOS限制延至10月3日23:59 EST，但Delta页面打开后正文不可读；未取得可发布来源正文，不能更新为已恢复或改写事件。",
+        "已读取IAG Cargo Operational Alerts，仍为10月1日更新的10月6/20/27分阶段实施安排；未见新的执行后变更。",
+        "已读取MIT 10月5日页面，10月16日Poste Air Cargo、PSA/FLR、VCE及货运公路行动仍列示；未到窗口，未见取消或执行结果。",
+        "搜索到后续旅行媒体/Strike Tracker将9月13日多项机场行动标为ended，但不是承运人/GHA货运恢复证明；不返回历史事件更新。",
+        "已读取JAL原公告，仍支持10月2日起NRT-LAX 747F代码共享计划；未取得首航实际执飞、舱位销售或货站操作的新确认。",
+        "找到Expeditors 9月30日区域更新和IAG 10月1日承运人限制；未见10月4—5日更全面的区域空域/货运更新。",
+        "已取得Shafaq 10月4日NJF恢复证据并返回更新；EBL/ISU仍未闭合。",
+        "已读取JAL和NX/JAL相关页面；只确认计划和销售口径，未取得10月3日LAX环线首航实际执行的独立确认。",
+        "搜索结果显示UAE/GCAA暂停仍为9月24日直到另行通知；Gulf News页面打开报错，未取得可发布正文更新，也未见恢复确认。",
+        "已读取Expeditors 10月1日恢复更新并返回恢复中事件；泰航/AOT原始英文操作通知仍未取得。",
+        "已读取ITJ对W38的转述；另发现10月5日CAAS/WorldACD最新市场报道并作为新W39候选返回。",
+        "过去七日未解决事件仍有 13 条未完成联网复核",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：tg-bkk-cargo-suspension-20260930",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：njf-iran-20260925",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：aa-cargo-upgrade-restrictions-20261001"
+      ]
     }
   ],
   "schemaVersion": 1,
-  "runId": "run-20261005T140005-a15b1acdec",
-  "lastAttemptAt": "2026-10-05T14:00:05+08:00",
-  "lastCompletedAt": "2026-10-05T14:03:17+08:00"
+  "runId": "run-20261005T180015-3c877b28bd",
+  "lastAttemptAt": "2026-10-05T18:00:15+08:00",
+  "lastCompletedAt": "2026-10-05T18:02:59+08:00"
 }
