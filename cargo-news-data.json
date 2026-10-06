@@ -1,5 +1,5 @@
 {
-  "pageUpdated": "2026-10-06T09:33:21+08:00",
+  "pageUpdated": "2026-10-06T14:03:41+08:00",
   "lastSuccessfulCheck": null,
   "runStatus": "partial",
   "items": [
@@ -1732,6 +1732,31 @@
         ]
       ],
       "updatedAt": "2026-10-05T18:02:59+08:00"
+    },
+    {
+      "id": "lba-strike-20261016",
+      "region": "欧洲",
+      "type": "机场罢工预告",
+      "state": "预告",
+      "title": "Leeds Bradford机场员工计划10月16日至18日分两日罢工",
+      "airports": "LBA",
+      "occurred": "2026-10-16/2026-10-18",
+      "evidenceThrough": "2026-10-06T14:00:05+08:00",
+      "confidence": "ITV 10月5日报道可读；机场称预计接近正常运行，未取得机场货运或航司货运通知",
+      "fact": "ITV 10月5日报道，约130名Leeds Bradford Airport员工计划因薪酬争议在10月16日03:00至10月18日06:00期间分两日罢工，涉及空管、安检、客户岗位和清洁人员。工会称可能导致机场关闭，机场方面则表示现阶段预计接近正常运行。",
+      "impact": "业务推断：如罢工执行，LBA客机腹舱、邮件/快件衔接和机场地面交接可能受航班延误或取消影响；当前证据不支持写成LBA已关闭或货站已停收。",
+      "action": "涉及LBA的货物在10月16日前复查机场、航司和GHA通知；确认保障航班、交货截点、改配机场及地面转运方案。",
+      "titleEn": "Leeds Bradford airport staff plan two strike days from October 16 to 18",
+      "factEn": "ITV reported on October 5 that around 130 Leeds Bradford Airport staff plan to strike over pay across two days between 03:00 on October 16 and 06:00 on October 18. Roles include air traffic, security, customer-facing positions and cleaners. The union said the action could leave the airport in shutdown, while the airport said it currently expected near-normal operations.",
+      "impactEn": "Business inference: if the strike goes ahead, LBA belly cargo, mail/express links and airport handover may be affected by flight delays or cancellations. Current evidence does not support saying LBA is closed or cargo terminals have stopped accepting freight.",
+      "actionEn": "Before October 16, recheck airport, airline and GHA notices for LBA cargo; confirm protected flights, cut-offs, alternate airports and trucking options.",
+      "sources": [
+        [
+          "ITV News Calendar",
+          "https://www.itv.com/news/calendar/2026-10-05/passengers-face-chaos-as-airport-staff-to-walk-out-in-two-day-strike"
+        ]
+      ],
+      "updatedAt": "2026-10-06T14:03:41+08:00"
     }
   ],
   "runs": [
@@ -3812,10 +3837,57 @@
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：jal-atlas-lax-nrt-20261002",
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：worldacd-w39-20261005"
       ]
+    },
+    {
+      "runId": "run-20261006T140005-59cc9fade1",
+      "startedAt": "2026-10-06T14:00:05+08:00",
+      "finishedAt": "2026-10-06T14:03:41+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "本轮只做公开网页检索和可读正文核实，不能声明全球穷尽覆盖。",
+        "部分航司/机场页面为动态或仅显示标题，未将不可读正文作为唯一事实依据；泰航/AOT英文原始恢复通知仍缺。",
+        "未请求登录、未绕过付费墙；Cargo Facts等可能受限或仅摘要可读的来源未用于事件事实。",
+        "未做全球穷尽；泰航/AOT原始英文恢复正文未取得，BKK更新主要依赖货代更新和国泰可读标题。",
+        "LBA罢工未取得机场货运/GHA专项通知；9月13日意大利历史罢工未找到新的实际执行或恢复货运证据。",
+        "未取得JAL/Atlas或NX环线首航实际执飞后的官方运行确认；AA仅能按公开限制页判断新限制窗口已解除。",
+        "未发现过去24小时内可读、独立且具有航空货运实质影响的拉美新增事件；搜索结果含海运/综合物流内容，未采纳为空运事件。",
+        "未找到过去24小时内解除伊朗相关航空限制或中东区域限制的原始确认；多数结果仍为9月下旬至10月1日状态。",
+        "搜索到埃塞俄比亚货机订单等中期机队新闻，但实际签约早于窗口且不构成当日可售运力或运行中断，未返回事件。",
+        "未发现过去24小时内可读、独立且具有广义航空货运影响的大洋洲新增或恢复事件。",
+        "已找到AA页面显示10月4日起无新限制窗口；本轮返回已恢复更新。",
+        "已确认10月6日第一阶段生效；本轮返回执行状态更新。",
+        "MIT登记仍列10月16日Poste Air Cargo、PSA/FLR、VCE及Calabria/Sicily货运公路行动；未找到取消或恢复证据，既有预告不改为恢复。",
+        "检索到9月13日历史罢工资料和旅客讨论，但未找到航司/GHA货运实际影响或恢复确认；不返回历史事件更新。",
+        "JAL官方仍支持10月2日起计划/启动代码共享；未取得首航后官方可售舱位或逐班执行确认，本轮不更新。",
+        "未找到比9月30/10月1更新更明确的区域恢复或恶化原始证据；维持既有细节待核边界。",
+        "检索仍显示NJF/EBL/ISU对伊朗航班暂停的9月25日前后报道；未找到解除通知，不能改为已恢复。",
+        "NX/JAL公告仍支持10月3日计划首航；未找到首航后官方运行确认或公开订舱条件，本轮不更新。",
+        "OFAC原始行动仍可查；检索未发现过去24小时内合规限制解除或航班限制恢复证据，维持既有恶化/限制边界。",
+        "已找到Expeditors恢复更新和国泰10月5日恢复标题；本轮返回恢复中更新，因仍有积压和处理限制。",
+        "检索到W38媒体转述及WorldACD归档入口，但未发现需要改变既有W38事件口径的新事实；不返回更新。",
+        "已读取WorldACD W39原始周报，替代此前媒体转述并返回完整更新。",
+        "过去七日未解决事件仍有 12 条未完成联网复核",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：tg-bkk-cargo-suspension-20260930",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：aa-cargo-upgrade-restrictions-20261001",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：iag-paperless-docs-20261001",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：worldacd-w39-20261005"
+      ]
     }
   ],
   "schemaVersion": 1,
-  "runId": "run-20261006T093001-b3e1e6aebf",
-  "lastAttemptAt": "2026-10-06T09:30:01+08:00",
-  "lastCompletedAt": "2026-10-06T09:33:21+08:00"
+  "runId": "run-20261006T140005-59cc9fade1",
+  "lastAttemptAt": "2026-10-06T14:00:05+08:00",
+  "lastCompletedAt": "2026-10-06T14:03:41+08:00"
 }
