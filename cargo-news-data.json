@@ -1,5 +1,5 @@
 {
-  "pageUpdated": "2026-10-08T14:03:27+08:00",
+  "pageUpdated": "2026-10-08T18:04:37+08:00",
   "lastSuccessfulCheck": null,
   "runStatus": "partial",
   "items": [
@@ -1757,6 +1757,56 @@
         ]
       ],
       "updatedAt": "2026-10-06T14:03:41+08:00"
+    },
+    {
+      "id": "bru-alyzia-strike-20261009",
+      "region": "欧洲",
+      "type": "地勤罢工预告",
+      "state": "预告",
+      "title": "BRU 10月9日Alyzia地勤参与全国行动，部分航班预计取消",
+      "airports": "BRU；Alyzia所服务航司",
+      "occurred": "2026-10-09",
+      "evidenceThrough": "2026-10-08T18:00:00+08:00",
+      "confidence": "布鲁塞尔机场官方运行沟通页可读；未取得货运专门停收通知或最终取消清单",
+      "fact": "布鲁塞尔机场官方页面称，10月9日比利时全国示威期间，地勤公司Alyzia部分员工预计参与行动；按当前信息，Alyzia处理的航班约一半预计可按计划运行，部分航班将取消。由Aviapartner处理的航班当前预计不受影响，10月12日公共服务工会行动预计不影响空中交通。",
+      "impact": "业务推断：BRU客机腹舱、邮件/快件和使用Alyzia地面服务的货物可能受取消、延误和地面处理减员影响；当前证据不支持写成BRU机场关闭或全货站停收。",
+      "action": "涉及BRU的货物，确认承运航司使用的地服、航班状态、GHA截货和到港提货安排；对10月9日出入港货物保留改配或RFS方案。",
+      "titleEn": "BRU Alyzia ground staff action on October 9 is expected to cause partial flight cancellations",
+      "factEn": "Brussels Airport's official operational communication says that during the Belgian national manifestation on October 9, part of ground handler Alyzia's staff is expected to take part. Based on current information, about half of the flights handled by Alyzia are expected to operate as planned, while some flights will have to be cancelled. Flights handled by Aviapartner are currently not expected to be affected, and the October 12 public-service union action is not expected to affect air traffic.",
+      "impactEn": "Business inference: BRU belly cargo, mail/express and freight using Alyzia ground services may face cancellations, delays and reduced handling manpower. Current evidence does not support saying BRU airport is closed or all cargo terminals have stopped accepting freight.",
+      "actionEn": "For BRU shipments, confirm the operating airline’s ground handler, flight status, GHA cut-off and arrival release arrangements; keep rerouting or RFS options for October 9 movements.",
+      "sources": [
+        [
+          "Brussels Airport operational communication",
+          "https://www.brusselsairport.be/en/airport-operations/operations/operational-communication"
+        ]
+      ],
+      "updatedAt": "2026-10-08T18:04:37+08:00"
+    },
+    {
+      "id": "qf-mel-export-uld-20261007",
+      "region": "大洋洲",
+      "type": "货站出口流程",
+      "state": "新增",
+      "title": "Qantas Freight MEL出口ULD临时调整：建议航班前4—6小时交付",
+      "airports": "MEL / Qantas Freight Melbourne Freight Terminal",
+      "occurred": "2026-10-07",
+      "evidenceThrough": "2026-10-08T18:00:00+08:00",
+      "confidence": "Qantas Freight官方新闻页可读；未列工程结束日和适用航班清单",
+      "fact": "Qantas Freight 10月7日通知称，因墨尔本货站基础设施升级的准备工程，进口业务不受影响；工程期间出口ULD处理方式临时调整，客户应在航班计划起飞前4—6小时交付出口ULD。因存储能力降低，过早到达的ULD可能不被接受，并可能被要求接近起飞时间再返回。",
+      "impact": "业务推断：MEL出口BUP/ULD交货窗口变窄，过早交货可能增加二次派车和误截风险；这不是航班取消或进口货物影响通知。",
+      "action": "涉及Qantas Freight MEL出口ULD，按计划起飞时间倒推4—6小时交付，提前与墨尔本货运操作团队确认接收窗口、排队和特殊货安排。",
+      "titleEn": "Qantas Freight MEL export ULD temporary handling change: deliver 4-6 hours before departure",
+      "factEn": "Qantas Freight notified customers on October 7 that preparatory works for an upcoming infrastructure upgrade at its Melbourne Freight Terminal are temporarily changing export ULD handling. Import operations are not affected. Export ULDs should be delivered 4-6 hours before scheduled flight departure; due to reduced storage capacity, ULDs arriving much earlier may not be accepted and customers may be asked to return closer to departure time.",
+      "impactEn": "Business inference: the MEL export BUP/ULD tender window is narrower, and early tender may create second-truck or missed cut-off risk. This is not a flight cancellation notice or an import-cargo impact notice.",
+      "actionEn": "For Qantas Freight MEL export ULDs, work backward 4-6 hours from scheduled departure and confirm acceptance window, queueing and special-cargo arrangements with Melbourne Freight Operations.",
+      "sources": [
+        [
+          "Qantas Freight news",
+          "https://freight.qantas.com/en-au/news"
+        ]
+      ],
+      "updatedAt": "2026-10-08T18:04:37+08:00"
     }
   ],
   "runs": [
@@ -4152,10 +4202,61 @@
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：njf-iran-20260925",
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：jal-atlas-lax-nrt-20261002"
       ]
+    },
+    {
+      "runId": "run-20261008T180007-8235ab1916",
+      "startedAt": "2026-10-08T18:00:07+08:00",
+      "finishedAt": "2026-10-08T18:04:37+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 2,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "Cathay Cargo 10月7日服务中断页面搜索摘要显示内容，但用完整URL打开返回Page Not Found，未作为公开来源使用。",
+        "Cathay Cargo中东页面搜索摘要显示更多正文，但打开页仅显示标题和站点框架，未单独作为事件来源。",
+        "拉美和非洲地区本轮搜索未发现过去24小时内可读且直接支持航空货运运行变化的新英文来源。",
+        "部分货代运行更新属于二级汇总，空域、航司、机场和监管条目仍需原始机构逐项复核；本轮只返回已能由可读来源直接支持的候选。",
+        "Cathay Cargo 10月7日服务中断搜索结果显示Manage Booking部分功能异常，但按完整URL打开返回Page Not Found，未作为事件使用。泰航BKK恢复未取得泰航/AOT原始英文可读公告。",
+        "BRU取得机场官方运行提示，但未取得Alyzia或机场货运专门停收通知。意大利10月16日仍为计划登记，未到执行窗口。LBA仍为预告且机场称预计接近正常运行，未取得货运专门影响。",
+        "FAA/天气类搜索结果未取得足够货运直接影响证据。JAL/Atlas取得单班到达记录，但NX环线全段实飞和公开销售条件未确认。",
+        "本轮未找到过去24小时内可读、直接支持拉美航空货运新增或恢复事件的英文公开来源。",
+        "中东更新主要为货代汇总，部分空域、NOTAM、航司和清关条目仍需原始官方逐项复核。Cathay页面搜索摘要可见但打开正文不完整，未单独作为事件来源。",
+        "本轮未找到过去24小时内可读、直接支持非洲航空货运运行中断或恢复的新事件；搜索主要返回9月30日Ethiopian/Boeing订单等较早背景。",
+        "发现Qantas Freight MEL出口ULD流程更新；未发现其他大洋洲空域、机场关闭或航班中断类可核新增。",
+        "已复核AA Cargo页面；本轮返回已恢复更新，但仍未登录系统逐票验证。",
+        "IAG页面仍显示分阶段实施；10月6日地区已开始，但未发现恢复/撤回或新的货运运行影响，故不返回历史项。",
+        "MIT 10月8日登记仍列10月16日Poste Air Cargo、PSA/FLR及相关货运公路行动；未到执行窗口，未发现取消或恢复证据。",
+        "本轮MIT页面只支持当前及未来登记；未取得9月13日旧窗口实际执行、取消或恢复的新增证据。",
+        "取得Atlas 5Y6015到达记录并返回更新；JAL代码共享销售细节和后续稳定班期仍待承运人确认。",
+        "机场10月5日声明仍承认16—18日拟议行动并称预计接近正常运行；未发现取消或货运专门影响通知。",
+        "已取得10月7日Expeditors更新并返回事件；部分航司、NOTAM和监管细节仍需原始来源交叉核验。",
+        "搜索显示有10月2日关于伊拉克允许部分伊朗航司Najaf航班的报道线索，但本轮未打开并核实足够原始/可靠正文；不据此改为已恢复。",
+        "未取得NX环线LAX—NRT—TPE—SIN—NRT—LAX全段首航或销售开放的可读确认；仅JAL/Atlas NRT—LAX单段有到达记录。",
+        "未取得新的OFAC或GCAA原始恢复/撤销证据；不改变既有制裁与区域限制判断。",
+        "已取得Expeditors恢复中更新并返回事件；泰航/AOT英文原始状态仍未取得。",
+        "已取得WorldACD W38原始周报并返回来源更新；仍为滞后样本统计，非实盘价格。",
+        "已取得WorldACD W39原始周报并返回来源更新；仍为滞后样本统计，非实盘价格。",
+        "过去七日未解决事件仍有 13 条未完成联网复核",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：tg-bkk-cargo-suspension-20260930",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：middle-east-operational-update-20260930",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：aa-cargo-upgrade-restrictions-20261001",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：jal-atlas-lax-nrt-20261002",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：worldacd-w39-20261005",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：worldacd-w38-20260926"
+      ]
     }
   ],
   "schemaVersion": 1,
-  "runId": "run-20261008T140011-fad53d7842",
-  "lastAttemptAt": "2026-10-08T14:00:11+08:00",
-  "lastCompletedAt": "2026-10-08T14:03:27+08:00"
+  "runId": "run-20261008T180007-8235ab1916",
+  "lastAttemptAt": "2026-10-08T18:00:07+08:00",
+  "lastCompletedAt": "2026-10-08T18:04:37+08:00"
 }
