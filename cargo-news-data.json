@@ -1,5 +1,5 @@
 {
-  "pageUpdated": "2026-10-08T18:04:37+08:00",
+  "pageUpdated": "2026-10-09T09:33:59+08:00",
   "lastSuccessfulCheck": null,
   "runStatus": "partial",
   "items": [
@@ -1807,6 +1807,31 @@
         ]
       ],
       "updatedAt": "2026-10-08T18:04:37+08:00"
+    },
+    {
+      "id": "ruh-attack-suspensions-20261008",
+      "region": "中东",
+      "type": "机场安全与航班暂停",
+      "state": "新增",
+      "title": "RUH爆炸后多航司暂停利雅得服务，机场取消大量航班",
+      "airports": "RUH；Najran报道涉及机场但货运影响待核",
+      "occurred": "2026-10-08",
+      "evidenceThrough": "2026-10-09T09:30:15+08:00",
+      "confidence": "AP 10月8日可读报道；缺少机场、NOTAM和货运承运人逐班清单",
+      "fact": "AP 10月8日报道，利雅得国际机场附近发生爆炸后，Lufthansa Group旗下航司暂停利雅得航班至10月16日；Air India相关利雅得服务至少暂停至周六，Akasa Air和IndiGo也暂停或取消利雅得服务。报道还引述FlightAware称，King Khalid International Airport当日取消超过275班航班。胡塞武装声称袭击利雅得机场及Najran机场，但沙方未即时确认该说法。",
+      "impact": "业务推断：RUH相关客机腹舱、快件和中东中转可能受取消、改航和安检/地面延误影响；当前证据不等于RUH货站关闭、所有航司停飞，或所有沙特机场不可用。",
+      "action": "涉及RUH到离港或经沙特转运的货物，核对实际承运航司、航班状态、是否改降/改配、货站接货和DG/温控等特殊货接受；避免仅按既有班表承诺时效。",
+      "titleEn": "Airlines suspend Riyadh services and many RUH flights are cancelled after explosions",
+      "factEn": "AP reported on October 8 that after explosions near Riyadh's international airport, Lufthansa Group airlines suspended Riyadh flights through October 16; Air India-related Riyadh services were suspended at least through Saturday, and Akasa Air and IndiGo also suspended or cancelled Riyadh service. AP also cited FlightAware as showing more than 275 cancellations that day at King Khalid International Airport. Houthi rebels claimed attacks on Riyadh and Najran airports, but Saudi authorities had not immediately confirmed the claim.",
+      "impactEn": "Business inference: RUH belly cargo, express and Middle East transit may face cancellation, rerouting and security or ground delays. Current evidence does not prove RUH cargo-terminal closure, all-airline suspension, or closure of all Saudi airports.",
+      "actionEn": "For RUH origin, destination or Saudi-transit cargo, verify operating carrier, flight status, diversion or rerouting, cargo-terminal acceptance and special-cargo acceptance such as DG or temperature-controlled freight; do not commit transit time solely from existing schedules.",
+      "sources": [
+        [
+          "Associated Press",
+          "https://apnews.com/article/dd8ff0055f772090e20961a918d18192"
+        ]
+      ],
+      "updatedAt": "2026-10-09T09:33:59+08:00"
     }
   ],
   "runs": [
@@ -4253,10 +4278,58 @@
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：worldacd-w39-20261005",
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：worldacd-w38-20260926"
       ]
+    },
+    {
+      "runId": "run-20261009T093015-5c7b259164",
+      "startedAt": "2026-10-09T09:30:15+08:00",
+      "finishedAt": "2026-10-09T09:33:59+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "RUH事件未取得沙特机场、GACA/NOTAM或货站原始公告；AP为可靠媒体但货运接受状态需承运人/机场确认。",
+        "African Pilot非洲货运分类页打开超时，未能读取10月8日非洲航空货运统计正文。",
+        "JAL/Atlas实际执飞的第三方FlightStats页面存在日期/时区矛盾，未用于更新JAL/NX实际首航。",
+        "地区发现搜索不能证明全球无其他事件；本轮仅报告已搜索并可读来源支持的候选更新。",
+        "未找到过去24小时内可核实且与亚洲航空货运运行直接相关的新机场/航司原始中断公告；BKK恢复线索来自货代汇总且不在requiredReviewIds内，未作为本轮新增。",
+        "BRU 10月9日Alyzia行动有更新；其他欧洲复核项未取得执行/取消/恢复的新证据。",
+        "FAA NAS动态页显示BOS/JFK等流控或施工延误，但未核到过去24小时内可转化为航空货运事件的具体货运限制；JAL/Atlas实际航班第三方数据存在日期矛盾，未用于更新。",
+        "检索主要返回旧事件更新、海运/公路或非航空货运结果；未取得过去24小时内可读原始航空货运中断或恢复来源。",
+        "RUH事件可由AP支持；未取得RUH机场、NOTAM、沙特监管或货站原始公告。Najaf恢复证据明确，但EBL/ISU、UAE/Oman对伊朗航班限制未取得同步恢复证据。",
+        "African Pilot分类页检索显示10月8日非洲货运统计线索，但打开页面超时；未取得过去24小时内可读且直接支持新增航空货运运行变化的来源。",
+        "Qantas MEL出口ULD通知仍为10月7日既有内容，未见10月8—9日结束或变化；澳洲ICS维护线索为9月9日周报中的未来维护，非过去24小时新增。",
+        "已取得AA Cargo页面明确Oct. 4 onward no restrictions，作为已恢复更新返回。",
+        "已取得BRU官方及The Independent更新，作为恶化/取消规模更新返回。",
+        "IAG页面仍显示10月1日更新的分阶段无纸化单证安排；未见10月8—9日新增改变或取消。",
+        "MIT检索结果仍列10月16日Poste Air Cargo 24小时行动及相关货运/机场行动；未见取消、执行或保障航班新证据，保持预告不返回。",
+        "检索主要返回9月13日登记和旅客讨论；未取得货站执行、恢复或加班限制结束的新确认，不更新历史事件。",
+        "JAL官方仍为计划/时刻表信息；FlightStats显示5Y6015 arrived但日期/时区数据自相矛盾，未作为实际首航确认来源。",
+        "LBA官方10月5日称预计接近正常运行；未见罢工取消、执行或货运专门通知，保持预告不返回。",
+        "已取得NJF恢复证据并作为已恢复更新返回；EBL/ISU未确认恢复。",
+        "只取得JAL/NX计划首航信息和不完整第三方航班线索，未取得完整LAX—NRT—TPE—SIN—NRT—LAX环线实际完成证据，不更新。",
+        "OFAC/区域检索未发现UAE、Oman等对伊朗航司暂停已全面恢复的证据；仅NJF有豁免恢复，已在NJF事件中处理。",
+        "Qantas Freight页面仍显示10月7日MEL出口ULD临时处理通知，未列结束日或新变化，不重复返回。",
+        "检索未取得W38的新修订或原始周报补充；已有W39后续市场指标，不把旧W38重新发布。",
+        "未取得10月8—9日对W39的修订或新一周WorldACD公开报告；保持既有W39事件不返回。",
+        "过去七日未解决事件仍有 13 条未完成联网复核",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：aa-cargo-upgrade-restrictions-20261001",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：bru-alyzia-strike-20261009",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：njf-iran-20260925"
+      ]
     }
   ],
   "schemaVersion": 1,
-  "runId": "run-20261008T180007-8235ab1916",
-  "lastAttemptAt": "2026-10-08T18:00:07+08:00",
-  "lastCompletedAt": "2026-10-08T18:04:37+08:00"
+  "runId": "run-20261009T093015-5c7b259164",
+  "lastAttemptAt": "2026-10-09T09:30:15+08:00",
+  "lastCompletedAt": "2026-10-09T09:33:59+08:00"
 }
