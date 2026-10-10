@@ -1,5 +1,5 @@
 {
-  "pageUpdated": "2026-10-10T14:02:50+08:00",
+  "pageUpdated": "2026-10-10T18:03:32+08:00",
   "lastSuccessfulCheck": null,
   "runStatus": "partial",
   "items": [
@@ -1861,6 +1861,31 @@
         ]
       ],
       "updatedAt": "2026-10-10T09:33:28+08:00"
+    },
+    {
+      "id": "ana-fsc-20261009",
+      "region": "亚洲",
+      "type": "燃油附加费",
+      "state": "预告",
+      "title": "ANA公布10月16日起日本出发国际货物燃油附加费上调",
+      "airports": "日本出发 / ANA国际货运网络",
+      "occurred": "2026-10-16",
+      "evidenceThrough": "2026-10-10T17:55:00+08:00",
+      "confidence": "ANA Cargo英文页面可读；适用以日本出发和AWB签发口径为限",
+      "fact": "ANA Cargo英文国际货运页10月10日读取显示，重要通知列出2026年10月9日发布的日本出发国际货物燃油附加费修订，10月16日起长程TC1/TC2/TC3为198 JPY/kg，长程亚洲TC3为121 JPY/kg，短程亚洲TC3为97 JPY/kg；页面同时列出10月1日起旧标准分别为191、118、95 JPY/kg。",
+      "impact": "业务推断：日本出发ANA国际货物10月16日起可能出现燃油附加费成本上升；这不是总运价，也不能套用于非日本出发、其他航司或日本中转但非日本签发主单的货物。",
+      "action": "涉及日本出发ANA货物，按AWB签发日、目的区域、产品和是否已获报价确认附加费；客户报价中区分燃油附加费与主运价。",
+      "titleEn": "ANA posts higher ex-Japan international cargo fuel surcharges from October 16",
+      "factEn": "ANA Cargo's English international cargo page, read on October 10, lists an October 9 notice revising fuel surcharges for international cargo from Japan. From October 16, the page shows 198 JPY/kg for long-distance TC1/TC2/TC3, 121 JPY/kg for long-distance Asia TC3, and 97 JPY/kg for short-distance Asia TC3; the October 1 rates shown on the same page are 191, 118 and 95 JPY/kg respectively.",
+      "impactEn": "Business inference: ANA ex-Japan international cargo may carry higher fuel-surcharge cost from October 16. This is not the total freight rate and should not be applied to non-Japan origins, other airlines, or Japan transit shipments without Japan-issued MAWB applicability.",
+      "actionEn": "For ANA ex-Japan shipments, verify AWB issue date, destination zone, product and quoted surcharge status; separate fuel surcharge from base freight in customer quotes.",
+      "sources": [
+        [
+          "ANA Cargo International Cargo page",
+          "https://www.anacargo.jp/en/int/"
+        ]
+      ],
+      "updatedAt": "2026-10-10T18:03:32+08:00"
     }
   ],
   "runs": [
@@ -4548,10 +4573,56 @@
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：njf-iran-20260925",
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：bru-alyzia-strike-20261009"
       ]
+    },
+    {
+      "runId": "run-20261010T180015-37faae78d0",
+      "startedAt": "2026-10-10T18:00:15+08:00",
+      "finishedAt": "2026-10-10T18:03:32+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 1,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "本轮仅使用公开英文来源和中国/日本机构英文页面；未访问登录、付费全文、动态航班数据库或货站内部系统。",
+        "若来源仅在搜索摘要显示而页面正文未稳定呈现，未将其作为单独事件核心证据；FAA NAS动态页需要脚本，未作为items来源使用。",
+        "地区覆盖为主动搜索与候选核实，不代表全球航空货运事件穷尽。",
+        "仅找到ANA燃油附加费等可读更新；未穷尽所有亚洲机场、货站和航司运行变化。",
+        "BRU仅核到航班取消/部分运行，未取得货运专门恢复或积压清理通知；意大利9月13日罢工未取得事后货运恢复报告。",
+        "Isaias影响的机场货站接收、恢复和快递网点状态未取得逐项官方清单；FAA动态页正文需要脚本，未作为公开来源使用。",
+        "PTY已核到机场暂停后重开报道，但未取得PTY货站、Copa Cargo或各航司货运积压清理清单。",
+        "RUH缺少机场/NOTAM/货站逐班货运清单；伊朗航班恢复证据主要覆盖NJF，不覆盖Mahan Air及EBL/ISU/BGW。",
+        "未发现过去24小时内可核实的非洲机场/航司货运重大运行变化；搜索结果多为市场背景或旧资料。",
+        "Qantas MEL出口ULD通知仍为10月7日版本，未取得工程结束或恢复普通ULD交付窗口的更新。",
+        "核到BRU/Alyzia行动导致部分航班取消且超过半数Alyzia处理航班预计运行；未取得10月9日事后货运恢复、积压清理或货站停收/恢复通知，故不改为已恢复。",
+        "未找到可靠事后货运影响或恢复确认；只能说明计划窗口早已过去，不能补造货站恢复。",
+        "LBA官方10月5日仍称16—18日拟议行动并预计接近正常运行；未见撤销或货运专门安排，维持预告。",
+        "已取得NJF部分恢复证据并返回更新；未取得EBL/ISU/BGW同步恢复或货运产品接受证据。",
+        "核到OFAC/Iran制裁背景仍在，未找到UAE等全面恢复伊朗航司航班的确认；NJF例外不等于OFAC相关风险解除。",
+        "AP仍支持PTY暂停后重开；未取得货站、Copa Cargo或承运人逐票恢复清单，故不改为已恢复。",
+        "Qantas Freight新闻页仍显示10月7日MEL出口ULD临时交付窗口，未列结束日或恢复普通处理的新通知。",
+        "已取得AP/GACA伤亡确认和Expeditors货运能力下降更新并返回实质更新；仍缺机场货站和逐班货运清单。",
+        "已取得WorldACD W38原始周报并返回来源口径更新；该指标仍为滞后市场背景，不是实盘价格。",
+        "已取得WorldACD W39原始周报并返回来源口径更新；该指标仍为滞后市场背景，不是实盘价格。",
+        "过去七日未解决事件仍有 10 条未完成联网复核",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：ruh-attack-suspensions-20261008",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：njf-iran-20260925",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：worldacd-w39-20261005",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：worldacd-w38-20260926",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：us-gulf-isaias-airports-20261009"
+      ]
     }
   ],
   "schemaVersion": 1,
-  "runId": "run-20261010T140005-085d63ca56",
-  "lastAttemptAt": "2026-10-10T14:00:05+08:00",
-  "lastCompletedAt": "2026-10-10T14:02:50+08:00"
+  "runId": "run-20261010T180015-37faae78d0",
+  "lastAttemptAt": "2026-10-10T18:00:15+08:00",
+  "lastCompletedAt": "2026-10-10T18:03:32+08:00"
 }
