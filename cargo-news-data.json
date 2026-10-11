@@ -1,5 +1,5 @@
 {
-  "pageUpdated": "2026-10-10T18:03:32+08:00",
+  "pageUpdated": "2026-10-11T09:33:08+08:00",
   "lastSuccessfulCheck": null,
   "runStatus": "partial",
   "items": [
@@ -1886,6 +1886,60 @@
         ]
       ],
       "updatedAt": "2026-10-10T18:03:32+08:00"
+    },
+    {
+      "id": "us-gulf-isaias-airports-20261009",
+      "region": "北美",
+      "type": "天气与机场关闭",
+      "state": "恢复待核",
+      "title": "Isaias影响美国墨西哥湾沿岸，PNS/VPS/ECP商业航班关闭或大量取消",
+      "airports": "PNS / VPS / ECP；佛州、阿拉巴马、密西西比相关航段",
+      "occurred": "2026-10-09",
+      "evidenceThrough": "2026-10-11T09:30:05+08:00",
+      "confidence": "佛州官方确认三座机场关闭商业服务，AP确认大量航班取消；未取得机场货站、快件和恢复公告",
+      "fact": "佛州交通厅10月9日更新称，VPS、PNS、ECP关闭商业服务，并提示部分商业航班取消或延误。AP同日更新称，PNS已有74班取消，VPS所有进出港航班取消，ECP也有47班取消，航空公司对受影响机场提供改签灵活性。",
+      "impact": "业务推断：佛州狭长地带及邻近墨西哥湾沿岸的腹舱、快件和机场提派可能受航班取消、机场关闭、道路和灾后检查影响；当前证据不等于美国东南部所有机场或货站关闭。",
+      "action": "涉及PNS/VPS/ECP及周边机场的货物，确认机场重开、承运航班、货站接收、卡车提派和改配方案；对时效货保留ATL、MCO、MSY等替代路由但需逐票确认。",
+      "titleEn": "Isaias affects the U.S. Gulf Coast, with PNS/VPS/ECP commercial services closed or heavily cancelled",
+      "factEn": "Florida DOT said on October 9 that VPS, PNS and ECP were closed to commercial service, with some commercial flight cancellations or delays reported. AP reported the same day that PNS had 74 cancellations, all flights into and out of VPS were cancelled, and ECP had 47 cancellations, while airlines offered flexibility for affected airports.",
+      "impactEn": "Business inference: belly cargo, express and airport pickup/delivery in the Florida Panhandle and nearby Gulf Coast may be affected by flight cancellations, airport closures, roads and post-storm inspections. Current evidence does not mean all U.S. Southeast airports or cargo terminals are closed.",
+      "actionEn": "For PNS/VPS/ECP and nearby airport cargo, verify reopening, operating flight, cargo-terminal acceptance, trucking pickup/delivery and rerouting options; keep alternates such as ATL, MCO or MSY for time-sensitive freight only after shipment-level confirmation.",
+      "sources": [
+        [
+          "Florida Department of Transportation",
+          "https://fdot.gov/info/co/news/2026/10092026"
+        ],
+        [
+          "Associated Press",
+          "https://apnews.com/article/b647d3e93f2b7bcd41ed1843d5a2a0e9"
+        ]
+      ],
+      "updatedAt": "2026-10-11T09:33:08+08:00"
+    },
+    {
+      "id": "australia-ics-outage-20261010",
+      "region": "大洋洲",
+      "type": "海关系统维护",
+      "state": "历史待核",
+      "title": "澳大利亚ICS计划维护窗口已过，航空货物清关影响需按报关状态核实",
+      "airports": "澳大利亚进口清关系统ICS；非单一机场",
+      "occurred": "2026-10-10/2026-10-11",
+      "evidenceThrough": "2026-10-11T09:30:05+08:00",
+      "confidence": "FTA/APSA公开周报列明ABF ICS维护窗口；未取得ABF实时恢复公告或个票报关状态",
+      "fact": "FTA/APSA周报转告，澳大利亚Integrated Cargo System计划在2026年10月10日23:00至10月11日04:00 AEDT维护停用5小时，行业客户应安排在该窗口外完成货物清关。该窗口在本轮核实时已过，但未取得独立实时恢复公告。",
+      "impact": "业务推断：影响主要是澳大利亚进出口货物申报和清关时点，可能波及空运货物放行与提货安排；这不是机场关闭、航班取消或航司禁运通知。",
+      "action": "涉及澳大利亚到港或离港货物，按报关回执、放行状态和代理反馈确认是否受维护窗口影响；不要将ICS维护写成机场或货站运行中断。",
+      "titleEn": "Australia ICS maintenance window has passed; air-cargo clearance impact needs entry-level verification",
+      "factEn": "FTA/APSA relayed that Australia's Integrated Cargo System was scheduled to be unavailable for five hours from 23:00 AEDT on October 10 to 04:00 AEDT on October 11, 2026, and that industry clients should arrange cargo clearance outside that window. The window had passed by this check, but no separate real-time recovery notice was obtained.",
+      "impactEn": "Business inference: the impact is mainly on Australian import/export declarations and clearance timing, which may affect air-cargo release and pickup. It is not an airport closure, flight cancellation or airline embargo notice.",
+      "actionEn": "For Australia inbound or outbound cargo, verify customs acknowledgements, release status and agent feedback to determine whether the maintenance window affected the shipment; do not describe the ICS maintenance as airport or terminal disruption.",
+      "sources": [
+        [
+          "Freight & Trade Alliance / APSA",
+          "https://www.ftalliance.com.au/newsdetails/41225"
+        ]
+      ],
+      "updatedAt": "2026-10-11T09:33:08+08:00"
     }
   ],
   "runs": [
@@ -4619,10 +4673,57 @@
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：worldacd-w38-20260926",
         "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：us-gulf-isaias-airports-20261009"
       ]
+    },
+    {
+      "runId": "run-20261011T093005-8905650f18",
+      "startedAt": "2026-10-11T09:30:05+08:00",
+      "finishedAt": "2026-10-11T09:33:08+08:00",
+      "status": "partial",
+      "regionsSearched": [
+        "亚洲",
+        "欧洲",
+        "北美",
+        "拉美",
+        "中东",
+        "非洲",
+        "大洋洲"
+      ],
+      "added": 2,
+      "updated": 0,
+      "unsearchedRegions": [],
+      "sourceGaps": [
+        "未使用中文网站作为研究来源；PTY更新使用西班牙语本地媒体，因其直接转述机场声明且英文公开来源未提供同等细节。",
+        "未取得RUH机场、沙特GACA、NOTAM、Saudia Cargo及各GHA的逐班/逐货站状态；RUH候选依赖AP和Expeditors货代汇总。",
+        "未取得ABF官网实时ICS恢复页面；澳大利亚ICS候选依赖FTA/APSA公开转告，实际报关影响需按单票核实。",
+        "未取得PNS/VPS/ECP机场货站或快递承运人的货运专门通知；北美天气候选不能扩大为全部货运停收。",
+        "本轮搜索不能证明全球无其他事件；coverage仅代表已执行查询及可读来源范围。",
+        "本轮搜索未核到过去24小时内可读、可直接支持新增或实质更新的亚洲航空货运事件；Asiana页面仅显示费率/公告索引，未作为候选事件使用。",
+        "检索主要返回欧洲罢工日历、BRU/Alyzia预告和既有意大利罢工信息；未取得过去24小时内新的官方恢复或货运停收/恢复证据。",
+        "PNS/VPS/ECP天气事件已形成候选；未取得机场货站或快递承运人的独立货运恢复公告。",
+        "PTY余震运行暂停已形成更新；未取得PTY货站、DHL Aero Expreso或Copa Cargo逐票恢复/积压清单。",
+        "RUH恶化已形成更新；沙特官方机场/NOTAM及货站逐项恢复状态未取得，Expeditors为货代汇总需逐承运人复核。",
+        "未核到过去24小时内可读、可直接支持新增或实质更新的非洲航空货运事件；搜索结果多为旧市场分析或旧行业页面。",
+        "澳大利亚ICS维护已形成候选；未取得ABF实时恢复公告或单票报关异常统计。",
+        "复核到ANA Cargo费率公告索引仍显示10月9日日本出发国际货物燃油附加费修订；未发现10月10日后新的更正、撤销或提前生效证据。",
+        "复核到BRU/Alyzia罢工预告与取消报道，但未取得10月9日后机场或货站正式恢复、最终取消清单或货运专门影响公告；不改为已恢复。",
+        "复核到第三方历史罢工列表标注9月13日多项机场行动已结束，且托斯卡纳拒绝加班安排原本至10月12日；未取得官方货站恢复或加班限制当前执行状态。",
+        "复核到LBA机场10月5日声明确认拟议10月16—18日工业行动，未见取消或货运安排更新；保持预告。",
+        "找到Al Jazeera 9月28日恢复线索并已返回更新事件；恢复范围仅明确Iraqi Airways商业航班，货运和其他承运人仍待核。",
+        "复核到OFAC原始行动和UAE/GCAA暂停伊朗航司旧报道，未取得UAE至10月11日恢复伊朗航司航班的新确认；不改为已恢复。",
+        "找到10月10日PTY仍按余震执行临时暂停和复检的更新，已返回更新事件；货站恢复清单仍缺。",
+        "复核到FTA转载Qantas Freight 10月7日MEL出口ULD临时交付窗口通知；未发现工程结束或恢复原交付规则公告，既有状态不改。",
+        "找到10月10日RUH最新袭击和10月9日货运限制汇总，已返回恶化更新；未取得货站恢复或全承运人恢复证明。",
+        "复核到WorldACD趋势入口和W38媒体转述，未取得比既有W38卡片更新的原始周报正文或修订数据；不返回更新。",
+        "复核到W39多家媒体转述与既有CAAS口径相近，未取得原始WorldACD新修订或10月10/11更近一周数据；不返回更新。",
+        "过去七日未解决事件仍有 11 条未完成联网复核",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：ruh-attack-suspensions-20261008",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：pty-earthquake-20261009",
+        "候选缺少对应地区、来源正文访问或旧事件复核证据，已保留原记录：njf-iran-20260925"
+      ]
     }
   ],
   "schemaVersion": 1,
-  "runId": "run-20261010T180015-37faae78d0",
-  "lastAttemptAt": "2026-10-10T18:00:15+08:00",
-  "lastCompletedAt": "2026-10-10T18:03:32+08:00"
+  "runId": "run-20261011T093005-8905650f18",
+  "lastAttemptAt": "2026-10-11T09:30:05+08:00",
+  "lastCompletedAt": "2026-10-11T09:33:08+08:00"
 }
